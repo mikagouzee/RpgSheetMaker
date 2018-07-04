@@ -47,7 +47,7 @@ namespace RpgSheetMaker.Repositories
 
         public void Save(Character character)
         {
-            return _archivist.SaveCharacterAsJson(character);
+            _archivist.SaveCharacterAsJson(character);
         }
     }
 }
