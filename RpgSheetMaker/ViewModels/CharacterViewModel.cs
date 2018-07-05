@@ -13,8 +13,8 @@ namespace RpgSheetMaker.ViewModels
         public List<CaracteristicViewModel> BaseAttributes { get; set; }
         public List<CaracteristicViewModel> Skills { get; set; }
         public List<CaracteristicViewModel> Stats { get; set; }
-        public List<CaracteristicViewModel> PointsToSpend { get; set; }
-        public Career Profession { get; set; }
+        public List<CaracteristicViewModel> spendablePoints { get; set; }
+        public CareerViewModel Profession { get; set; }
 
         public CharacterViewModel() { }
 
@@ -23,9 +23,13 @@ namespace RpgSheetMaker.ViewModels
             Name = baseCharac.Name;
             BaseAttributes = MapCaracs(baseCharac.BaseAttributes);
             Skills = MapCaracs(baseCharac.Skills);
-            PointsToSpend = MapCaracs(baseCharac.SpendablePoints);
+            spendablePoints = MapCaracs(baseCharac.SpendablePoints);
             Stats = MapCaracs(baseCharac.Stats);
-            Profession = baseCharac.Profession;
+            Profession = new CareerViewModel
+            {
+                Name = baseCharac.Profession.Name,
+                JobSkills = MapCaracs(baseCharac.Profession.JobSkills)
+            };
         }
 
         public List<CaracteristicViewModel> MapCaracs(List<Caracteristic> origin)
@@ -40,5 +44,6 @@ namespace RpgSheetMaker.ViewModels
 
             return returnValue;
         }
+
     }
 }

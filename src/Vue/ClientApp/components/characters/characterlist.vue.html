@@ -1,0 +1,23 @@
+<template>
+    <div>
+        <h1>Character List</h1>
+        <table v-if="characters.length > 0" class="table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Job</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr v-for="character in characters">
+                <td> <router-link :to="{name:'details', params:{characterName:character.name} }">{{ character.name }} </router-link> </td>
+                <td>{{ character.profession.name }}</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <p v-else><em>Loading...</em></p>
+    </div>
+</template>
+ 
+<script src="./characterlist.ts"></script>

@@ -1,0 +1,28 @@
+﻿
+<template>
+    <div class="wrapper">
+        <div>This character is named {{selectedCharacter.name}}</div>
+
+        <div>
+            Base Attributes :
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="carac in selectedCharacter.baseAttributes">
+                        <td>{{carac.name}}</td> 
+                        <td>{{carac.score}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</template>
+
+<script src="./characterDetail.ts"></script>

@@ -34,6 +34,13 @@ namespace RpgSheetMaker
 
             services.AddMvc();
 
+            services.AddCors(o => o.AddPolicy("AllowAll", builder =>
+            {
+                builder.AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowAnyOrigin();
+            }));
+
             services.AddTransient<ILogMachine, LogMachine>();
             services.AddSingleton<IFileProvider>(physicalProvider);
             services.AddSingleton<IRepository, FalloutRepository>();
@@ -57,6 +64,8 @@ namespace RpgSheetMaker
             }
 
             app.UseMvc();
+
+            app.UseCors("AllowAll");
         }
     }
 }
