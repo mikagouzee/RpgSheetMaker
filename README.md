@@ -9,7 +9,8 @@ and I will soon add a controller to do the same with Call of Cthulhu (the logic 
 
 I've used the Repository and Factory patterns, and played a bit with DI since it's a core native component.
 
-I plan to add a front-end with Vue.js, and to add features like the edition of a character.
+I plan to add a front-end with Vue.js (done 5/7/2018),
+and to add features like the edition of a character.
 
 The program is meant to be run locally, and if I was to deploy it it would probably be on a raspberry. 
 Should this happen I'd write it here,  but it's highly unprobable.
