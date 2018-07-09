@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
+import { Character, Caracteristic, Career } from './Models';
 
 @Component
 export default class CharacterListComponent extends Vue{
@@ -15,26 +16,13 @@ export default class CharacterListComponent extends Vue{
         console.log(this.characters);
     }
 
+
+    deleteCharacter(characterName: string):void {
+        console.log("delete " + characterName + " called");
+
+        fetch('http://localhost:53713/api/FalloutCharacter/' + characterName, {method:'delete'});
+    }
+
 }
 
 
-interface Character {
-    Name : string, 
-    Profession: Career,
-    baseAttributes: Caracteristic[],
-    skills: Caracteristic[],
-    stats: Caracteristic[],
-    spendablePoints: Caracteristic[]
-    
-}
-
-interface Caracteristic{
-    Name: string,
-    Score: number
-}
-
-
-interface Career{
-    Name:string,
-    JobSkills:Caracteristic[]
-}

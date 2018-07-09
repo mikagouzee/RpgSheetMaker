@@ -13,17 +13,21 @@ namespace RpgSheetMaker.Tools
     {
         private readonly IFileProvider _fileProvider;
         private static string sheetPath;
+        private static string archivePath;
 
         public Archivist(IFileProvider fileProvider)
         {
             _fileProvider = fileProvider;
 
-            var folderPath = _fileProvider.GetDirectoryContents("").FirstOrDefault(x => x.Name == "CharacterSheets");
+            var sheetFolder = _fileProvider.GetDirectoryContents("").FirstOrDefault(x => x.Name == "CharacterSheets");
+            
+            if(sheetFolder.Exists && sheetFolder.IsDirectory)
+                sheetPath = sheetFolder.PhysicalPath;
 
-            if(folderPath.Exists && folderPath.IsDirectory)
-            {
-                sheetPath = folderPath.PhysicalPath;
-            }
+
+            var archiveFolder = _fileProvider.GetDirectoryContents("").FirstOrDefault(x => x.Name == "Archives");
+            if (archiveFolder.Exists && archiveFolder.IsDirectory)
+                archivePath = archiveFolder.PhysicalPath;
 
         }
 
@@ -53,12 +57,15 @@ namespace RpgSheetMaker.Tools
         public Character ReadCharacterFromJson(string name)
         {
             var sheetName = sheetPath + "\\" + name + "-json.txt";
-            Character charac;
+            Character charac = new Character { };
 
-            using (StreamReader reader = new StreamReader(sheetName))
+            if (File.Exists(sheetName))
             {
-                string jsonCharac = reader.ReadToEnd();
-                charac = JsonConvert.DeserializeObject<Character>(jsonCharac);
+                using (StreamReader reader = new StreamReader(sheetName))
+                {
+                    string jsonCharac = reader.ReadToEnd();
+                    charac = JsonConvert.DeserializeObject<Character>(jsonCharac);
+                }
             }
 
             return charac;
@@ -118,5 +125,30 @@ namespace RpgSheetMaker.Tools
                 }
             }
         }
+
+        public void ArchiveCharacter(string characterName)
+        {
+            var characSheet = ReadCharacterFromJson(characterName);
+
+            var sheetName = archivePath + "\\" + characterName + "-archived-json.txt";
+
+            using (StreamWriter writer = new StreamWriter(sheetName))
+            {
+                new JsonSerializer().Serialize(writer, characSheet);
+            }
+        }
+
+        public void DeleteAndArchiveCharacter(string characterName)
+        {
+            ArchiveCharacter(characterName);
+
+            var sheetName = sheetPath + "\\" + characterName + "-json.txt";
+
+            if (File.Exists(sheetName))
+            {
+                File.Delete(sheetName);
+            }
+        }
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Library.CommonObjects;
+using Library.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -351,6 +352,7 @@ namespace Library.Implementations.Fallout
                 name = "Toby Determined";
 
             var charac = new Character(name);
+            charac.GameName = "Fallout";
 
             SetBaseAttr(charac);
             SetSpendablePoints(charac);
@@ -359,6 +361,19 @@ namespace Library.Implementations.Fallout
             SetCareerSkills(charac);
 
             return charac;
+        }
+
+        public override Character Edit(CharacterViewModel newVersion, Character oldVersion)
+        {
+            oldVersion.Update(newVersion.BaseAttributes);
+            oldVersion.Update(newVersion.Stats);
+            oldVersion.Update(newVersion.Skills);
+            oldVersion.Update(newVersion.spendablePoints);
+
+            oldVersion.Name = newVersion.Name;
+
+            return oldVersion;
+
         }
 
     }

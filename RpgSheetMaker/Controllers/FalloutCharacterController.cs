@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using Library.ViewModels;
 using Microsoft.AspNetCore.Cors;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RpgSheetMaker.Services;
 using RpgSheetMaker.Tools;
-using RpgSheetMaker.ViewModels;
 
 namespace RpgSheetMaker.Controllers
 {
@@ -27,6 +23,18 @@ namespace RpgSheetMaker.Controllers
             _name = "Fallout";
         }
 
+        //CREATE
+        [HttpPost("{characterName}")]
+        public IActionResult Create(string characterName)
+        {
+            _logger.Log("In create with parameter " + characterName);
+            var myCharac = _service.Create(_name, characterName);
+            var response = new CharacterViewModel(myCharac);
+            return Ok(response);
+        }
+
+
+        //READ ALL
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -44,6 +52,8 @@ namespace RpgSheetMaker.Controllers
             return Ok(allDto);
         }
 
+
+        //READ ONE BY NAME
         [HttpGet("{characterName}")]
         public IActionResult GetbyName(string characterName)
         {
@@ -54,13 +64,31 @@ namespace RpgSheetMaker.Controllers
             return Ok(response);
         }
 
-        [HttpPost("{characterName}")]
-        public IActionResult Create(string characterName)
+
+        //UPDATE
+        [HttpPut()]
+        public IActionResult Edit([FromBody]CharacterViewModel newVersion)
         {
-            _logger.Log("In create with parameter " + characterName);
-            var myCharac = _service.Create(_name, characterName);
-            var response = new CharacterViewModel(myCharac);
-            return Ok(response);
+            _logger.Log("In Edit with parameter " + newVersion);
+
+            var oldVersion = _service.GetByName(_name, newVersion.Name);
+            if (oldVersion == null)
+                return NotFound();
+
+            var edited = _service.Edit(_name, newVersion, oldVersion);
+
+            return Ok(edited);
+        }
+
+
+        [HttpDelete("{characterName}")]
+        public IActionResult Delete(string characterName)
+        {
+            _logger.Log("In Delete with parameter " + characterName);
+
+            _service.Delete(_name, characterName);
+
+            return Ok();
         }
 
     }

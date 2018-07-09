@@ -16,6 +16,9 @@ namespace RpgSheetMaker.Tools
 
         List<Character> ReadAll();
 
+        void ArchiveCharacter(string characterName);
+
+        void DeleteAndArchiveCharacter(string characterName);
 
     }
 }

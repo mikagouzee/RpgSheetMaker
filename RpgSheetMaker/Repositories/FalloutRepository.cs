@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Library.CommonObjects;
+using Library.ViewModels;
 using RpgSheetMaker.Tools;
 
 namespace RpgSheetMaker.Repositories
@@ -47,9 +48,24 @@ namespace RpgSheetMaker.Repositories
             return _archivist.ReadCharacterFromJson(name);
         }
 
+        public Character Edit(CharacterViewModel newVersion, Character oldVersion)
+        {
+            _archivist.ArchiveCharacter(oldVersion.Name);
+
+            return _factory.Edit(newVersion, oldVersion);
+
+        }
+
         public void Save(Character character)
         {
             _archivist.SaveCharacterAsJson(character);
         }
+
+
+        public void Delete(string characterName)
+        {
+            _archivist.DeleteAndArchiveCharacter(characterName);
+        }
+
     }
 }

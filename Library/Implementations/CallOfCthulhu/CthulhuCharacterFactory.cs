@@ -1,4 +1,5 @@
 ﻿using Library.CommonObjects;
+using Library.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -392,6 +393,11 @@ namespace Library.Implementations.CallOfCthulhu
             charac.Stats.FirstOrDefault(s => s.Name == "idea").BaseValue = charac.BaseAttributes.FirstOrDefault(b => b.Name == "intelligence").BaseValue * 5;
             charac.Stats.FirstOrDefault(s => s.Name == "will power").BaseValue = charac.BaseAttributes.FirstOrDefault(b => b.Name == "power").BaseValue * 5;
             charac.Stats.FirstOrDefault(s => s.Name == "sanity").BaseValue = charac.BaseAttributes.FirstOrDefault(b => b.Name == "power").BaseValue * 5;
+        }
+
+        public override Character Edit(CharacterViewModel newVersion, Character oldversion)
+        {
+            throw new NotImplementedException();
         }
     }
 }

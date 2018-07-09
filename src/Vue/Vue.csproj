@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\components\characters\characterCreation.ts" />
     <None Remove="ClientApp\components\characters\characterDetail.ts" />
+    <None Remove="ClientApp\components\characters\Models.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +23,8 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\components\characters\characterDetail.ts" />
+    <TypeScriptCompile Include="ClientApp\components\characters\characterCreation.ts" />
+    <TypeScriptCompile Include="ClientApp\components\characters\Models.ts" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">

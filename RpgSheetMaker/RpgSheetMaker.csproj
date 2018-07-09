@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CharacterSheets\" />
+    <Folder Include="Archives\" />
     <Folder Include="logFolder\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>

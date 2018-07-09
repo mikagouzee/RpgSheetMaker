@@ -6,12 +6,16 @@
             <tr>
                 <th>Name</th>
                 <th>Job</th>
+                <th>Game</th>
+                <th>Action</th>
             </tr>
             </thead>
             <tbody>
             <tr v-for="character in characters">
                 <td> <router-link :to="{name:'details', params:{characterName:character.name} }">{{ character.name }} </router-link> </td>
-                <td>{{ character.profession.name }}</td>
+                <td>{{ character.profession.name  }}</td>
+                <td>{{ character.gameName }}</td>
+                <td> <button @click="deleteCharacter(character.name)">Delete</button> </td>
             </tr>
             </tbody>
         </table>

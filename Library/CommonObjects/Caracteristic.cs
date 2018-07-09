@@ -52,14 +52,14 @@ namespace Library.CommonObjects
 
         public void Increment()
         {
-            if (!(BaseValue >= Maximum))
-                BaseValue++;
+            if (!(CurrentValue >= Maximum))
+                CurrentValue++;
         }
 
         public void Decrement()
         {
-            if (!(BaseValue <= Minimum))
-                BaseValue--;
+            if (!(CurrentValue <= Minimum))
+                CurrentValue--;
         }
 
         public bool Validate()
@@ -69,12 +69,12 @@ namespace Library.CommonObjects
 
         public void Setvalue(int newValue)
         {
-            var before = BaseValue;
+            var before = CurrentValue;
 
-            BaseValue = newValue;
+            CurrentValue = newValue;
 
             if (!Validate())
-                BaseValue = before;
+                CurrentValue = before;
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
+import { Character, Caracteristic, Career } from './Models';
 
 @Component
 export default class CharacterDetailComponent extends Vue {
@@ -7,13 +8,14 @@ export default class CharacterDetailComponent extends Vue {
 
     selectedCharacter: Character = {
         name: 'None chosen yet',
+        gameName: 'none',
         baseAttributes: [],
         skills: [],
         stats: [],
         spendablePoints: [],
         profession: {
-            Name: '',
-            JobSkills:[] 
+            name: '',
+            jobSkills:[] 
         }
     }
 
@@ -26,27 +28,7 @@ export default class CharacterDetailComponent extends Vue {
                 this.selectedCharacter = data;
             });
 
-        console.log(this.selectedCharacter);
+        //console.log("Job : " + this.selectedCharacter.Profession.Name);
+        //console.log("skills : " + this.selectedCharacter.Profession.JobSkills);
     }
-}
-
-
-interface Character {
-    name: string,
-    profession: Career,
-    baseAttributes: Caracteristic[],
-    skills: Caracteristic[],
-    stats: Caracteristic[],
-    spendablePoints: Caracteristic[]
-}
-
-interface Caracteristic {
-    Name: string,
-    Score: number
-}
-
-
-interface Career {
-    Name: string,
-    JobSkills: Caracteristic[]
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Library.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace Library.CommonObjects
         public List<Career> Professions { get; set; }
 
         public abstract Character CreateCharacter(string name);
+
+        public abstract Character Edit(CharacterViewModel newVersion, Character oldversion);
 
         public abstract void SetBaseAttr(Character charac);
         public abstract void SetCareerSkills(Character charac);

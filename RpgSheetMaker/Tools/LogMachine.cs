@@ -36,8 +36,9 @@ namespace RpgSheetMaker.Tools
             using (StreamWriter file = new StreamWriter(logFile, true))
             {
                 file.WriteLine(DateTime.Now + " : " + content);
+             
             }
-            File.SetLastWriteTime(logFile, DateTime.Now);
+
         }
     }
 }

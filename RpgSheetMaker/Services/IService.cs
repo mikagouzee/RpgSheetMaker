@@ -1,4 +1,5 @@
 ﻿using Library.CommonObjects;
+using Library.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,9 @@ namespace RpgSheetMaker.Services
         List<Character> Get(string contextName);
 
         Character Create(string contextName, string characName);
+
+        Character Edit(string contextName, CharacterViewModel newVersion, Character oldVersion);
+
+        void Delete(string contextName, string characterName);
     }
 }

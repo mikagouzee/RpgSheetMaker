@@ -1,4 +1,5 @@
 ﻿using Library.CommonObjects;
+using Library.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,10 @@ namespace RpgSheetMaker.Repositories
 
         Character Create(string name);
 
+        Character Edit(CharacterViewModel newVersion, Character oldVersion);
+
         void Save(Character character);
+
+        void Delete(string characterName);
     }
 }
