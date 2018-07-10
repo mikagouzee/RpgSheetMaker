@@ -1,188 +1,832 @@
-04-07-18 14:15:41 : In Fallout Controller GetAll
-04-07-18 14:16:52 : In Fallout Controller GetAll
-04-07-18 14:19:41 : In Fallout Controller GetAll
-04-07-18 14:20:14 : In create with parameter Randall
-04-07-18 14:20:59 : In create with parameter Randall
-04-07-18 14:27:03 : In Fallout Controller GetAll
-04-07-18 14:27:22 : In create with parameter Randall
-04-07-18 15:19:34 : In Fallout Controller GetAll
-05-07-18 11:11:09 : In Fallout Controller GetAll
-05-07-18 11:13:45 : In Fallout Controller GetAll
-05-07-18 11:14:00 : In Fallout Controller GetAll
-05-07-18 11:14:12 : In Fallout Controller GetAll
-05-07-18 11:19:10 : In Fallout Controller GetAll
-05-07-18 11:22:07 : In Fallout Controller GetAll
-05-07-18 11:24:14 : In Fallout Controller GetAll
-05-07-18 11:24:27 : In Fallout Controller GetAll
-05-07-18 11:30:45 : In Fallout Controller GetAll
-05-07-18 11:45:28 : In Fallout Controller GetAll
-05-07-18 11:46:01 : In Fallout Controller GetAll
-05-07-18 11:47:47 : In Fallout Controller GetAll
-05-07-18 11:48:10 : In Fallout Controller GetAll
-05-07-18 11:51:58 : In Fallout Controller GetAll
-05-07-18 11:52:18 : In Fallout Controller GetAll
-05-07-18 11:59:01 : In Fallout Controller GetAll
-05-07-18 12:01:01 : In Fallout Controller GetAll
-05-07-18 12:10:09 : In Fallout Controller GetAll
-05-07-18 12:10:25 : In Fallout Controller GetAll
-05-07-18 12:13:56 : In Fallout Controller GetAll
-05-07-18 12:14:11 : In Fallout Controller GetAll
-05-07-18 12:30:23 : In Fallout Controller GetAll
-05-07-18 12:30:50 : In Fallout Controller GetAll
-05-07-18 12:33:40 : In Fallout Controller GetAll
-05-07-18 12:36:29 : In Fallout Controller GetAll
-05-07-18 12:40:21 : In Fallout Controller GetAll
-05-07-18 12:41:57 : In Fallout Controller GetAll
-05-07-18 12:42:32 : In Fallout Controller GetAll
-05-07-18 12:42:35 : In Fallout Controller GetAll
-05-07-18 12:43:03 : In Fallout Controller GetAll
-05-07-18 12:44:26 : In Fallout Controller GetAll
-05-07-18 13:36:46 : In Fallout Controller GetAll
-05-07-18 13:38:20 : In Fallout Controller GetAll
-05-07-18 13:42:10 : In Fallout Controller GetAll
-05-07-18 13:42:11 : In Fallout Controller GetAll
-05-07-18 13:42:12 : In Fallout Controller GetAll
-05-07-18 13:42:12 : In Fallout Controller GetAll
-05-07-18 13:42:13 : In Fallout Controller GetAll
-05-07-18 14:21:24 : In Fallout Controller GetAll
-05-07-18 14:21:49 : In Fallout Controller GetAll
-05-07-18 14:28:35 : In Fallout Controller GetAll
-05-07-18 14:28:42 : In get with parameter undefined
-05-07-18 14:29:47 : In get with parameter undefined
-05-07-18 14:33:11 : In get with parameter Randall
-05-07-18 14:33:22 : In Fallout Controller GetAll
-05-07-18 14:33:24 : In get with parameter Randall
-05-07-18 14:36:06 : In get with parameter Randall
-05-07-18 14:36:13 : In Fallout Controller GetAll
-05-07-18 14:36:14 : In get with parameter Randall
-05-07-18 14:41:49 : In Fallout Controller GetAll
-05-07-18 14:41:50 : In get with parameter Randall
-05-07-18 14:41:59 : In Fallout Controller GetAll
-05-07-18 14:42:00 : In get with parameter Randall
-05-07-18 14:42:06 : In get with parameter Randall
-05-07-18 14:42:21 : In Fallout Controller GetAll
-05-07-18 14:42:25 : In get with parameter Randall
-05-07-18 14:44:29 : In get with parameter Randall
-05-07-18 14:50:29 : In get with parameter Randall
-05-07-18 14:50:43 : In get with parameter Randall
-05-07-18 14:54:31 : In Fallout Controller GetAll
-05-07-18 14:54:38 : In get with parameter Randall
-05-07-18 14:56:07 : In get with parameter Randall
-05-07-18 14:56:07 : In Fallout Controller GetAll
-05-07-18 14:56:16 : In get with parameter Randall
-05-07-18 14:57:49 : In Fallout Controller GetAll
-05-07-18 14:57:56 : In Fallout Controller GetAll
-05-07-18 14:58:34 : In get with parameter Randall
-05-07-18 15:00:54 : In Fallout Controller GetAll
-05-07-18 15:00:58 : In Fallout Controller GetAll
-05-07-18 15:01:48 : In get with parameter Randall
-05-07-18 15:03:00 : In Fallout Controller GetAll
-05-07-18 15:03:04 : In Fallout Controller GetAll
-05-07-18 15:03:17 : In get with parameter Randall
-05-07-18 15:04:25 : In Fallout Controller GetAll
-05-07-18 15:04:28 : In get with parameter Randall
-05-07-18 15:05:53 : In get with parameter Randall
-05-07-18 15:06:06 : In Fallout Controller GetAll
-05-07-18 15:06:10 : In Fallout Controller GetAll
-05-07-18 15:06:27 : In Fallout Controller GetAll
-05-07-18 15:06:56 : In Fallout Controller GetAll
-05-07-18 15:08:42 : In Fallout Controller GetAll
-05-07-18 15:08:47 : In get with parameter Randall
-06-07-18 13:27:04 : In Fallout Controller GetAll
-06-07-18 13:27:47 : In Fallout Controller GetAll
-06-07-18 13:27:54 : In get with parameter Randall
-06-07-18 13:34:32 : In Fallout Controller GetAll
-06-07-18 13:34:33 : In get with parameter Randall
-06-07-18 13:35:12 : In get with parameter Randall
-06-07-18 13:39:52 : In get with parameter Randall
-06-07-18 13:41:25 : In get with parameter Randall
-06-07-18 13:42:21 : In get with parameter Randall
-06-07-18 13:42:48 : In get with parameter Randall
-06-07-18 13:45:21 : In get with parameter Randall
-06-07-18 13:49:18 : In get with parameter Randall
-06-07-18 13:49:56 : In Fallout Controller GetAll
-06-07-18 13:53:58 : In Fallout Controller GetAll
-06-07-18 13:54:13 : In Fallout Controller GetAll
-06-07-18 13:54:22 : In get with parameter Randall
-06-07-18 13:54:57 : In get with parameter Randall
-06-07-18 13:57:30 : In get with parameter Randall
-06-07-18 13:57:30 : In get with parameter Randall
-06-07-18 14:09:03 : In Fallout Controller GetAll
-06-07-18 14:14:33 : In Fallout Controller GetAll
-06-07-18 14:15:52 : In Fallout Controller GetAll
-06-07-18 14:16:48 : In Fallout Controller GetAll
-06-07-18 14:16:51 : In Fallout Controller GetAll
-06-07-18 14:18:24 : In Fallout Controller GetAll
-06-07-18 14:21:32 : In Fallout Controller GetAll
-06-07-18 14:23:09 : In get with parameter Randall
-06-07-18 14:24:50 : In get with parameter Randall
-06-07-18 14:28:11 : In Fallout Controller GetAll
-06-07-18 14:32:02 : In Fallout Controller GetAll
-06-07-18 14:32:35 : In get with parameter Randall
-06-07-18 14:32:40 : In Fallout Controller GetAll
-06-07-18 14:33:23 : In Fallout Controller GetAll
-06-07-18 14:34:31 : In Fallout Controller GetAll
-06-07-18 14:34:39 : In Fallout Controller GetAll
-06-07-18 14:36:56 : In Fallout Controller GetAll
-06-07-18 14:38:35 : In Fallout Controller GetAll
-06-07-18 14:38:49 : In Fallout Controller GetAll
-06-07-18 14:40:32 : In Fallout Controller GetAll
-06-07-18 14:48:08 : In Fallout Controller GetAll
-06-07-18 14:49:41 : In get with parameter Randall
-06-07-18 14:49:56 : In get with parameter Randall
-06-07-18 15:23:17 : In Fallout Controller GetAll
-06-07-18 15:27:39 : In Fallout Controller GetAll
-06-07-18 15:33:18 : In get with parameter characterCreation
-06-07-18 15:34:27 : In Fallout Controller GetAll
-06-07-18 15:34:37 : In Fallout Controller GetAll
-09-07-18 10:01:26 : In Fallout Controller GetAll
-09-07-18 10:06:16 : In get with parameter FromVue
-09-07-18 10:07:20 : In get with parameter FromVue
-09-07-18 10:17:01 : In Fallout Controller GetAll
-09-07-18 10:41:08 : In get with parameter FromVue
-09-07-18 10:42:14 : In create with parameter FromVue
-09-07-18 10:42:14 : In get with parameter FromVue
-09-07-18 10:42:33 : In get with parameter FromVue
-09-07-18 12:21:22 : In Fallout Controller GetAll
-09-07-18 12:22:13 : In get with parameter AnotherOne
-09-07-18 12:22:55 : In get with parameter AnotherOne
-09-07-18 12:23:03 : In get with parameter AnotherOne
-09-07-18 12:23:19 : In create with parameter AnotherOne
-09-07-18 12:23:20 : In get with parameter AnotherOne
-09-07-18 12:23:40 : In get with parameter AnotherOne
-09-07-18 13:28:03 : In get with parameter Jason Kruger
-09-07-18 13:28:24 : In create with parameter Jason Kruger
-09-07-18 13:28:58 : In get with parameter Jason Kruger
-09-07-18 13:49:34 : In create with parameter Willy l'orphelin
-09-07-18 13:49:39 : In get with parameter Willy l'orphelin
-09-07-18 13:50:03 : In create with parameter Winona l'orpheline
-09-07-18 13:50:21 : In get with parameter Winona l'orpheline
-09-07-18 13:50:55 : In Fallout Controller GetAll
-09-07-18 14:07:46 : In Fallout Controller GetAll
-09-07-18 14:08:18 : In Fallout Controller GetAll
-09-07-18 14:08:39 : In Fallout Controller GetAll
-09-07-18 14:46:43 : In Fallout Controller GetAll
-09-07-18 15:18:29 : In Fallout Controller GetAll
-09-07-18 15:19:45 : In Fallout Controller GetAll
-09-07-18 15:19:58 : In Fallout Controller GetAll
-09-07-18 15:21:26 : In Fallout Controller GetAll
-09-07-18 15:21:41 : In Fallout Controller GetAll
-09-07-18 15:22:03 : In Fallout Controller GetAll
-09-07-18 15:22:14 : In Fallout Controller GetAll
-09-07-18 15:23:51 : In Fallout Controller GetAll
-09-07-18 15:24:08 : In Fallout Controller GetAll
-09-07-18 15:24:55 : In get with parameter Randall
-09-07-18 15:25:03 : In Fallout Controller GetAll
-09-07-18 15:25:20 : In Delete with parameter AnotherOne
-09-07-18 15:25:21 : In Delete with parameter FromVue
-09-07-18 15:25:23 : In Delete with parameter Jason Kruger
-09-07-18 15:25:30 : In Delete with parameter Willy l'orphelin
-09-07-18 15:25:37 : In Delete with parameter Winona l'orpheline
-09-07-18 15:25:42 : In Fallout Controller GetAll
-09-07-18 15:25:49 : In get with parameter Willy l'orphelin
-09-07-18 15:26:11 : In create with parameter Willy l'orphelin
-09-07-18 15:26:15 : In get with parameter Willy l'orphelin
-09-07-18 15:26:28 : In Fallout Controller GetAll
-09-07-18 15:26:37 : In create with parameter Winona l'orpheline
-09-07-18 15:26:37 : In get with parameter Winona l'orpheline
-09-07-18 15:26:48 : In Fallout Controller GetAll
+10-07-18 12:45:22 : Request incoming
+10-07-18 12:45:22 : header Connection : Keep-Alive
+10-07-18 12:45:22 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 12:45:22 : header Accept-Encoding : gzip, deflate
+10-07-18 12:45:22 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:45:22 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 12:45:22 : header Host : localhost:53713
+10-07-18 12:45:22 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:45:22 : header Upgrade-Insecure-Requests : 1
+10-07-18 12:45:22 : header MS-ASPNETCORE-TOKEN : ffe10fd3-53ad-4bd0-aec6-43ab878b8ec5
+10-07-18 12:45:22 : header X-Original-Proto : http
+10-07-18 12:45:22 : header X-Original-For : 127.0.0.1:50527
+10-07-18 12:45:22 : Response incoming
+10-07-18 12:45:23 : In Fallout Controller GetAll
+10-07-18 12:46:17 : Request incoming
+10-07-18 12:46:17 : header Connection : Keep-Alive
+10-07-18 12:46:17 : header Accept : */*
+10-07-18 12:46:17 : header Accept-Encoding : gzip, deflate
+10-07-18 12:46:17 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:46:17 : header Host : localhost:53713
+10-07-18 12:46:17 : header Referer : http://localhost:56158/characterlist
+10-07-18 12:46:17 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:46:17 : header Origin : http://localhost:56158
+10-07-18 12:46:17 : header MS-ASPNETCORE-TOKEN : ffe10fd3-53ad-4bd0-aec6-43ab878b8ec5
+10-07-18 12:46:17 : header X-Original-Proto : http
+10-07-18 12:46:17 : header X-Original-For : 127.0.0.1:50527
+10-07-18 12:46:17 : Response incoming
+10-07-18 12:46:17 : header Vary : Origin
+10-07-18 12:46:17 : header Access-Control-Allow-Credentials : true
+10-07-18 12:46:17 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 12:46:18 : In Fallout Controller GetAll
+10-07-18 12:46:19 : Request incoming
+10-07-18 12:46:19 : header Connection : Keep-Alive
+10-07-18 12:46:19 : header Accept : */*
+10-07-18 12:46:19 : header Accept-Encoding : gzip, deflate
+10-07-18 12:46:19 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:46:19 : header Host : localhost:53713
+10-07-18 12:46:19 : header Referer : http://localhost:56158/character/Randall
+10-07-18 12:46:19 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:46:19 : header Origin : http://localhost:56158
+10-07-18 12:46:19 : header MS-ASPNETCORE-TOKEN : ffe10fd3-53ad-4bd0-aec6-43ab878b8ec5
+10-07-18 12:46:19 : header X-Original-Proto : http
+10-07-18 12:46:19 : header X-Original-For : 127.0.0.1:50527
+10-07-18 12:46:19 : Response incoming
+10-07-18 12:46:19 : header Vary : Origin
+10-07-18 12:46:19 : header Access-Control-Allow-Credentials : true
+10-07-18 12:46:19 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 12:46:19 : In get with parameter Randall
+10-07-18 12:55:26 : Request incoming
+10-07-18 12:55:26 : header Connection : Keep-Alive
+10-07-18 12:55:26 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 12:55:26 : header Accept-Encoding : gzip, deflate
+10-07-18 12:55:26 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:55:26 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 12:55:26 : header Host : localhost:53713
+10-07-18 12:55:26 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:55:26 : header Upgrade-Insecure-Requests : 1
+10-07-18 12:55:26 : header MS-ASPNETCORE-TOKEN : a3ebe4af-30b3-4f9a-936a-ecf29f6152d8
+10-07-18 12:55:26 : header X-Original-Proto : http
+10-07-18 12:55:26 : header X-Original-For : 127.0.0.1:50722
+10-07-18 12:55:26 : Response incoming
+10-07-18 12:55:26 : In Fallout Controller GetAll
+10-07-18 12:56:37 : Request incoming
+10-07-18 12:56:37 : header Connection : Keep-Alive
+10-07-18 12:56:37 : header Accept : */*
+10-07-18 12:56:37 : header Accept-Encoding : gzip, deflate
+10-07-18 12:56:37 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:56:37 : header Host : localhost:53713
+10-07-18 12:56:37 : header Referer : http://localhost:56158/characterlist
+10-07-18 12:56:37 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:56:37 : header Origin : http://localhost:56158
+10-07-18 12:56:37 : header MS-ASPNETCORE-TOKEN : a3ebe4af-30b3-4f9a-936a-ecf29f6152d8
+10-07-18 12:56:37 : header X-Original-Proto : http
+10-07-18 12:56:37 : header X-Original-For : 127.0.0.1:50734
+10-07-18 12:56:37 : Response incoming
+10-07-18 12:56:37 : header Vary : Origin
+10-07-18 12:56:37 : header Access-Control-Allow-Credentials : true
+10-07-18 12:56:37 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 12:57:31 : Request incoming
+10-07-18 12:57:31 : header Connection : Keep-Alive
+10-07-18 12:57:31 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 12:57:31 : header Accept-Encoding : gzip, deflate
+10-07-18 12:57:31 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:57:31 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 12:57:31 : header Host : localhost:53713
+10-07-18 12:57:31 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:57:31 : header Upgrade-Insecure-Requests : 1
+10-07-18 12:57:31 : header MS-ASPNETCORE-TOKEN : 67ea19f1-b040-461b-9154-16215e068b23
+10-07-18 12:57:31 : header X-Original-Proto : http
+10-07-18 12:57:31 : header X-Original-For : 127.0.0.1:50744
+10-07-18 12:57:31 : Response incoming
+10-07-18 12:57:32 : In Fallout Controller GetAll
+10-07-18 12:57:42 : Request incoming
+10-07-18 12:57:42 : header Connection : Keep-Alive
+10-07-18 12:57:42 : header Accept : */*
+10-07-18 12:57:42 : header Accept-Encoding : gzip, deflate
+10-07-18 12:57:42 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:57:42 : header Host : localhost:53713
+10-07-18 12:57:42 : header Referer : http://localhost:56158/characterlist
+10-07-18 12:57:42 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:57:42 : header Origin : http://localhost:56158
+10-07-18 12:57:42 : header MS-ASPNETCORE-TOKEN : 67ea19f1-b040-461b-9154-16215e068b23
+10-07-18 12:57:42 : header X-Original-Proto : http
+10-07-18 12:57:42 : header X-Original-For : 127.0.0.1:50744
+10-07-18 12:57:42 : Response incoming
+10-07-18 12:57:42 : header Vary : Origin
+10-07-18 12:57:42 : header Access-Control-Allow-Credentials : true
+10-07-18 12:57:42 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 12:57:42 : In Fallout Controller GetAll
+10-07-18 12:57:44 : Request incoming
+10-07-18 12:57:44 : header Connection : Keep-Alive
+10-07-18 12:57:44 : header Accept : */*
+10-07-18 12:57:44 : header Accept-Encoding : gzip, deflate
+10-07-18 12:57:44 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 12:57:44 : header Host : localhost:53713
+10-07-18 12:57:44 : header Referer : http://localhost:56158/character/Randall
+10-07-18 12:57:44 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 12:57:44 : header Origin : http://localhost:56158
+10-07-18 12:57:44 : header MS-ASPNETCORE-TOKEN : 67ea19f1-b040-461b-9154-16215e068b23
+10-07-18 12:57:44 : header X-Original-Proto : http
+10-07-18 12:57:44 : header X-Original-For : 127.0.0.1:50744
+10-07-18 12:57:44 : Response incoming
+10-07-18 12:57:44 : header Vary : Origin
+10-07-18 12:57:44 : header Access-Control-Allow-Credentials : true
+10-07-18 12:57:44 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 12:57:44 : In get with parameter Randall
+10-07-18 12:59:05 : Request incoming
+10-07-18 12:59:05 : header Cache-Control : no-cache
+10-07-18 12:59:05 : header Connection : Keep-Alive
+10-07-18 12:59:05 : header Accept : */*
+10-07-18 12:59:05 : header Accept-Encoding : gzip, deflate
+10-07-18 12:59:05 : header Host : localhost:53713
+10-07-18 12:59:05 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 12:59:05 : header Postman-Token : b73a8a67-34ab-4c41-aa8c-280087466bdd
+10-07-18 12:59:05 : header MS-ASPNETCORE-TOKEN : 67ea19f1-b040-461b-9154-16215e068b23
+10-07-18 12:59:05 : header X-Original-Proto : http
+10-07-18 12:59:05 : header X-Original-For : 127.0.0.1:50794
+10-07-18 12:59:05 : Response incoming
+10-07-18 12:59:05 : In get with parameter Randall
+10-07-18 12:59:38 : Request incoming
+10-07-18 12:59:38 : header Cache-Control : no-cache
+10-07-18 12:59:38 : header Connection : Keep-Alive
+10-07-18 12:59:38 : header Content-Type : application/json
+10-07-18 12:59:38 : header Accept : */*
+10-07-18 12:59:38 : header Accept-Encoding : gzip, deflate
+10-07-18 12:59:38 : header Host : localhost:53713
+10-07-18 12:59:38 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 12:59:38 : header Content-Length : 3638
+10-07-18 12:59:38 : header Postman-Token : 5c94e968-f738-47e4-a843-98a0557ad79c
+10-07-18 12:59:38 : header MS-ASPNETCORE-TOKEN : 67ea19f1-b040-461b-9154-16215e068b23
+10-07-18 12:59:38 : header X-Original-Proto : http
+10-07-18 12:59:38 : header X-Original-For : 127.0.0.1:50794
+10-07-18 12:59:38 : Response incoming
+10-07-18 13:00:12 : Request incoming
+10-07-18 13:00:12 : header Connection : Keep-Alive
+10-07-18 13:00:12 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:00:12 : header Accept-Encoding : gzip, deflate
+10-07-18 13:00:12 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:00:12 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:00:12 : header Host : localhost:53713
+10-07-18 13:00:12 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:00:12 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:00:12 : header MS-ASPNETCORE-TOKEN : f57f8cde-2164-46fc-a3ee-0e39e573ce29
+10-07-18 13:00:12 : header X-Original-Proto : http
+10-07-18 13:00:12 : header X-Original-For : 127.0.0.1:50806
+10-07-18 13:00:12 : Response incoming
+10-07-18 13:00:12 : In Fallout Controller GetAll
+10-07-18 13:00:57 : Request incoming
+10-07-18 13:00:57 : header Cache-Control : no-cache
+10-07-18 13:00:57 : header Connection : Keep-Alive
+10-07-18 13:00:57 : header Content-Type : application/json
+10-07-18 13:00:57 : header Accept : */*
+10-07-18 13:00:57 : header Accept-Encoding : gzip, deflate
+10-07-18 13:00:57 : header Host : localhost:53713
+10-07-18 13:00:57 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:00:57 : header Content-Length : 3638
+10-07-18 13:00:57 : header Postman-Token : 3dae9d9e-47c7-4085-9cc0-b90eb8cb6cfb
+10-07-18 13:00:57 : header MS-ASPNETCORE-TOKEN : f57f8cde-2164-46fc-a3ee-0e39e573ce29
+10-07-18 13:00:57 : header X-Original-Proto : http
+10-07-18 13:00:57 : header X-Original-For : 127.0.0.1:50806
+10-07-18 13:00:57 : Response incoming
+10-07-18 13:01:08 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:01:28 : Request incoming
+10-07-18 13:01:28 : header Cache-Control : no-cache
+10-07-18 13:01:28 : header Connection : Keep-Alive
+10-07-18 13:01:28 : header Accept : */*
+10-07-18 13:01:28 : header Accept-Encoding : gzip, deflate
+10-07-18 13:01:28 : header Host : localhost:53713
+10-07-18 13:01:28 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:01:28 : header Postman-Token : 78e35a5a-757b-43fe-97d2-6f30089c512e
+10-07-18 13:01:28 : header MS-ASPNETCORE-TOKEN : f57f8cde-2164-46fc-a3ee-0e39e573ce29
+10-07-18 13:01:28 : header X-Original-Proto : http
+10-07-18 13:01:28 : header X-Original-For : 127.0.0.1:50806
+10-07-18 13:01:28 : Response incoming
+10-07-18 13:01:28 : In get with parameter Randall
+10-07-18 13:02:53 : Request incoming
+10-07-18 13:02:53 : header Connection : Keep-Alive
+10-07-18 13:02:53 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:02:53 : header Accept-Encoding : gzip, deflate
+10-07-18 13:02:53 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:02:53 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:02:53 : header Host : localhost:53713
+10-07-18 13:02:53 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:02:53 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:02:53 : header MS-ASPNETCORE-TOKEN : 6039f7df-e9af-4f29-bf43-53a851f83a3e
+10-07-18 13:02:53 : header X-Original-Proto : http
+10-07-18 13:02:53 : header X-Original-For : 127.0.0.1:50834
+10-07-18 13:02:53 : Response incoming
+10-07-18 13:02:53 : In Fallout Controller GetAll
+10-07-18 13:04:16 : Request incoming
+10-07-18 13:04:16 : header Cache-Control : no-cache
+10-07-18 13:04:16 : header Connection : Keep-Alive
+10-07-18 13:04:16 : header Content-Type : application/json
+10-07-18 13:04:16 : header Accept : */*
+10-07-18 13:04:16 : header Accept-Encoding : gzip, deflate
+10-07-18 13:04:16 : header Host : localhost:53713
+10-07-18 13:04:16 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:04:16 : header Content-Length : 3638
+10-07-18 13:04:16 : header Postman-Token : 3f50c234-36f4-4240-b8f7-a21f882443c1
+10-07-18 13:04:16 : header MS-ASPNETCORE-TOKEN : 6039f7df-e9af-4f29-bf43-53a851f83a3e
+10-07-18 13:04:16 : header X-Original-Proto : http
+10-07-18 13:04:16 : header X-Original-For : 127.0.0.1:50842
+10-07-18 13:04:16 : Response incoming
+10-07-18 13:04:23 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:05:21 : Request incoming
+10-07-18 13:05:21 : header Cache-Control : no-cache
+10-07-18 13:05:21 : header Connection : Keep-Alive
+10-07-18 13:05:21 : header Content-Type : application/json
+10-07-18 13:05:21 : header Accept : */*
+10-07-18 13:05:21 : header Accept-Encoding : gzip, deflate
+10-07-18 13:05:21 : header Host : localhost:53713
+10-07-18 13:05:21 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:05:21 : header Content-Length : 3638
+10-07-18 13:05:21 : header Postman-Token : 985c3ee9-9c4e-499e-b23f-4c533687b296
+10-07-18 13:05:21 : header MS-ASPNETCORE-TOKEN : 6039f7df-e9af-4f29-bf43-53a851f83a3e
+10-07-18 13:05:21 : header X-Original-Proto : http
+10-07-18 13:05:21 : header X-Original-For : 127.0.0.1:50842
+10-07-18 13:05:21 : Response incoming
+10-07-18 13:05:23 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:05:38 : Request incoming
+10-07-18 13:05:38 : header Cache-Control : no-cache
+10-07-18 13:05:38 : header Connection : Keep-Alive
+10-07-18 13:05:38 : header Accept : */*
+10-07-18 13:05:38 : header Accept-Encoding : gzip, deflate
+10-07-18 13:05:38 : header Host : localhost:53713
+10-07-18 13:05:38 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:05:38 : header Postman-Token : aeeb4d77-1462-4596-8f67-df018d275946
+10-07-18 13:05:38 : header MS-ASPNETCORE-TOKEN : 6039f7df-e9af-4f29-bf43-53a851f83a3e
+10-07-18 13:05:38 : header X-Original-Proto : http
+10-07-18 13:05:38 : header X-Original-For : 127.0.0.1:50842
+10-07-18 13:05:38 : Response incoming
+10-07-18 13:05:38 : In get with parameter Randall
+10-07-18 13:05:42 : Request incoming
+10-07-18 13:05:42 : header Cache-Control : no-cache
+10-07-18 13:05:42 : header Connection : Keep-Alive
+10-07-18 13:05:42 : header Content-Type : application/json
+10-07-18 13:05:42 : header Accept : */*
+10-07-18 13:05:42 : header Accept-Encoding : gzip, deflate
+10-07-18 13:05:42 : header Host : localhost:53713
+10-07-18 13:05:42 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:05:42 : header Content-Length : 3638
+10-07-18 13:05:42 : header Postman-Token : f45ed307-f518-4ef2-9ad1-562df10555cc
+10-07-18 13:05:42 : header MS-ASPNETCORE-TOKEN : 6039f7df-e9af-4f29-bf43-53a851f83a3e
+10-07-18 13:05:42 : header X-Original-Proto : http
+10-07-18 13:05:42 : header X-Original-For : 127.0.0.1:50842
+10-07-18 13:05:42 : Response incoming
+10-07-18 13:05:57 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:07:29 : Request incoming
+10-07-18 13:07:29 : header Cache-Control : no-cache
+10-07-18 13:07:29 : header Connection : Keep-Alive
+10-07-18 13:07:29 : header Content-Type : application/json
+10-07-18 13:07:29 : header Accept : */*
+10-07-18 13:07:29 : header Accept-Encoding : gzip, deflate
+10-07-18 13:07:29 : header Host : localhost:53713
+10-07-18 13:07:29 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:07:30 : header Content-Length : 3638
+10-07-18 13:07:30 : header Postman-Token : d145b9a6-021a-4e19-80d1-86f3696646bc
+10-07-18 13:07:30 : header MS-ASPNETCORE-TOKEN : 6039f7df-e9af-4f29-bf43-53a851f83a3e
+10-07-18 13:07:30 : header X-Original-Proto : http
+10-07-18 13:07:30 : header X-Original-For : 127.0.0.1:50842
+10-07-18 13:07:30 : Response incoming
+10-07-18 13:07:34 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:11:15 : Request incoming
+10-07-18 13:11:15 : header Connection : Keep-Alive
+10-07-18 13:11:15 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:11:15 : header Accept-Encoding : gzip, deflate
+10-07-18 13:11:15 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:11:15 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:11:15 : header Host : localhost:53713
+10-07-18 13:11:15 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:11:15 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:11:15 : header MS-ASPNETCORE-TOKEN : f91d7d18-7946-45e8-ade9-42d6f14b109b
+10-07-18 13:11:15 : header X-Original-Proto : http
+10-07-18 13:11:15 : header X-Original-For : 127.0.0.1:50867
+10-07-18 13:11:15 : Response incoming
+10-07-18 13:11:15 : In Fallout Controller GetAll
+10-07-18 13:12:29 : Request incoming
+10-07-18 13:12:29 : header Cache-Control : no-cache
+10-07-18 13:12:29 : header Connection : Keep-Alive
+10-07-18 13:12:29 : header Content-Type : application/json
+10-07-18 13:12:29 : header Accept : */*
+10-07-18 13:12:29 : header Accept-Encoding : gzip, deflate
+10-07-18 13:12:29 : header Host : localhost:53713
+10-07-18 13:12:29 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:12:29 : header Content-Length : 3638
+10-07-18 13:12:29 : header Postman-Token : 06281f4b-be27-4455-9842-163f404417ec
+10-07-18 13:12:29 : header MS-ASPNETCORE-TOKEN : f91d7d18-7946-45e8-ade9-42d6f14b109b
+10-07-18 13:12:29 : header X-Original-Proto : http
+10-07-18 13:12:29 : header X-Original-For : 127.0.0.1:50879
+10-07-18 13:12:29 : Response incoming
+10-07-18 13:12:34 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:13:53 : Request incoming
+10-07-18 13:13:53 : header Connection : Keep-Alive
+10-07-18 13:13:53 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:13:53 : header Accept-Encoding : gzip, deflate
+10-07-18 13:13:53 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:13:53 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:13:53 : header Host : localhost:53713
+10-07-18 13:13:53 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:13:53 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:13:53 : header MS-ASPNETCORE-TOKEN : eaee682d-176e-4b3b-ae1c-5ecd7e88097a
+10-07-18 13:13:53 : header X-Original-Proto : http
+10-07-18 13:13:53 : header X-Original-For : 127.0.0.1:50897
+10-07-18 13:13:53 : Response incoming
+10-07-18 13:13:54 : In Fallout Controller GetAll
+10-07-18 13:14:45 : Request incoming
+10-07-18 13:14:45 : header Cache-Control : no-cache
+10-07-18 13:14:45 : header Connection : Keep-Alive
+10-07-18 13:14:45 : header Content-Type : application/json
+10-07-18 13:14:45 : header Accept : */*
+10-07-18 13:14:45 : header Accept-Encoding : gzip, deflate
+10-07-18 13:14:45 : header Host : localhost:53713
+10-07-18 13:14:45 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:14:45 : header Content-Length : 3638
+10-07-18 13:14:45 : header Postman-Token : 1b83f623-dcbd-462f-82c8-b3cbb30a60e3
+10-07-18 13:14:45 : header MS-ASPNETCORE-TOKEN : eaee682d-176e-4b3b-ae1c-5ecd7e88097a
+10-07-18 13:14:45 : header X-Original-Proto : http
+10-07-18 13:14:45 : header X-Original-For : 127.0.0.1:50897
+10-07-18 13:14:45 : Response incoming
+10-07-18 13:14:48 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:17:38 : Request incoming
+10-07-18 13:17:38 : header Connection : Keep-Alive
+10-07-18 13:17:38 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:17:38 : header Accept-Encoding : gzip, deflate
+10-07-18 13:17:38 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:17:38 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:17:38 : header Host : localhost:53713
+10-07-18 13:17:38 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:17:38 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:17:38 : header MS-ASPNETCORE-TOKEN : bf5a2f61-4b26-4c32-8230-67bd10241f21
+10-07-18 13:17:38 : header X-Original-Proto : http
+10-07-18 13:17:39 : header X-Original-For : 127.0.0.1:50931
+10-07-18 13:17:39 : Response incoming
+10-07-18 13:17:39 : In Fallout Controller GetAll
+10-07-18 13:18:37 : Request incoming
+10-07-18 13:18:37 : header Cache-Control : no-cache
+10-07-18 13:18:37 : header Connection : Keep-Alive
+10-07-18 13:18:37 : header Content-Type : application/json
+10-07-18 13:18:37 : header Accept : */*
+10-07-18 13:18:37 : header Accept-Encoding : gzip, deflate
+10-07-18 13:18:37 : header Host : localhost:53713
+10-07-18 13:18:37 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:18:37 : header Content-Length : 3638
+10-07-18 13:18:37 : header Postman-Token : 1777aa7f-6ec9-40d9-a165-3deb449dfa5b
+10-07-18 13:18:37 : header MS-ASPNETCORE-TOKEN : bf5a2f61-4b26-4c32-8230-67bd10241f21
+10-07-18 13:18:37 : header X-Original-Proto : http
+10-07-18 13:18:37 : header X-Original-For : 127.0.0.1:50931
+10-07-18 13:18:37 : Response incoming
+10-07-18 13:18:40 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:32:54 : Request incoming
+10-07-18 13:32:54 : header Connection : Keep-Alive
+10-07-18 13:32:54 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:32:54 : header Accept-Encoding : gzip, deflate
+10-07-18 13:32:54 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:32:54 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:32:54 : header Host : localhost:53713
+10-07-18 13:32:54 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:32:54 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:32:54 : header MS-ASPNETCORE-TOKEN : 056324e0-6f63-4414-878b-9a739c260035
+10-07-18 13:32:54 : header X-Original-Proto : http
+10-07-18 13:32:54 : header X-Original-For : 127.0.0.1:51020
+10-07-18 13:32:54 : Response incoming
+10-07-18 13:32:54 : In Fallout Controller GetAll
+10-07-18 13:33:16 : Request incoming
+10-07-18 13:33:16 : header Cache-Control : no-cache
+10-07-18 13:33:16 : header Connection : Keep-Alive
+10-07-18 13:33:16 : header Content-Type : application/json
+10-07-18 13:33:16 : header Accept : */*
+10-07-18 13:33:16 : header Accept-Encoding : gzip, deflate
+10-07-18 13:33:16 : header Host : localhost:53713
+10-07-18 13:33:16 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:33:16 : header Content-Length : 3638
+10-07-18 13:33:16 : header Postman-Token : 714e9240-a488-4460-8263-f51d80288942
+10-07-18 13:33:16 : header MS-ASPNETCORE-TOKEN : 056324e0-6f63-4414-878b-9a739c260035
+10-07-18 13:33:16 : header X-Original-Proto : http
+10-07-18 13:33:16 : header X-Original-For : 127.0.0.1:51020
+10-07-18 13:33:16 : Response incoming
+10-07-18 13:33:18 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:33:34 : Request incoming
+10-07-18 13:33:34 : header Cache-Control : no-cache
+10-07-18 13:33:34 : header Connection : Keep-Alive
+10-07-18 13:33:34 : header Content-Type : application/json
+10-07-18 13:33:34 : header Accept : */*
+10-07-18 13:33:34 : header Accept-Encoding : gzip, deflate
+10-07-18 13:33:34 : header Host : localhost:53713
+10-07-18 13:33:34 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:33:34 : header Content-Length : 3638
+10-07-18 13:33:34 : header Postman-Token : ef3d2295-d2ee-4645-b5ba-ad5d0656e640
+10-07-18 13:33:34 : header MS-ASPNETCORE-TOKEN : 056324e0-6f63-4414-878b-9a739c260035
+10-07-18 13:33:34 : header X-Original-Proto : http
+10-07-18 13:33:34 : header X-Original-For : 127.0.0.1:51020
+10-07-18 13:33:34 : Response incoming
+10-07-18 13:33:46 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:34:01 : Request incoming
+10-07-18 13:34:01 : header Cache-Control : no-cache
+10-07-18 13:34:01 : header Connection : Keep-Alive
+10-07-18 13:34:01 : header Content-Type : application/json
+10-07-18 13:34:01 : header Accept : */*
+10-07-18 13:34:01 : header Accept-Encoding : gzip, deflate
+10-07-18 13:34:01 : header Host : localhost:53713
+10-07-18 13:34:01 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:34:01 : header Content-Length : 3638
+10-07-18 13:34:01 : header Postman-Token : 73e58087-2098-4ee8-82b3-9c6db0314efa
+10-07-18 13:34:01 : header MS-ASPNETCORE-TOKEN : 056324e0-6f63-4414-878b-9a739c260035
+10-07-18 13:34:01 : header X-Original-Proto : http
+10-07-18 13:34:01 : header X-Original-For : 127.0.0.1:51020
+10-07-18 13:34:01 : Response incoming
+10-07-18 13:34:08 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:37:52 : Request incoming
+10-07-18 13:37:52 : header Cache-Control : no-cache
+10-07-18 13:37:52 : header Connection : Keep-Alive
+10-07-18 13:37:52 : header Content-Type : application/json
+10-07-18 13:37:52 : header Accept : */*
+10-07-18 13:37:52 : header Accept-Encoding : gzip, deflate
+10-07-18 13:37:52 : header Host : localhost:53713
+10-07-18 13:37:52 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:37:52 : header Content-Length : 3644
+10-07-18 13:37:52 : header Postman-Token : d24dc17c-027b-4e23-b0da-253665109ded
+10-07-18 13:37:52 : header MS-ASPNETCORE-TOKEN : 056324e0-6f63-4414-878b-9a739c260035
+10-07-18 13:37:52 : header X-Original-Proto : http
+10-07-18 13:37:52 : header X-Original-For : 127.0.0.1:51020
+10-07-18 13:37:52 : Response incoming
+10-07-18 13:38:07 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:40:49 : Request incoming
+10-07-18 13:40:49 : header Connection : Keep-Alive
+10-07-18 13:40:49 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:40:49 : header Accept-Encoding : gzip, deflate
+10-07-18 13:40:49 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:40:49 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:40:49 : header Host : localhost:53713
+10-07-18 13:40:49 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:40:49 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:40:49 : header MS-ASPNETCORE-TOKEN : 0aacfc69-2fd2-4c70-9acb-eb86c1c3fc04
+10-07-18 13:40:49 : header X-Original-Proto : http
+10-07-18 13:40:49 : header X-Original-For : 127.0.0.1:51109
+10-07-18 13:40:49 : Response incoming
+10-07-18 13:40:49 : In Fallout Controller GetAll
+10-07-18 13:41:06 : Request incoming
+10-07-18 13:41:06 : header Cache-Control : no-cache
+10-07-18 13:41:06 : header Connection : Keep-Alive
+10-07-18 13:41:06 : header Content-Type : application/json
+10-07-18 13:41:06 : header Accept : */*
+10-07-18 13:41:06 : header Accept-Encoding : gzip, deflate
+10-07-18 13:41:06 : header Host : localhost:53713
+10-07-18 13:41:06 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:41:06 : header Content-Length : 3638
+10-07-18 13:41:06 : header Postman-Token : f146793e-35ee-4e8f-9470-6fbbbf4e22cb
+10-07-18 13:41:06 : header MS-ASPNETCORE-TOKEN : 0aacfc69-2fd2-4c70-9acb-eb86c1c3fc04
+10-07-18 13:41:06 : header X-Original-Proto : http
+10-07-18 13:41:06 : header X-Original-For : 127.0.0.1:51109
+10-07-18 13:41:06 : Response incoming
+10-07-18 13:41:08 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:42:33 : Request incoming
+10-07-18 13:42:33 : header Cache-Control : no-cache
+10-07-18 13:42:33 : header Connection : Keep-Alive
+10-07-18 13:42:33 : header Content-Type : application/json
+10-07-18 13:42:33 : header Accept : */*
+10-07-18 13:42:33 : header Accept-Encoding : gzip, deflate
+10-07-18 13:42:33 : header Host : localhost:53713
+10-07-18 13:42:33 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:42:33 : header Content-Length : 3638
+10-07-18 13:42:33 : header Postman-Token : 5b4588b4-a501-4822-9da8-25e73387c26e
+10-07-18 13:42:33 : header MS-ASPNETCORE-TOKEN : 0aacfc69-2fd2-4c70-9acb-eb86c1c3fc04
+10-07-18 13:42:33 : header X-Original-Proto : http
+10-07-18 13:42:33 : header X-Original-For : 127.0.0.1:51122
+10-07-18 13:42:33 : Response incoming
+10-07-18 13:42:35 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:44:10 : Request incoming
+10-07-18 13:44:10 : header Connection : Keep-Alive
+10-07-18 13:44:10 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:44:10 : header Accept-Encoding : gzip, deflate
+10-07-18 13:44:10 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:44:10 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:44:10 : header Host : localhost:53713
+10-07-18 13:44:10 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:44:10 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:44:10 : header MS-ASPNETCORE-TOKEN : 7864e468-954e-40a3-9f67-2dbe69f20f06
+10-07-18 13:44:10 : header X-Original-Proto : http
+10-07-18 13:44:10 : header X-Original-For : 127.0.0.1:51143
+10-07-18 13:44:10 : Response incoming
+10-07-18 13:44:10 : In Fallout Controller GetAll
+10-07-18 13:44:53 : Request incoming
+10-07-18 13:44:53 : header Cache-Control : no-cache
+10-07-18 13:44:53 : header Connection : Keep-Alive
+10-07-18 13:44:53 : header Content-Type : application/json
+10-07-18 13:44:53 : header Accept : */*
+10-07-18 13:44:53 : header Accept-Encoding : gzip, deflate
+10-07-18 13:44:53 : header Host : localhost:53713
+10-07-18 13:44:53 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:44:53 : header Content-Length : 3638
+10-07-18 13:44:53 : header Postman-Token : ee81ff20-86f0-4f33-af64-7a20482bf2c8
+10-07-18 13:44:53 : header MS-ASPNETCORE-TOKEN : 7864e468-954e-40a3-9f67-2dbe69f20f06
+10-07-18 13:44:53 : header X-Original-Proto : http
+10-07-18 13:44:53 : header X-Original-For : 127.0.0.1:51143
+10-07-18 13:44:53 : Response incoming
+10-07-18 13:44:59 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:47:28 : Request incoming
+10-07-18 13:47:28 : header Connection : Keep-Alive
+10-07-18 13:47:28 : header Accept : */*
+10-07-18 13:47:28 : header Accept-Encoding : gzip, deflate
+10-07-18 13:47:28 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:47:28 : header Host : localhost:53713
+10-07-18 13:47:28 : header Referer : http://localhost:56158/characterlist
+10-07-18 13:47:28 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:47:28 : header Origin : http://localhost:56158
+10-07-18 13:47:28 : header MS-ASPNETCORE-TOKEN : 7864e468-954e-40a3-9f67-2dbe69f20f06
+10-07-18 13:47:28 : header X-Original-Proto : http
+10-07-18 13:47:28 : header X-Original-For : 127.0.0.1:51169
+10-07-18 13:47:28 : Response incoming
+10-07-18 13:47:28 : header Vary : Origin
+10-07-18 13:47:28 : header Access-Control-Allow-Credentials : true
+10-07-18 13:47:28 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 13:47:28 : In Fallout Controller GetAll
+10-07-18 13:47:29 : Request incoming
+10-07-18 13:47:29 : header Connection : Keep-Alive
+10-07-18 13:47:29 : header Accept : */*
+10-07-18 13:47:29 : header Accept-Encoding : gzip, deflate
+10-07-18 13:47:29 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:47:29 : header Host : localhost:53713
+10-07-18 13:47:29 : header Referer : http://localhost:56158/character/Randall
+10-07-18 13:47:29 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:47:29 : header Origin : http://localhost:56158
+10-07-18 13:47:29 : header MS-ASPNETCORE-TOKEN : 7864e468-954e-40a3-9f67-2dbe69f20f06
+10-07-18 13:47:29 : header X-Original-Proto : http
+10-07-18 13:47:29 : header X-Original-For : 127.0.0.1:51169
+10-07-18 13:47:29 : Response incoming
+10-07-18 13:47:29 : header Vary : Origin
+10-07-18 13:47:29 : header Access-Control-Allow-Credentials : true
+10-07-18 13:47:29 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 13:47:29 : In get with parameter Randall
+10-07-18 13:49:34 : Request incoming
+10-07-18 13:49:34 : header Connection : Keep-Alive
+10-07-18 13:49:34 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 13:49:34 : header Accept-Encoding : gzip, deflate
+10-07-18 13:49:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:49:34 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 13:49:34 : header Host : localhost:53713
+10-07-18 13:49:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:49:34 : header Upgrade-Insecure-Requests : 1
+10-07-18 13:49:34 : header MS-ASPNETCORE-TOKEN : 435e67fb-7bfa-4a1e-bfda-841a70f4736c
+10-07-18 13:49:34 : header X-Original-Proto : http
+10-07-18 13:49:34 : header X-Original-For : 127.0.0.1:51188
+10-07-18 13:49:34 : Response incoming
+10-07-18 13:49:34 : In Fallout Controller GetAll
+10-07-18 13:50:59 : Request incoming
+10-07-18 13:50:59 : header Connection : Keep-Alive
+10-07-18 13:50:59 : header Accept : */*
+10-07-18 13:50:59 : header Accept-Encoding : gzip, deflate
+10-07-18 13:50:59 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:50:59 : header Host : localhost:53713
+10-07-18 13:50:59 : header Referer : http://localhost:56158/characterlist
+10-07-18 13:50:59 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:50:59 : header Origin : http://localhost:56158
+10-07-18 13:50:59 : header MS-ASPNETCORE-TOKEN : 435e67fb-7bfa-4a1e-bfda-841a70f4736c
+10-07-18 13:50:59 : header X-Original-Proto : http
+10-07-18 13:50:59 : header X-Original-For : 127.0.0.1:51209
+10-07-18 13:50:59 : Response incoming
+10-07-18 13:50:59 : header Vary : Origin
+10-07-18 13:50:59 : header Access-Control-Allow-Credentials : true
+10-07-18 13:50:59 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 13:50:59 : In Fallout Controller GetAll
+10-07-18 13:51:00 : Request incoming
+10-07-18 13:51:00 : header Connection : Keep-Alive
+10-07-18 13:51:00 : header Accept : */*
+10-07-18 13:51:00 : header Accept-Encoding : gzip, deflate
+10-07-18 13:51:00 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:51:00 : header Host : localhost:53713
+10-07-18 13:51:00 : header Referer : http://localhost:56158/character/Randall
+10-07-18 13:51:00 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:51:00 : header Origin : http://localhost:56158
+10-07-18 13:51:00 : header MS-ASPNETCORE-TOKEN : 435e67fb-7bfa-4a1e-bfda-841a70f4736c
+10-07-18 13:51:00 : header X-Original-Proto : http
+10-07-18 13:51:00 : header X-Original-For : 127.0.0.1:51209
+10-07-18 13:51:00 : Response incoming
+10-07-18 13:51:00 : header Vary : Origin
+10-07-18 13:51:00 : header Access-Control-Allow-Credentials : true
+10-07-18 13:51:00 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 13:51:00 : In get with parameter Randall
+10-07-18 13:51:25 : Request incoming
+10-07-18 13:51:25 : header Cache-Control : no-cache
+10-07-18 13:51:25 : header Connection : Keep-Alive
+10-07-18 13:51:25 : header Content-Type : application/json
+10-07-18 13:51:25 : header Accept : */*
+10-07-18 13:51:25 : header Accept-Encoding : gzip, deflate
+10-07-18 13:51:25 : header Host : localhost:53713
+10-07-18 13:51:25 : header User-Agent : PostmanRuntime/7.1.5
+10-07-18 13:51:25 : header Content-Length : 3638
+10-07-18 13:51:25 : header Postman-Token : 975cb551-9d45-4d86-b137-090c048fa36e
+10-07-18 13:51:25 : header MS-ASPNETCORE-TOKEN : 435e67fb-7bfa-4a1e-bfda-841a70f4736c
+10-07-18 13:51:25 : header X-Original-Proto : http
+10-07-18 13:51:25 : header X-Original-For : 127.0.0.1:51209
+10-07-18 13:51:25 : Response incoming
+10-07-18 13:51:25 : In Edit with parameter Library.ViewModels.CharacterViewModel
+10-07-18 13:51:31 : Request incoming
+10-07-18 13:51:31 : header Connection : Keep-Alive
+10-07-18 13:51:31 : header Accept : */*
+10-07-18 13:51:31 : header Accept-Encoding : gzip, deflate
+10-07-18 13:51:31 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:51:31 : header Host : localhost:53713
+10-07-18 13:51:31 : header Referer : http://localhost:56158/characterlist
+10-07-18 13:51:31 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:51:31 : header Origin : http://localhost:56158
+10-07-18 13:51:31 : header MS-ASPNETCORE-TOKEN : 435e67fb-7bfa-4a1e-bfda-841a70f4736c
+10-07-18 13:51:31 : header X-Original-Proto : http
+10-07-18 13:51:31 : header X-Original-For : 127.0.0.1:51209
+10-07-18 13:51:31 : Response incoming
+10-07-18 13:51:31 : header Vary : Origin
+10-07-18 13:51:31 : header Access-Control-Allow-Credentials : true
+10-07-18 13:51:31 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 13:51:31 : In Fallout Controller GetAll
+10-07-18 13:51:32 : Request incoming
+10-07-18 13:51:32 : header Connection : Keep-Alive
+10-07-18 13:51:32 : header Accept : */*
+10-07-18 13:51:32 : header Accept-Encoding : gzip, deflate
+10-07-18 13:51:32 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 13:51:32 : header Host : localhost:53713
+10-07-18 13:51:32 : header Referer : http://localhost:56158/character/Randall
+10-07-18 13:51:32 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 13:51:32 : header Origin : http://localhost:56158
+10-07-18 13:51:32 : header MS-ASPNETCORE-TOKEN : 435e67fb-7bfa-4a1e-bfda-841a70f4736c
+10-07-18 13:51:32 : header X-Original-Proto : http
+10-07-18 13:51:32 : header X-Original-For : 127.0.0.1:51209
+10-07-18 13:51:32 : Response incoming
+10-07-18 13:51:32 : header Vary : Origin
+10-07-18 13:51:32 : header Access-Control-Allow-Credentials : true
+10-07-18 13:51:32 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 13:51:32 : In get with parameter Randall
+10-07-18 14:02:50 : Request incoming
+10-07-18 14:02:50 : header Connection : Keep-Alive
+10-07-18 14:02:50 : header Accept : */*
+10-07-18 14:02:50 : header Accept-Encoding : gzip, deflate
+10-07-18 14:02:50 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:02:50 : header Host : localhost:53713
+10-07-18 14:02:50 : header Referer : http://localhost:56158/character/Randall
+10-07-18 14:02:50 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:02:50 : header Origin : http://localhost:56158
+10-07-18 14:02:50 : header MS-ASPNETCORE-TOKEN : 435e67fb-7bfa-4a1e-bfda-841a70f4736c
+10-07-18 14:02:50 : header X-Original-Proto : http
+10-07-18 14:02:50 : header X-Original-For : 127.0.0.1:51525
+10-07-18 14:02:50 : Response incoming
+10-07-18 14:02:50 : header Vary : Origin
+10-07-18 14:02:50 : header Access-Control-Allow-Credentials : true
+10-07-18 14:02:50 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:02:50 : In get with parameter Randall
+10-07-18 14:19:34 : Request incoming
+10-07-18 14:19:34 : header Connection : Keep-Alive
+10-07-18 14:19:34 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 14:19:34 : header Accept-Encoding : gzip, deflate
+10-07-18 14:19:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:19:34 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 14:19:34 : header Host : localhost:53713
+10-07-18 14:19:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:19:34 : header Upgrade-Insecure-Requests : 1
+10-07-18 14:19:34 : header MS-ASPNETCORE-TOKEN : 1fc46d0c-9365-4c18-a4f4-1dd07692f9b0
+10-07-18 14:19:34 : header X-Original-Proto : http
+10-07-18 14:19:34 : header X-Original-For : 127.0.0.1:51819
+10-07-18 14:19:34 : Response incoming
+10-07-18 14:19:34 : In Fallout Controller GetAll
+10-07-18 14:21:13 : Request incoming
+10-07-18 14:21:13 : header Connection : Keep-Alive
+10-07-18 14:21:13 : header Accept : */*
+10-07-18 14:21:13 : header Accept-Encoding : gzip, deflate
+10-07-18 14:21:13 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:21:13 : header Host : localhost:53713
+10-07-18 14:21:13 : header Referer : http://localhost:56158/characterlist
+10-07-18 14:21:13 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:21:13 : header Origin : http://localhost:56158
+10-07-18 14:21:13 : header MS-ASPNETCORE-TOKEN : 1fc46d0c-9365-4c18-a4f4-1dd07692f9b0
+10-07-18 14:21:13 : header X-Original-Proto : http
+10-07-18 14:21:13 : header X-Original-For : 127.0.0.1:51944
+10-07-18 14:21:13 : Response incoming
+10-07-18 14:21:13 : header Vary : Origin
+10-07-18 14:21:13 : header Access-Control-Allow-Credentials : true
+10-07-18 14:21:13 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:21:13 : In Fallout Controller GetAll
+10-07-18 14:21:16 : Request incoming
+10-07-18 14:21:16 : header Connection : Keep-Alive
+10-07-18 14:21:16 : header Accept : */*
+10-07-18 14:21:16 : header Accept-Encoding : gzip, deflate
+10-07-18 14:21:16 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:21:16 : header Host : localhost:53713
+10-07-18 14:21:16 : header Referer : http://localhost:56158/character/Randall
+10-07-18 14:21:16 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:21:16 : header Origin : http://localhost:56158
+10-07-18 14:21:16 : header MS-ASPNETCORE-TOKEN : 1fc46d0c-9365-4c18-a4f4-1dd07692f9b0
+10-07-18 14:21:16 : header X-Original-Proto : http
+10-07-18 14:21:16 : header X-Original-For : 127.0.0.1:51944
+10-07-18 14:21:16 : Response incoming
+10-07-18 14:21:16 : header Vary : Origin
+10-07-18 14:21:16 : header Access-Control-Allow-Credentials : true
+10-07-18 14:21:16 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:21:16 : In get with parameter Randall
+10-07-18 14:22:06 : Request incoming
+10-07-18 14:22:06 : header Connection : Keep-Alive
+10-07-18 14:22:06 : header Accept : */*
+10-07-18 14:22:06 : header Accept-Encoding : gzip, deflate
+10-07-18 14:22:06 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:22:06 : header Host : localhost:53713
+10-07-18 14:22:06 : header Referer : http://localhost:56158/character/Randall
+10-07-18 14:22:06 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:22:06 : header Origin : http://localhost:56158
+10-07-18 14:22:06 : header MS-ASPNETCORE-TOKEN : 1fc46d0c-9365-4c18-a4f4-1dd07692f9b0
+10-07-18 14:22:06 : header X-Original-Proto : http
+10-07-18 14:22:06 : header X-Original-For : 127.0.0.1:51944
+10-07-18 14:22:06 : Response incoming
+10-07-18 14:22:06 : header Vary : Origin
+10-07-18 14:22:06 : header Access-Control-Allow-Credentials : true
+10-07-18 14:22:06 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:22:06 : In get with parameter Randall
+10-07-18 14:22:13 : Request incoming
+10-07-18 14:22:13 : header Connection : Keep-Alive
+10-07-18 14:22:13 : header Accept : */*
+10-07-18 14:22:13 : header Accept-Encoding : gzip, deflate
+10-07-18 14:22:13 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:22:13 : header Host : localhost:53713
+10-07-18 14:22:13 : header Referer : http://localhost:56158/characterlist
+10-07-18 14:22:13 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:22:13 : header Origin : http://localhost:56158
+10-07-18 14:22:13 : header MS-ASPNETCORE-TOKEN : 1fc46d0c-9365-4c18-a4f4-1dd07692f9b0
+10-07-18 14:22:13 : header X-Original-Proto : http
+10-07-18 14:22:13 : header X-Original-For : 127.0.0.1:51944
+10-07-18 14:22:13 : Response incoming
+10-07-18 14:22:13 : header Vary : Origin
+10-07-18 14:22:13 : header Access-Control-Allow-Credentials : true
+10-07-18 14:22:13 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:22:13 : In Fallout Controller GetAll
+10-07-18 14:22:14 : Request incoming
+10-07-18 14:22:14 : header Connection : Keep-Alive
+10-07-18 14:22:14 : header Accept : */*
+10-07-18 14:22:14 : header Accept-Encoding : gzip, deflate
+10-07-18 14:22:14 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:22:14 : header Host : localhost:53713
+10-07-18 14:22:14 : header Referer : http://localhost:56158/character/Randall
+10-07-18 14:22:14 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:22:14 : header Origin : http://localhost:56158
+10-07-18 14:22:14 : header MS-ASPNETCORE-TOKEN : 1fc46d0c-9365-4c18-a4f4-1dd07692f9b0
+10-07-18 14:22:14 : header X-Original-Proto : http
+10-07-18 14:22:14 : header X-Original-For : 127.0.0.1:51944
+10-07-18 14:22:14 : Response incoming
+10-07-18 14:22:14 : header Vary : Origin
+10-07-18 14:22:14 : header Access-Control-Allow-Credentials : true
+10-07-18 14:22:14 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:22:14 : In get with parameter Randall
+10-07-18 14:26:57 : Request incoming
+10-07-18 14:26:57 : header Connection : Keep-Alive
+10-07-18 14:26:57 : header Accept : */*
+10-07-18 14:26:57 : header Accept-Encoding : gzip, deflate
+10-07-18 14:26:57 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:26:57 : header Host : localhost:53713
+10-07-18 14:26:57 : header Referer : http://localhost:56158/character/Randall
+10-07-18 14:26:57 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:26:57 : header Origin : http://localhost:56158
+10-07-18 14:26:57 : header MS-ASPNETCORE-TOKEN : 1fc46d0c-9365-4c18-a4f4-1dd07692f9b0
+10-07-18 14:26:57 : header X-Original-Proto : http
+10-07-18 14:26:57 : header X-Original-For : 127.0.0.1:52063
+10-07-18 14:26:57 : Response incoming
+10-07-18 14:26:57 : header Vary : Origin
+10-07-18 14:26:57 : header Access-Control-Allow-Credentials : true
+10-07-18 14:26:57 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:26:57 : In get with parameter Randall
+10-07-18 14:27:24 : Request incoming
+10-07-18 14:27:24 : header Connection : Keep-Alive
+10-07-18 14:27:24 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+10-07-18 14:27:24 : header Accept-Encoding : gzip, deflate
+10-07-18 14:27:24 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:27:24 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+10-07-18 14:27:24 : header Host : localhost:53713
+10-07-18 14:27:24 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:27:24 : header Upgrade-Insecure-Requests : 1
+10-07-18 14:27:24 : header MS-ASPNETCORE-TOKEN : 29557c5b-8d1c-48d7-b26f-6bceee31cf9e
+10-07-18 14:27:24 : header X-Original-Proto : http
+10-07-18 14:27:24 : header X-Original-For : 127.0.0.1:52073
+10-07-18 14:27:24 : Response incoming
+10-07-18 14:27:24 : In Fallout Controller GetAll
+10-07-18 14:28:44 : Request incoming
+10-07-18 14:28:44 : header Connection : Keep-Alive
+10-07-18 14:28:44 : header Accept : */*
+10-07-18 14:28:44 : header Accept-Encoding : gzip, deflate
+10-07-18 14:28:44 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:28:44 : header Host : localhost:53713
+10-07-18 14:28:44 : header Referer : http://localhost:56158/characterlist
+10-07-18 14:28:44 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:28:44 : header Origin : http://localhost:56158
+10-07-18 14:28:44 : header MS-ASPNETCORE-TOKEN : 29557c5b-8d1c-48d7-b26f-6bceee31cf9e
+10-07-18 14:28:44 : header X-Original-Proto : http
+10-07-18 14:28:44 : header X-Original-For : 127.0.0.1:52093
+10-07-18 14:28:44 : Response incoming
+10-07-18 14:28:44 : header Vary : Origin
+10-07-18 14:28:44 : header Access-Control-Allow-Credentials : true
+10-07-18 14:28:44 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:28:44 : In Fallout Controller GetAll
+10-07-18 14:28:46 : Request incoming
+10-07-18 14:28:46 : header Connection : Keep-Alive
+10-07-18 14:28:46 : header Accept : */*
+10-07-18 14:28:46 : header Accept-Encoding : gzip, deflate
+10-07-18 14:28:46 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+10-07-18 14:28:46 : header Host : localhost:53713
+10-07-18 14:28:46 : header Referer : http://localhost:56158/character/Randall
+10-07-18 14:28:46 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+10-07-18 14:28:46 : header Origin : http://localhost:56158
+10-07-18 14:28:46 : header MS-ASPNETCORE-TOKEN : 29557c5b-8d1c-48d7-b26f-6bceee31cf9e
+10-07-18 14:28:46 : header X-Original-Proto : http
+10-07-18 14:28:46 : header X-Original-For : 127.0.0.1:52093
+10-07-18 14:28:46 : Response incoming
+10-07-18 14:28:46 : header Vary : Origin
+10-07-18 14:28:46 : header Access-Control-Allow-Credentials : true
+10-07-18 14:28:46 : header Access-Control-Allow-Origin : http://localhost:56158
+10-07-18 14:28:46 : In get with parameter Randall
+10-07-18 14:32:11 : In Fallout Controller GetAll
+10-07-18 14:37:11 : In Fallout Controller GetAll
+10-07-18 14:37:36 : In Fallout Controller GetAll
+10-07-18 14:37:37 : In get with parameter Randall

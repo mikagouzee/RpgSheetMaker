@@ -40,23 +40,19 @@ namespace Library.CommonObjects
             {
                 if (BaseAttributes.Any(b => b.Name.ToLower() == item.Name.ToLower()))
                 {
-                    var current = BaseAttributes.FirstOrDefault(b => b.Name.ToLower() == item.Name.ToLower());
-                    current.Setvalue(item.Score);
+                    BaseAttributes.FirstOrDefault(b => b.Name.ToLower() == item.Name.ToLower()).Setvalue(item.Score);
                 }
                 else if (Skills.Any(s => s.Name.ToLower() == item.Name.ToLower()))
                 {
-                    var current = Skills.FirstOrDefault(s => s.Name.ToLower() == item.Name.ToLower());
-                    current.Setvalue(item.Score);
+                    Skills.FirstOrDefault(s => s.Name.ToLower() == item.Name.ToLower()).Setvalue(item.Score);
                 }
                 else if (Stats.Any(s => s.Name.ToLower() == item.Name.ToLower()))
                 {
-                    var current = Stats.FirstOrDefault(s => s.Name.ToLower() == item.Name.ToLower());
-                    current.Setvalue(item.Score);
+                    Stats.FirstOrDefault(s => s.Name.ToLower() == item.Name.ToLower()).Setvalue(item.Score);
                 }
                 else if (SpendablePoints.Any(s => s.Name.ToLower() == item.Name.ToLower()))
                 {
-                    var current = SpendablePoints.FirstOrDefault(s => s.Name.ToLower() == item.Name.ToLower());
-                    current.Setvalue(item.Score);
+                    SpendablePoints.FirstOrDefault(s => s.Name.ToLower() == item.Name.ToLower()).Setvalue(item.Score);
                 }
             }
         }

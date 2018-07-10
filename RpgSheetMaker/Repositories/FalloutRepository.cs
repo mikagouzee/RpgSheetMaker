@@ -52,8 +52,11 @@ namespace RpgSheetMaker.Repositories
         {
             _archivist.ArchiveCharacter(oldVersion.Name);
 
-            return _factory.Edit(newVersion, oldVersion);
+            var edited = _factory.Edit(newVersion, oldVersion);
 
+            _archivist.SaveCharacterAsJson(edited);
+
+            return edited;
         }
 
         public void Save(Character character)

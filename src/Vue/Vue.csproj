@@ -10,6 +10,7 @@
   <ItemGroup>
     <None Remove="ClientApp\components\characters\characterCreation.ts" />
     <None Remove="ClientApp\components\characters\characterDetail.ts" />
+    <None Remove="ClientApp\components\characters\characterUpdate.ts" />
     <None Remove="ClientApp\components\characters\Models.ts" />
   </ItemGroup>
 
@@ -24,6 +25,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\components\characters\characterDetail.ts" />
     <TypeScriptCompile Include="ClientApp\components\characters\characterCreation.ts" />
+    <TypeScriptCompile Include="ClientApp\components\characters\characterUpdate.ts" />
     <TypeScriptCompile Include="ClientApp\components\characters\Models.ts" />
   </ItemGroup>
 

@@ -27,8 +27,23 @@ export default class CharacterDetailComponent extends Vue {
             .then(data => {
                 this.selectedCharacter = data;
             });
-
-        //console.log("Job : " + this.selectedCharacter.Profession.Name);
-        //console.log("skills : " + this.selectedCharacter.Profession.JobSkills);
     }
+
+
+    GoToUpdate() {
+        console.log('update');
+        //this.selectedCharacter.baseAttributes.forEach(function (x) {
+        //    console.log("name : " + x.name + " score : " + x.score);
+        //})
+
+
+
+        fetch('http://locahost:53713/api/FalloutCharacter/edit',
+            {
+                method: 'post',
+                body: JSON.stringify(this.selectedCharacter),
+            }).then(data => console.log(data));
+
+    }
+
 }

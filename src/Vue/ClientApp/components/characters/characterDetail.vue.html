@@ -9,6 +9,8 @@
                                                      <ul>
                                                          <li v-for="skill in selectedCharacter.profession.jobSkills">{{skill.name}}</li>
                                                      </ul>
+            <br />
+            <button @click="GoToUpdate">Update</button>
         </div>
         <div>
             <h2>Base Attributes :</h2>
@@ -23,7 +25,7 @@
                 <tbody>
                     <tr v-for="carac in selectedCharacter.baseAttributes">
                         <td>{{carac.name}}</td>
-                        <td>{{carac.score}}</td>
+                        <td><input v-model="carac.score" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -42,7 +44,7 @@
                 <tbody>
                     <tr v-for="carac in selectedCharacter.stats">
                         <td>{{carac.name}}</td>
-                        <td>{{carac.score}}</td>
+                        <td><input v-model="carac.score" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -61,7 +63,7 @@
                 <tbody>
                     <tr v-for="carac in selectedCharacter.skills">
                         <td>{{carac.name}}</td>
-                        <td>{{carac.score}}</td>
+                        <td><input v-model="carac.score" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -81,7 +83,7 @@
                 <tbody>
                     <tr v-for="carac in selectedCharacter.spendablePoints">
                         <td>{{carac.name}}</td>
-                        <td>{{carac.score}}</td>
+                        <td><input v-model="carac.score" /></td>
                     </tr>
                 </tbody>
             </table>

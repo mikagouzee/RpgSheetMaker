@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Library.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,14 +11,12 @@ namespace Library.CommonObjects
     {
         public int Minimum { get; set; }
         public int Maximum { get; set; }
-        public int CurrentValue { get { return BaseValue + TempBonus; } set { } }
+        public int CurrentValue { get; set; }
         public int BaseValue { get; set; }
         public string Name { get; set; }
-        public int TempBonus { get; set; }
 
         public Caracteristic()
         {
-            TempBonus = 0;
         }
 
         public Caracteristic(string name)
@@ -50,6 +49,7 @@ namespace Library.CommonObjects
             CurrentValue = BaseValue;
         }
 
+        #region notused
         public void Increment()
         {
             if (!(CurrentValue >= Maximum))
@@ -61,20 +61,17 @@ namespace Library.CommonObjects
             if (!(CurrentValue <= Minimum))
                 CurrentValue--;
         }
+        #endregion
 
-        public bool Validate()
+        public bool Validate(int stressValue)
         {
-            return (CurrentValue <= Maximum && CurrentValue >= Minimum);
+            return (stressValue <= Maximum && stressValue >= Minimum);
         }
 
         public void Setvalue(int newValue)
         {
-            var before = CurrentValue;
-
-            CurrentValue = newValue;
-
-            if (!Validate())
-                CurrentValue = before;
+            if (Validate(newValue))
+                CurrentValue = newValue;
         }
     }
 }

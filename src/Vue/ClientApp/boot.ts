@@ -10,7 +10,8 @@ const routes = [
     { path: '/fetchdata', component: require('./components/fetchdata/fetchdata.vue.html') },
     { path: '/characterlist', component: require('./components/characters/characterlist.vue.html') },
     { path: '/character/:characterName', name: 'details', component: require('./components/characters/characterDetail.vue.html'), props: true },
-    { path: '/characterCreation', component:require('./components/characters/characterCreation.vue.html') }
+    { path: '/characterCreation', component: require('./components/characters/characterCreation.vue.html') },
+    { path: '/characterUpdate', name: 'update', component: require('./components/characters/characterUpdate.vue.html'), props: {currentCharacter:false}}
 ];
 
 new Vue({

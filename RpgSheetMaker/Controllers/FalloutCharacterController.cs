@@ -66,7 +66,7 @@ namespace RpgSheetMaker.Controllers
 
 
         //UPDATE
-        [HttpPut()]
+        [HttpPost("edit")]
         public IActionResult Edit([FromBody]CharacterViewModel newVersion)
         {
             _logger.Log("In Edit with parameter " + newVersion);
@@ -75,9 +75,14 @@ namespace RpgSheetMaker.Controllers
             if (oldVersion == null)
                 return NotFound();
 
+            if (newVersion.GameName != oldVersion.GameName)
+                return BadRequest();
+
             var edited = _service.Edit(_name, newVersion, oldVersion);
 
-            return Ok(edited);
+            CharacterViewModel editedAnswer = new CharacterViewModel(edited);
+
+            return Ok(editedAnswer);
         }
 
 

@@ -7,11 +7,17 @@ project.lock.json
 # Visual Studio Code
 .vscode
 
+
+
 # User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+
+#project specific files
+Archive/*
+CharacterSheet/*
 
 # Build results
 [Dd]ebug/

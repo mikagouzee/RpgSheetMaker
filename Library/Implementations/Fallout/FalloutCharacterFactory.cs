@@ -365,12 +365,13 @@ namespace Library.Implementations.Fallout
 
         public override Character Edit(CharacterViewModel newVersion, Character oldVersion)
         {
+            
             oldVersion.Update(newVersion.BaseAttributes);
             oldVersion.Update(newVersion.Stats);
             oldVersion.Update(newVersion.Skills);
             oldVersion.Update(newVersion.spendablePoints);
 
-            oldVersion.Name = newVersion.Name;
+            //oldVersion.Name = newVersion.Name;
 
             return oldVersion;
 
