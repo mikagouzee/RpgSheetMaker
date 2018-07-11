@@ -32,17 +32,12 @@ export default class CharacterDetailComponent extends Vue {
 
     GoToUpdate() {
         console.log('update');
-        //this.selectedCharacter.baseAttributes.forEach(function (x) {
-        //    console.log("name : " + x.name + " score : " + x.score);
-        //})
 
-
-
-        fetch('http://locahost:53713/api/FalloutCharacter/edit',
-            {
-                method: 'post',
-                body: JSON.stringify(this.selectedCharacter),
-            }).then(data => console.log(data));
+        fetch('http://locahost:53713/api/FalloutCharacter/edit/'+this.selectedCharacter.name, {
+            method: 'post',
+            body: this.selectedCharacter,
+        })
+        .then(data => console.log(data));
 
     }
 

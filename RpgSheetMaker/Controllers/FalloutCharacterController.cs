@@ -9,7 +9,7 @@ namespace RpgSheetMaker.Controllers
 {
     [Produces("application/json")]
     [Route("api/FalloutCharacter")]
-    [EnableCors("AllowAll")]
+    //[EnableCors("AllowAll")]
     public class FalloutCharacterController : Controller
     {
         private readonly ILogMachine _logger;
@@ -24,7 +24,7 @@ namespace RpgSheetMaker.Controllers
         }
 
         //CREATE
-        [HttpPost("{characterName}")]
+        [HttpPost("creation/{characterName}")]
         public IActionResult Create(string characterName)
         {
             _logger.Log("In create with parameter " + characterName);
@@ -66,8 +66,8 @@ namespace RpgSheetMaker.Controllers
 
 
         //UPDATE
-        [HttpPost("edit")]
-        public IActionResult Edit([FromBody]CharacterViewModel newVersion)
+        [HttpPost("edit/{characterName}")]
+        public IActionResult Update([FromBody]CharacterViewModel newVersion)
         {
             _logger.Log("In Edit with parameter " + newVersion);
 

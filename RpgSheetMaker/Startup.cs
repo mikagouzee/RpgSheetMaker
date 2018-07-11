@@ -61,31 +61,30 @@ namespace RpgSheetMaker
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            //if (env.IsDevelopment())
-            //{
-            //    app.UseDeveloperExceptionPage();
-            //}
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
 
             app.UseCors("AllowAll");
 
-            //app.Use(async (context, next) =>
-            //{
-            //    _logMachine.Log("Request incoming");
-            //    foreach (var item in context.Request.Headers)
-            //    {
-            //        _logMachine.Log("header "+item.Key +" : " + item.Value);
-            //    }
+            app.Use(async (context, next) =>
+            {
+                _logMachine.Log("Request incoming");
+                foreach (var item in context.Request.Headers)
+                {
+                    _logMachine.Log("header " + item.Key + " : " + item.Value);
+                }
 
-            //    _logMachine.Log("Response incoming");
-            //    foreach (var item in context.Response.Headers)
-            //    {
-            //        _logMachine.Log("header " + item.Key + " : " + item.Value);
-            //    }
-            //    //context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                _logMachine.Log("Response incoming");
+                foreach (var item in context.Response.Headers)
+                {
+                    _logMachine.Log("header " + item.Key + " : " + item.Value);
+                }
 
 
-            //    await next.Invoke();
-            //});
+                await next.Invoke();
+            });
 
             app.UseMvc();
             
