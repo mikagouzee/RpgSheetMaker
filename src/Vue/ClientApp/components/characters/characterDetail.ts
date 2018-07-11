@@ -33,9 +33,13 @@ export default class CharacterDetailComponent extends Vue {
     GoToUpdate() {
         console.log('update');
 
-        fetch('http://locahost:53713/api/FalloutCharacter/edit/'+this.selectedCharacter.name, {
+        fetch('http://localhost:53713/api/FalloutCharacter/edit/'+this.selectedCharacter.name, {
             method: 'post',
-            body: this.selectedCharacter,
+            headers: {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            }, 
+            body: JSON.stringify(this.selectedCharacter),
         })
         .then(data => console.log(data));
 

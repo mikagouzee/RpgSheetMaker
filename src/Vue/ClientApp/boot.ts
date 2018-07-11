@@ -2,7 +2,22 @@ import './css/site.css';
 import 'bootstrap';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import Vuex from 'vuex';
+
+Vue.use(Vuex);
 Vue.use(VueRouter);
+
+
+export const store = new Vuex.Store({
+    state: {
+        count: 0
+    },
+    mutations: {
+        increment(state) {
+            state.count++
+        }
+    }
+})
 
 const routes = [
     { path: '/', component: require('./components/home/home.vue.html') },
@@ -14,8 +29,11 @@ const routes = [
     { path: '/characterUpdate', name: 'update', component: require('./components/characters/characterUpdate.vue.html'), props: {currentCharacter:false}}
 ];
 
+
+
 new Vue({
     el: '#app-root',
+    store,
     router: new VueRouter({ mode: 'history', routes: routes }),
     render: h => h(require('./components/app/app.vue.html'))
 });

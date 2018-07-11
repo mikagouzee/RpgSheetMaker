@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h1>Character List</h1>
+        <h1>Character List </h1>
+
+        <p>Current amount : {{totalCharacters()}}</p>
+
         <table v-if="characters.length > 0" class="table">
             <thead>
             <tr>
