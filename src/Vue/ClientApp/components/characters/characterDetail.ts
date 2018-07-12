@@ -1,6 +1,6 @@
 ﻿import Vue from 'vue';
 import { Component, Prop } from 'vue-property-decorator';
-import { Character, Caracteristic, Career } from './Models';
+import { Character, Caracteristic, Career } from '../models/Models';
 
 @Component
 export default class CharacterDetailComponent extends Vue {
@@ -20,9 +20,9 @@ export default class CharacterDetailComponent extends Vue {
     }
 
     mounted() {
-        console.log(this.characterName);
-
-        fetch('http://localhost:53713/api/FalloutCharacter/' + this.characterName)
+        console.log('Current character : '+this.characterName);
+        console.log('Current game : ' + this.$store.state.game);
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}/` + this.characterName)
             .then(response => response.json() as Promise<Character>)
             .then(data => {
                 this.selectedCharacter = data;
@@ -33,7 +33,7 @@ export default class CharacterDetailComponent extends Vue {
     GoToUpdate() {
         console.log('update');
 
-        fetch('http://localhost:53713/api/FalloutCharacter/edit/'+this.selectedCharacter.name, {
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}/edit/` +this.selectedCharacter.name, {
             method: 'post',
             headers: {
                 "Accept": "application/json",

@@ -14,6 +14,15 @@ namespace Library.Implementations.Fallout
         {
             FactoryName = "Fallout";
             Professions = new List<Career>();
+
+            Career fighter = new Career("fighter");
+            Professions.Add(fighter);
+            Career wanderer = new Career("wanderer");
+            Professions.Add(wanderer);
+            Career merchant = new Career("merchant");
+            Professions.Add(merchant);
+            Career mendiant = new Career("mendiant");
+            Professions.Add(mendiant);
         }
 
         public override bool HasName(string name)
@@ -173,25 +182,22 @@ namespace Library.Implementations.Fallout
 
             #region game careers
 
-            Career fighter = new Career("fighter");
+            Career fighter = Professions.SingleOrDefault(x => x.Name == "fighter");
             fighter.JobSkills.Add(smallGuns);
             fighter.JobSkills.Add(bigGuns);
             fighter.JobSkills.Add(firstAid);
-            this.Professions.Add(fighter);
 
-            Career wanderer = new Career("wanderer");
+            Career wanderer = Professions.SingleOrDefault(x => x.Name == "wanderer");
             wanderer.JobSkills.Add(outdoorsman);
             wanderer.JobSkills.Add(firstAid);
             wanderer.JobSkills.Add(repair);
-            this.Professions.Add(wanderer);
 
-            Career merchant = new Career("merchant");
+            Career merchant = Professions.SingleOrDefault(x => x.Name == "merchant");
             merchant.JobSkills.Add(barter);
             merchant.JobSkills.Add(gambling);
             merchant.JobSkills.Add(speech);
-            this.Professions.Add(merchant);
-
-            Career mendiant = new Career("mendiant");
+            
+            Career mendiant = Professions.SingleOrDefault(x => x.Name == "mendiant");
             mendiant.JobSkills.Add(sneak);
             mendiant.JobSkills.Add(barter);
             mendiant.JobSkills.Add(steal);

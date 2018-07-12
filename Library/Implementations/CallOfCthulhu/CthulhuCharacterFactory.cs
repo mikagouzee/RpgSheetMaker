@@ -14,6 +14,63 @@ namespace Library.Implementations.CallOfCthulhu
         {
             FactoryName = "CallOfCthulhu";
             Professions = new List<Career>();
+
+            #region init careers
+            Career artisan = new Career("artisan");
+            Professions.Add(artisan);
+
+            Career clerc = new Career("clerc");
+            Professions.Add(clerc);
+
+            Career ermite = new Career("ermite");
+            Professions.Add(ermite);
+
+            Career erudit = new Career("erudit");
+            Professions.Add(erudit);
+
+            Career fermier = new Career("fermier");
+            Professions.Add(fermier);
+
+            Career forestier = new Career("forestier");
+            Professions.Add(forestier);
+
+            Career garde = new Career("garde");
+            Professions.Add(garde);
+
+            Career guerisseur = new Career("guerisseur");
+            Professions.Add(guerisseur);
+
+            Career marchand = new Career("marchand");
+            Professions.Add(marchand);
+
+            Career menestrel = new Career("menestrel");
+            Professions.Add(menestrel);
+
+            Career marin = new Career("marin");
+            Professions.Add(marin);
+
+            Career mendiant = new Career("mendiant");
+            Professions.Add(mendiant);
+
+            Career moine = new Career("moine");
+            Professions.Add(moine);
+
+            Career negociant = new Career("negociant");
+            Professions.Add(negociant);
+
+            Career pelerin = new Career("pelerin");
+            Professions.Add(pelerin);
+
+            Career pretre = new Career("pretre");
+            Professions.Add(pretre);
+
+            Career sergent = new Career("sergent");
+            Professions.Add(sergent);
+
+            Career serviteur = new Career("serviteur");
+            Professions.Add(serviteur);
+            #endregion
+
         }
 
         public override bool HasName(string name)
@@ -27,6 +84,7 @@ namespace Library.Implementations.CallOfCthulhu
                 name = "Will Notbenamed";
 
             var charac = new Character(name);
+            charac.GameName = "CallOfCthulhu";
 
             SetBaseAttr(charac);
             SetSpendablePoints(charac);
@@ -39,14 +97,14 @@ namespace Library.Implementations.CallOfCthulhu
 
         public override void SetBaseAttr(Character charac)
         {
-            Caracteristic appearance = new Caracteristic("appearance", 18);
-            Caracteristic constitution = new Caracteristic("constitution", 18);
-            Caracteristic strength = new Caracteristic("strength", 18);
-            Caracteristic dexterity = new Caracteristic("dexterity", 18);
-            Caracteristic power = new Caracteristic("power", 18);
-            Caracteristic size = new Caracteristic("size", 18);
-            Caracteristic intelligence = new Caracteristic("intelligence", 18);
-            Caracteristic education = new Caracteristic("education", 24);
+            Caracteristic appearance = new Caracteristic("appearance", 3, 18);
+            Caracteristic constitution = new Caracteristic("constitution", 3, 18);
+            Caracteristic strength = new Caracteristic("strength", 3, 18);
+            Caracteristic dexterity = new Caracteristic("dexterity", 3, 18);
+            Caracteristic power = new Caracteristic("power", 3, 18);
+            Caracteristic size = new Caracteristic("size", 3, 18);
+            Caracteristic intelligence = new Caracteristic("intelligence", 3, 18);
+            Caracteristic education = new Caracteristic("education",9, 24);
 
             charac.BaseAttributes.Add(appearance);
             charac.BaseAttributes.Add(constitution);
@@ -65,57 +123,61 @@ namespace Library.Implementations.CallOfCthulhu
 
                 if (batr.Name == "size" || batr.Name == "intelligence" || batr.Name == "education")
                     batr.BaseValue += 6;
+
+
+                batr.CurrentValue = batr.BaseValue;
             }
             
         }
 
         public override void SetCareerSkills(Character charac)
         {
-            throw new NotImplementedException();
+            if (charac.Profession == null)
+                charac.Profession = Professions.FirstOrDefault(x => x.Name == "mendiant");
         }
 
         public override void SetSkills(Character charac)
         {
-            Caracteristic art = new Caracteristic("art", 100, 5);
-            Caracteristic artisanat = new Caracteristic("artisanat", 100, 5);
-            Caracteristic baratin = new Caracteristic("baratin", 100, 5);
-            Caracteristic bibliotheque = new Caracteristic("bibliotheque", 100, 5);
-            Caracteristic comptabilite = new Caracteristic("comptabilite", 100, 10);
-            Caracteristic concocterPotion = new Caracteristic("concocter potion", 100, 1);
-            Caracteristic conduireAttelage = new Caracteristic("conduire attelage", 100, 20);
-            Caracteristic coupDePied = new Caracteristic("coup de pied", 100, 25);
-            Caracteristic coupDePoing = new Caracteristic("coup de poing", 100, 50);
-            Caracteristic coupDeTete = new Caracteristic("coup de tete", 100, 10);
-            Caracteristic discretion = new Caracteristic("discretion", 100, 10);
-            Caracteristic dissimulation = new Caracteristic("dissimulation", 100, 15);
-            Caracteristic ecouter = new Caracteristic("ecouter", 100, 25);
-            Caracteristic ecrireUneLangue = new Caracteristic("ecrire une langue", 100, 1);
-            Caracteristic esquiver = new Caracteristic("esquiver", 100, 5);
-            Caracteristic grimper = new Caracteristic("grimper", 100, 40);
-            Caracteristic lancer = new Caracteristic("lancer", 100, 25);
-            Caracteristic langueEtrangere = new Caracteristic("langue etrangere", 100, 1);
-            Caracteristic langueNatale = new Caracteristic("langue natale", 100, 5);
-            Caracteristic lutte = new Caracteristic("lutte", 100, 25);
-            Caracteristic marchandage = new Caracteristic("marchandage", 100, 5);
-            Caracteristic mondeNaturel = new Caracteristic("monde naturel", 100, 10);
-            Caracteristic monterACheval = new Caracteristic("monter a cheval", 100, 5);
-            Caracteristic mytheDeCthulhu = new Caracteristic("mythe de Cthulhu", 100, 0);
-            Caracteristic nager = new Caracteristic("nager", 100, 25);
-            Caracteristic navigation = new Caracteristic("navigation", 100, 10);
-            Caracteristic occultisme = new Caracteristic("occultisme", 100, 5);
-            Caracteristic persuasion = new Caracteristic("persuasion", 100, 15);
-            Caracteristic piloterBateau = new Caracteristic("piloter bateau", 100, 1);
-            Caracteristic premiersSoins = new Caracteristic("premiers soins", 100, 30);
-            Caracteristic reparerConcevoir = new Caracteristic("reparer concevoir", 100, 20);
-            Caracteristic royaumeNatal = new Caracteristic("royaume natal", 100, 20);
-            Caracteristic royaumesEtrangers = new Caracteristic("royaumes etrangers", 100, 1);
-            Caracteristic sagacite = new Caracteristic("sagacite", 100, 5);
-            Caracteristic sauter = new Caracteristic("sauter", 100, 25);
-            Caracteristic science = new Caracteristic("science", 100, 1);
-            Caracteristic se_cacher = new Caracteristic("se cacher", 100, 10);
-            Caracteristic statut = new Caracteristic("statut", 100, 15);
-            Caracteristic suivrePiste = new Caracteristic("suivre une piste", 100, 10);
-            Caracteristic trouverObjetCache = new Caracteristic("trouver objet cache", 100, 25);
+            Caracteristic art = new Caracteristic("art", 5, 100);
+            Caracteristic artisanat = new Caracteristic("artisanat",5, 100);
+            Caracteristic baratin = new Caracteristic("baratin",5, 100);
+            Caracteristic bibliotheque = new Caracteristic("bibliotheque", 5, 100);
+            Caracteristic comptabilite = new Caracteristic("comptabilite", 10, 100);
+            Caracteristic concocterPotion = new Caracteristic("concocter potion", 1, 100);
+            Caracteristic conduireAttelage = new Caracteristic("conduire attelage", 20, 100);
+            Caracteristic coupDePied = new Caracteristic("coup de pied", 25, 100);
+            Caracteristic coupDePoing = new Caracteristic("coup de poing", 50, 100);
+            Caracteristic coupDeTete = new Caracteristic("coup de tete", 10, 100);
+            Caracteristic discretion = new Caracteristic("discretion", 10, 100);
+            Caracteristic dissimulation = new Caracteristic("dissimulation", 15, 100);
+            Caracteristic ecouter = new Caracteristic("ecouter", 25, 100);
+            Caracteristic ecrireUneLangue = new Caracteristic("ecrire une langue", 1, 100);
+            Caracteristic esquiver = new Caracteristic("esquiver", 5, 100);
+            Caracteristic grimper = new Caracteristic("grimper", 40, 100);
+            Caracteristic lancer = new Caracteristic("lancer", 25, 100);
+            Caracteristic langueEtrangere = new Caracteristic("langue etrangere", 1, 100);
+            Caracteristic langueNatale = new Caracteristic("langue natale", 5, 100);
+            Caracteristic lutte = new Caracteristic("lutte", 25, 100);
+            Caracteristic marchandage = new Caracteristic("marchandage", 5, 100);
+            Caracteristic mondeNaturel = new Caracteristic("monde naturel", 10, 100);
+            Caracteristic monterACheval = new Caracteristic("monter a cheval", 5, 100);
+            Caracteristic mytheDeCthulhu = new Caracteristic("mythe de Cthulhu", 0, 100);
+            Caracteristic nager = new Caracteristic("nager", 25, 100);
+            Caracteristic navigation = new Caracteristic("navigation", 10, 100);
+            Caracteristic occultisme = new Caracteristic("occultisme", 5, 100);
+            Caracteristic persuasion = new Caracteristic("persuasion", 15, 100);
+            Caracteristic piloterBateau = new Caracteristic("piloter bateau", 1, 100);
+            Caracteristic premiersSoins = new Caracteristic("premiers soins", 30, 100);
+            Caracteristic reparerConcevoir = new Caracteristic("reparer concevoir", 20, 100);
+            Caracteristic royaumeNatal = new Caracteristic("royaume natal", 20, 100);
+            Caracteristic royaumesEtrangers = new Caracteristic("royaumes etrangers", 1, 100);
+            Caracteristic sagacite = new Caracteristic("sagacite", 5, 100);
+            Caracteristic sauter = new Caracteristic("sauter", 25, 100);
+            Caracteristic science = new Caracteristic("science", 1, 100);
+            Caracteristic se_cacher = new Caracteristic("se cacher", 10, 100);
+            Caracteristic statut = new Caracteristic("statut", 15, 100);
+            Caracteristic suivrePiste = new Caracteristic("suivre une piste", 10, 100);
+            Caracteristic trouverObjetCache = new Caracteristic("trouver objet cache", 25, 100);
 
             charac.Skills.Add(art);
             charac.Skills.Add(artisanat);
@@ -159,25 +221,23 @@ namespace Library.Implementations.CallOfCthulhu
             charac.Skills.Add(trouverObjetCache);
 
             #region gameCareers
-            Career artisan = new Career("artisan");
+            Career artisan = Professions.SingleOrDefault(x => x.Name == "artisan");
             artisan.JobSkills.Add(baratin);
             artisan.JobSkills.Add(marchandage);
             artisan.JobSkills.Add(mondeNaturel);
             artisan.JobSkills.Add(royaumeNatal);
             artisan.JobSkills.Add(sagacite);
             artisan.JobSkills.Add(statut);
-            this.Professions.Add(artisan);
 
-            Career clerc = new Career("clerc");
+            Career clerc = Professions.SingleOrDefault(x => x.Name == "clerc");
             clerc.JobSkills.Add(bibliotheque);
             clerc.JobSkills.Add(langueEtrangere);
             clerc.JobSkills.Add(persuasion);
             clerc.JobSkills.Add(royaumeNatal);
             clerc.JobSkills.Add(statut);
             clerc.JobSkills.Add(ecrireUneLangue);
-            this.Professions.Add(clerc);
 
-            Career ermite = new Career("ermite");
+            Career ermite = Professions.SingleOrDefault(x => x.Name == "ermite");
             ermite.JobSkills.Add(mondeNaturel);
             ermite.JobSkills.Add(occultisme);
             ermite.JobSkills.Add(persuasion);
@@ -186,27 +246,24 @@ namespace Library.Implementations.CallOfCthulhu
             ermite.JobSkills.Add(se_cacher);
             ermite.JobSkills.Add(trouverObjetCache);
             ermite.JobSkills.Add(ecouter);
-            this.Professions.Add(ermite);
 
-            Career erudit = new Career("erudit");
+            Career erudit = Professions.SingleOrDefault(x => x.Name == "erudit");
             erudit.JobSkills.Add(bibliotheque);
             erudit.JobSkills.Add(ecrireUneLangue);
             erudit.JobSkills.Add(persuasion);
             erudit.JobSkills.Add(royaumeNatal);
             erudit.JobSkills.Add(science);
             erudit.JobSkills.Add(statut);
-            this.Professions.Add(erudit);
 
-            Career fermier = new Career("fermier");
+            Career fermier = Professions.SingleOrDefault(x => x.Name == "fermier");
             fermier.JobSkills.Add(artisanat);
             fermier.JobSkills.Add(conduireAttelage);
             fermier.JobSkills.Add(ecouter);
             fermier.JobSkills.Add(marchandage);
             fermier.JobSkills.Add(mondeNaturel);
             fermier.JobSkills.Add(suivrePiste);
-            this.Professions.Add(fermier);
 
-            Career forestier = new Career("forestier");
+            Career forestier = Professions.SingleOrDefault(x => x.Name == "forestier");
             forestier.JobSkills.Add(artisanat);
             forestier.JobSkills.Add(lancer);
             forestier.JobSkills.Add(mondeNaturel);
@@ -217,9 +274,8 @@ namespace Library.Implementations.CallOfCthulhu
             forestier.JobSkills.Add(suivrePiste);
             forestier.JobSkills.Add(trouverObjetCache);
             forestier.JobSkills.Add(ecouter);
-            this.Professions.Add(forestier);
 
-            Career garde = new Career("garde");
+            Career garde = Professions.SingleOrDefault(x => x.Name == "garde");
             garde.JobSkills.Add(coupDePoing);
             garde.JobSkills.Add(coupDePied);
             garde.JobSkills.Add(coupDeTete);
@@ -230,9 +286,8 @@ namespace Library.Implementations.CallOfCthulhu
             garde.JobSkills.Add(statut);
             garde.JobSkills.Add(trouverObjetCache);
             garde.JobSkills.Add(ecouter);
-            this.Professions.Add(garde);
 
-            Career guerisseur = new Career("guerisseur");
+            Career guerisseur = Professions.SingleOrDefault(x => x.Name == "guerisseur");
             guerisseur.JobSkills.Add(concocterPotion);
             guerisseur.JobSkills.Add(mondeNaturel);
             guerisseur.JobSkills.Add(occultisme);
@@ -240,9 +295,8 @@ namespace Library.Implementations.CallOfCthulhu
             guerisseur.JobSkills.Add(sagacite);
             guerisseur.JobSkills.Add(trouverObjetCache);
             guerisseur.JobSkills.Add(ecouter);
-            this.Professions.Add(guerisseur);
 
-            Career marchand = new Career("marchand");
+            Career marchand = Professions.SingleOrDefault(x => x.Name == "marchand");
             marchand.JobSkills.Add(baratin);
             marchand.JobSkills.Add(conduireAttelage);
             marchand.JobSkills.Add(langueEtrangere);
@@ -250,45 +304,40 @@ namespace Library.Implementations.CallOfCthulhu
             marchand.JobSkills.Add(navigation);
             marchand.JobSkills.Add(royaumeNatal);
             marchand.JobSkills.Add(sagacite);
-            this.Professions.Add(marchand);
 
-            Career menestrel = new Career("menestrel");
+            Career menestrel = Professions.SingleOrDefault(x => x.Name == "menestrel");
             menestrel.JobSkills.Add(art);
             menestrel.JobSkills.Add(baratin);
             menestrel.JobSkills.Add(marchandage);
             menestrel.JobSkills.Add(persuasion);
             menestrel.JobSkills.Add(royaumeNatal);
             menestrel.JobSkills.Add(sagacite);
-            this.Professions.Add(menestrel);
 
-            Career marin = new Career("marin");
+            Career marin = Professions.SingleOrDefault(x => x.Name == "marin");
             marin.JobSkills.Add(baratin);
             marin.JobSkills.Add(grimper);
             marin.JobSkills.Add(mondeNaturel);
             marin.JobSkills.Add(navigation);
             marin.JobSkills.Add(piloterBateau);
             marin.JobSkills.Add(royaumesEtrangers);
-            this.Professions.Add(marin);
 
-            Career mendiant = new Career("mendiant");
+            Career mendiant = Professions.SingleOrDefault(x => x.Name == "mendiant");
             mendiant.JobSkills.Add(baratin);
             mendiant.JobSkills.Add(dissimulation);
             mendiant.JobSkills.Add(marchandage);
             mendiant.JobSkills.Add(sagacite);
             mendiant.JobSkills.Add(ecouter);
             mendiant.JobSkills.Add(trouverObjetCache);
-            this.Professions.Add(mendiant);
 
-            Career moine = new Career("moine");
+            Career moine = Professions.SingleOrDefault(x => x.Name == "moine");
             moine.JobSkills.Add(art);
             moine.JobSkills.Add(bibliotheque);
             moine.JobSkills.Add(ecouter);
             moine.JobSkills.Add(ecrireUneLangue);
             moine.JobSkills.Add(langueEtrangere);
             moine.JobSkills.Add(occultisme);
-            this.Professions.Add(moine);
 
-            Career negociant = new Career("negociant");
+            Career negociant = Professions.SingleOrDefault(x => x.Name == "negociant");
             negociant.JobSkills.Add(baratin);
             negociant.JobSkills.Add(comptabilite);
             negociant.JobSkills.Add(ecrireUneLangue);
@@ -296,42 +345,37 @@ namespace Library.Implementations.CallOfCthulhu
             negociant.JobSkills.Add(marchandage);
             negociant.JobSkills.Add(royaumesEtrangers);
             negociant.JobSkills.Add(royaumeNatal);
-            this.Professions.Add(negociant);
 
-            Career pelerin = new Career("pelerin");
+            Career pelerin = Professions.SingleOrDefault(x => x.Name == "pelerin");
             pelerin.JobSkills.Add(discretion);
             pelerin.JobSkills.Add(marchandage);
             pelerin.JobSkills.Add(mondeNaturel);
             pelerin.JobSkills.Add(navigation);
             pelerin.JobSkills.Add(royaumeNatal);
-            this.Professions.Add(pelerin);
 
-            Career pretre = new Career("pretre");
+            Career pretre = Professions.SingleOrDefault(x => x.Name == "pretre");
             pretre.JobSkills.Add(baratin);
             pretre.JobSkills.Add(langueEtrangere);
             pretre.JobSkills.Add(occultisme);
             pretre.JobSkills.Add(persuasion);
             pretre.JobSkills.Add(sagacite);
             pretre.JobSkills.Add(statut);
-            this.Professions.Add(pretre);
 
-            Career sergent = new Career("sergent");
+            Career sergent = Professions.SingleOrDefault(x => x.Name == "sergent");
             sergent.JobSkills.Add(baratin);
             sergent.JobSkills.Add(discretion);
             sergent.JobSkills.Add(marchandage);
             sergent.JobSkills.Add(sagacite);
             sergent.JobSkills.Add(statut);
             sergent.JobSkills.Add(trouverObjetCache);
-            this.Professions.Add(sergent);
 
-            Career serviteur = new Career("serviteur");
+            Career serviteur = Professions.SingleOrDefault(x => x.Name == "serviteur");
             serviteur.JobSkills.Add(artisanat);
             serviteur.JobSkills.Add(baratin);
             serviteur.JobSkills.Add(discretion);
             serviteur.JobSkills.Add(dissimulation);
             serviteur.JobSkills.Add(ecouter);
             serviteur.JobSkills.Add(trouverObjetCache);
-            this.Professions.Add(serviteur);
 
             #endregion
 
@@ -339,11 +383,11 @@ namespace Library.Implementations.CallOfCthulhu
 
         public override void SetSpendablePoints(Character charac)
         {
-            Caracteristic healthPoints = new Caracteristic("health points", 18);
-            Caracteristic woundLimit = new Caracteristic("wound limit", 9);
-            Caracteristic magicPoints = new Caracteristic("magic points", 18);
-            Caracteristic occupationSkillPoints = new Caracteristic("Occupation skill points", 480);
-            Caracteristic personalInterestSkillPoints = new Caracteristic("Personal interest skill points", 180);
+            Caracteristic healthPoints = new Caracteristic("health points"); //max 18
+            Caracteristic woundLimit = new Caracteristic("wound limit"); //max 9 
+            Caracteristic magicPoints = new Caracteristic("magic points"); //max 18
+            Caracteristic occupationSkillPoints = new Caracteristic("Occupation skill points"); //max 480
+            Caracteristic personalInterestSkillPoints = new Caracteristic("Personal interest skill points"); //max 180
 
             charac.SpendablePoints.Add(healthPoints);
             charac.SpendablePoints.Add(woundLimit);
@@ -364,15 +408,15 @@ namespace Library.Implementations.CallOfCthulhu
 
         public override void SetStats(Character charac)
         {
-            Caracteristic prestance = new Caracteristic("prestance", 90);
-            Caracteristic endurance = new Caracteristic("endurance", 90);
-            Caracteristic agility = new Caracteristic("agility", 90);
-            Caracteristic brawlpower = new Caracteristic("brawl power", 90);
-            Caracteristic height = new Caracteristic("height", 90);
-            Caracteristic knowledge = new Caracteristic("knowledge", 120);
-            Caracteristic idea = new Caracteristic("idea", 90);
-            Caracteristic willpower = new Caracteristic("will power", 90);
-            Caracteristic sanity = new Caracteristic("sanity", 90);
+            Caracteristic prestance = new Caracteristic("prestance"); //max 90
+            Caracteristic endurance = new Caracteristic("endurance"); //max 90
+            Caracteristic agility = new Caracteristic("agility"); //max 90
+            Caracteristic brawlpower = new Caracteristic("brawl power"); //max 90
+            Caracteristic height = new Caracteristic("height"); //max 90
+            Caracteristic knowledge = new Caracteristic("knowledge"); //max 120
+            Caracteristic idea = new Caracteristic("idea"); //max 90
+            Caracteristic willpower = new Caracteristic("will power"); //max 90
+            Caracteristic sanity = new Caracteristic("sanity"); //max 90
 
             charac.Stats.Add(prestance);
             charac.Stats.Add(endurance);

@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
-import { Character, Caracteristic, Career } from './Models';
+import { Character, Caracteristic, Career } from '../models/Models';
 
 @Component
 export default class CharacterListComponent extends Vue {
@@ -8,7 +8,7 @@ export default class CharacterListComponent extends Vue {
 
 
     mounted() {
-        fetch('http://localhost:53713/api/FalloutCharacter/')
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}`)
             .then(response => response.json() as Promise<Character[]>)
             .then(data => {
                 this.characters = data;
@@ -25,7 +25,7 @@ export default class CharacterListComponent extends Vue {
     deleteCharacter(characterName: string): void {
         console.log("delete " + characterName + " called");
 
-        fetch('http://localhost:53713/api/FalloutCharacter/' + characterName, { method: 'delete' });
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}/` + characterName, { method: 'delete' });
     }
 
 }

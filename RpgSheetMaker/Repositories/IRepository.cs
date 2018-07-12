@@ -22,5 +22,8 @@ namespace RpgSheetMaker.Repositories
         void Save(Character character);
 
         void Delete(string characterName);
+
+        List<Career> GetCareers();
+
     }
 }

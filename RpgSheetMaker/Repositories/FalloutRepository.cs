@@ -64,10 +64,14 @@ namespace RpgSheetMaker.Repositories
             _archivist.SaveCharacterAsJson(character);
         }
 
-
         public void Delete(string characterName)
         {
             _archivist.DeleteAndArchiveCharacter(characterName);
+        }
+        
+        public List<Career> GetCareers()
+        {
+            return _factory.Professions;
         }
 
     }

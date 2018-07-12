@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace RpgSheetMaker.Services
 {
-    public class CharacterService : IService
+    public class CharacterService : ICharacterService
     {
         private readonly IEnumerable<IRepository> _repositories;
         //private readonly IRepository _repo;
@@ -52,6 +52,14 @@ namespace RpgSheetMaker.Services
             var _repo = _repositories.SingleOrDefault(x => x.HasName(contextName));
 
             _repo.Delete(characterName);
+        }
+
+
+        public List<Career> GetCareers(string contextName)
+        {
+            var repo = _repositories.SingleOrDefault(x => x.HasName(contextName));
+
+            return repo.GetCareers();
         }
 
     }

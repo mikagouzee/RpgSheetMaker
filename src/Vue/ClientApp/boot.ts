@@ -3,18 +3,25 @@ import 'bootstrap';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Vuex from 'vuex';
+import { Game } from '../ClientApp/components/models/Models';
 
 Vue.use(Vuex);
 Vue.use(VueRouter);
 
 
-export const store = new Vuex.Store({
+const store = new Vuex.Store({
     state: {
-        count: 0
+        count: 0,
+        game:'Fallout'
     },
     mutations: {
         increment(state) {
             state.count++
+        },
+
+        selectGame(state, gameName) {
+            state.game = gameName;
+            console.log("from Store: "+state.game);
         }
     }
 })
@@ -25,8 +32,8 @@ const routes = [
     { path: '/fetchdata', component: require('./components/fetchdata/fetchdata.vue.html') },
     { path: '/characterlist', component: require('./components/characters/characterlist.vue.html') },
     { path: '/character/:characterName', name: 'details', component: require('./components/characters/characterDetail.vue.html'), props: true },
-    { path: '/characterCreation', component: require('./components/characters/characterCreation.vue.html') },
-    { path: '/characterUpdate', name: 'update', component: require('./components/characters/characterUpdate.vue.html'), props: {currentCharacter:false}}
+    { path: '/characterCreation', name: 'creation', component: require('./components/characters/characterCreation.vue.html') },
+    { path: '/game', component:require('./components/game/gameSelection.vue.html')}
 ];
 
 

@@ -33,7 +33,9 @@ namespace RpgSheetMaker.Repositories
 
         public Character Create(string name)
         {
-            return _factory.CreateCharacter(name);
+            var hero =  _factory.CreateCharacter(name);
+            _archivist.SaveCharacterAsJson(hero);
+            return hero;
         }
 
         public List<Character> GetAll()
@@ -53,12 +55,24 @@ namespace RpgSheetMaker.Repositories
 
         public Character Edit(CharacterViewModel newVersion, Character oldVersion)
         {
-            throw new NotImplementedException();
+            _archivist.ArchiveCharacter(oldVersion.Name);
+
+            var edited = _factory.Edit(newVersion, oldVersion);
+
+            _archivist.SaveCharacterAsJson(edited);
+
+            return edited;
         }
 
         public void Delete(string characterName)
         {
             _archivist.DeleteAndArchiveCharacter(characterName);
+        }
+
+
+        public List<Career> GetCareers()
+        {
+            return _factory.Professions;
         }
 
     }

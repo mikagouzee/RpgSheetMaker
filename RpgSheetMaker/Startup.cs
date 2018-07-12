@@ -53,8 +53,8 @@ namespace RpgSheetMaker
             services.AddSingleton<CharacterFactory, CthulhuCharacterFactory>();
 
             services.AddSingleton<IArchivist, Archivist>();
-
-            services.AddSingleton<IService, CharacterService>();
+            services.AddSingleton<ICharacterService, CharacterService>();
+            services.AddSingleton<IGameService, GameService>();
 
         }
 
