@@ -38,6 +38,13 @@ namespace RpgSheetMaker.Repositories
             return hero;
         }
 
+        public Character Create(CharacterCreationObject premade)
+        {
+            var hero = _factory.CreateCharacter(premade);
+            _archivist.SaveCharacterAsJson(hero);
+            return hero;
+        }
+
         public List<Character> GetAll()
         {
             return _archivist.ReadAll();

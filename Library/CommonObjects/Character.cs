@@ -33,6 +33,14 @@ namespace Library.CommonObjects
             Name = name;
         }
 
+        public Character(CharacterCreationObject premade)
+            :this()
+        {
+            Name = premade.Name;
+            GameName = premade.GameName;
+        }
+
+
         #region to rework
         public void Update(List<CaracteristicViewModel> Caracs)
         {

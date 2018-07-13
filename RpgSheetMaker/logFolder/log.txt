@@ -2013,3 +2013,1221 @@
 12-07-18 15:00:53 : header Access-Control-Allow-Credentials : true
 12-07-18 15:00:53 : header Access-Control-Allow-Origin : http://localhost:56158
 12-07-18 15:00:53 : In get with parameter Nyarlatothep
+12-07-18 15:02:40 : Request incoming
+12-07-18 15:02:40 : header Connection : Keep-Alive
+12-07-18 15:02:40 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+12-07-18 15:02:40 : header Accept-Encoding : gzip, deflate
+12-07-18 15:02:40 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:02:40 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+12-07-18 15:02:40 : header Host : localhost:53713
+12-07-18 15:02:40 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:02:40 : header Upgrade-Insecure-Requests : 1
+12-07-18 15:02:40 : header MS-ASPNETCORE-TOKEN : 6170d6cb-027a-4dbb-b9f4-1a44b25dd8bc
+12-07-18 15:02:40 : header X-Original-Proto : http
+12-07-18 15:02:40 : header X-Original-For : 127.0.0.1:58604
+12-07-18 15:02:40 : Response incoming
+12-07-18 15:02:44 : Request incoming
+12-07-18 15:02:44 : header Connection : Keep-Alive
+12-07-18 15:02:44 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+12-07-18 15:02:44 : header Accept-Encoding : gzip, deflate
+12-07-18 15:02:44 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:02:44 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+12-07-18 15:02:44 : header Host : localhost:53713
+12-07-18 15:02:44 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:02:44 : header Upgrade-Insecure-Requests : 1
+12-07-18 15:02:44 : header MS-ASPNETCORE-TOKEN : 6170d6cb-027a-4dbb-b9f4-1a44b25dd8bc
+12-07-18 15:02:44 : header X-Original-Proto : http
+12-07-18 15:02:44 : header X-Original-For : 127.0.0.1:58604
+12-07-18 15:02:44 : Response incoming
+12-07-18 15:02:57 : Request incoming
+12-07-18 15:02:57 : header Connection : Keep-Alive
+12-07-18 15:02:57 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+12-07-18 15:02:57 : header Accept-Encoding : gzip, deflate
+12-07-18 15:02:57 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:02:57 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+12-07-18 15:02:57 : header Host : localhost:53713
+12-07-18 15:02:57 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:02:57 : header Upgrade-Insecure-Requests : 1
+12-07-18 15:02:57 : header MS-ASPNETCORE-TOKEN : 6170d6cb-027a-4dbb-b9f4-1a44b25dd8bc
+12-07-18 15:02:57 : header X-Original-Proto : http
+12-07-18 15:02:57 : header X-Original-For : 127.0.0.1:58604
+12-07-18 15:02:57 : Response incoming
+12-07-18 15:03:31 : Request incoming
+12-07-18 15:03:31 : header Connection : Keep-Alive
+12-07-18 15:03:31 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+12-07-18 15:03:31 : header Accept-Encoding : gzip, deflate
+12-07-18 15:03:31 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:03:31 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+12-07-18 15:03:31 : header Host : localhost:53713
+12-07-18 15:03:31 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:03:31 : header Upgrade-Insecure-Requests : 1
+12-07-18 15:03:31 : header MS-ASPNETCORE-TOKEN : 6170d6cb-027a-4dbb-b9f4-1a44b25dd8bc
+12-07-18 15:03:31 : header X-Original-Proto : http
+12-07-18 15:03:31 : header X-Original-For : 127.0.0.1:58604
+12-07-18 15:03:31 : Response incoming
+12-07-18 15:03:56 : Request incoming
+12-07-18 15:03:56 : header Connection : Keep-Alive
+12-07-18 15:03:56 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+12-07-18 15:03:56 : header Accept-Encoding : gzip, deflate
+12-07-18 15:03:56 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:03:56 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+12-07-18 15:03:56 : header Host : localhost:53713
+12-07-18 15:03:56 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:03:56 : header Upgrade-Insecure-Requests : 1
+12-07-18 15:03:56 : header MS-ASPNETCORE-TOKEN : 6170d6cb-027a-4dbb-b9f4-1a44b25dd8bc
+12-07-18 15:03:56 : header X-Original-Proto : http
+12-07-18 15:03:56 : header X-Original-For : 127.0.0.1:58604
+12-07-18 15:03:56 : Response incoming
+12-07-18 15:03:56 : In Fallout Controller GetAll
+12-07-18 15:06:26 : Request incoming
+12-07-18 15:06:26 : header Connection : Keep-Alive
+12-07-18 15:06:26 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+12-07-18 15:06:26 : header Accept-Encoding : gzip, deflate
+12-07-18 15:06:26 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:06:26 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+12-07-18 15:06:26 : header Host : localhost:53713
+12-07-18 15:06:26 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:06:26 : header Upgrade-Insecure-Requests : 1
+12-07-18 15:06:26 : header MS-ASPNETCORE-TOKEN : 5b7f3b7b-eb6f-415b-9f46-d0d475381029
+12-07-18 15:06:26 : header X-Original-Proto : http
+12-07-18 15:06:26 : header X-Original-For : 127.0.0.1:58634
+12-07-18 15:06:26 : Response incoming
+12-07-18 15:06:27 : In Fallout Controller GetAll
+12-07-18 15:11:06 : Request incoming
+12-07-18 15:11:06 : header Connection : Keep-Alive
+12-07-18 15:11:06 : header Accept : */*
+12-07-18 15:11:06 : header Accept-Encoding : gzip, deflate
+12-07-18 15:11:06 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:11:06 : header Host : localhost:53713
+12-07-18 15:11:06 : header Referer : http://localhost:56158/game
+12-07-18 15:11:06 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:11:06 : header Origin : http://localhost:56158
+12-07-18 15:11:06 : header MS-ASPNETCORE-TOKEN : 6a6d5d96-66b2-4b9c-8666-371c3dac640d
+12-07-18 15:11:06 : header X-Original-Proto : http
+12-07-18 15:11:06 : header X-Original-For : 127.0.0.1:58667
+12-07-18 15:11:06 : Response incoming
+12-07-18 15:11:06 : header Vary : Origin
+12-07-18 15:11:06 : header Access-Control-Allow-Credentials : true
+12-07-18 15:11:06 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:12:34 : Request incoming
+12-07-18 15:12:34 : header Connection : Keep-Alive
+12-07-18 15:12:34 : header Accept : */*
+12-07-18 15:12:34 : header Accept-Encoding : gzip, deflate
+12-07-18 15:12:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:12:34 : header Host : localhost:53713
+12-07-18 15:12:34 : header Referer : http://localhost:56158/game
+12-07-18 15:12:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:12:34 : header Origin : http://localhost:56158
+12-07-18 15:12:34 : header MS-ASPNETCORE-TOKEN : 6a6d5d96-66b2-4b9c-8666-371c3dac640d
+12-07-18 15:12:34 : header X-Original-Proto : http
+12-07-18 15:12:34 : header X-Original-For : 127.0.0.1:58671
+12-07-18 15:12:34 : Response incoming
+12-07-18 15:12:34 : header Vary : Origin
+12-07-18 15:12:34 : header Access-Control-Allow-Credentials : true
+12-07-18 15:12:34 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:13:17 : Request incoming
+12-07-18 15:13:17 : header Connection : Keep-Alive
+12-07-18 15:13:17 : header Accept : */*
+12-07-18 15:13:17 : header Accept-Encoding : gzip, deflate
+12-07-18 15:13:17 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:13:17 : header Host : localhost:53713
+12-07-18 15:13:17 : header Referer : http://localhost:56158/characterCreation
+12-07-18 15:13:17 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:13:17 : header Origin : http://localhost:56158
+12-07-18 15:13:17 : header Content-Length : 0
+12-07-18 15:13:17 : header MS-ASPNETCORE-TOKEN : 6a6d5d96-66b2-4b9c-8666-371c3dac640d
+12-07-18 15:13:17 : header X-Original-Proto : http
+12-07-18 15:13:17 : header X-Original-For : 127.0.0.1:58671
+12-07-18 15:13:17 : Response incoming
+12-07-18 15:13:17 : header Vary : Origin
+12-07-18 15:13:17 : header Access-Control-Allow-Credentials : true
+12-07-18 15:13:17 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:13:17 : In create with parameter Atest
+12-07-18 15:13:21 : Request incoming
+12-07-18 15:13:21 : header Connection : Keep-Alive
+12-07-18 15:13:21 : header Accept : */*
+12-07-18 15:13:21 : header Accept-Encoding : gzip, deflate
+12-07-18 15:13:21 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:13:21 : header Host : localhost:53713
+12-07-18 15:13:21 : header Referer : http://localhost:56158/game
+12-07-18 15:13:21 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:13:21 : header Origin : http://localhost:56158
+12-07-18 15:13:21 : header MS-ASPNETCORE-TOKEN : 6a6d5d96-66b2-4b9c-8666-371c3dac640d
+12-07-18 15:13:21 : header X-Original-Proto : http
+12-07-18 15:13:21 : header X-Original-For : 127.0.0.1:58675
+12-07-18 15:13:21 : Response incoming
+12-07-18 15:13:21 : header Vary : Origin
+12-07-18 15:13:21 : header Access-Control-Allow-Credentials : true
+12-07-18 15:13:21 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:13:28 : Request incoming
+12-07-18 15:13:28 : header Connection : Keep-Alive
+12-07-18 15:13:28 : header Accept : */*
+12-07-18 15:13:28 : header Accept-Encoding : gzip, deflate
+12-07-18 15:13:28 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:13:28 : header Host : localhost:53713
+12-07-18 15:13:28 : header Referer : http://localhost:56158/characterCreation
+12-07-18 15:13:28 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:13:28 : header Origin : http://localhost:56158
+12-07-18 15:13:28 : header Content-Length : 0
+12-07-18 15:13:28 : header MS-ASPNETCORE-TOKEN : 6a6d5d96-66b2-4b9c-8666-371c3dac640d
+12-07-18 15:13:28 : header X-Original-Proto : http
+12-07-18 15:13:28 : header X-Original-For : 127.0.0.1:58675
+12-07-18 15:13:28 : Response incoming
+12-07-18 15:13:28 : header Vary : Origin
+12-07-18 15:13:28 : header Access-Control-Allow-Credentials : true
+12-07-18 15:13:28 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:13:28 : In create with parameter AnotherTest
+12-07-18 15:41:21 : Request incoming
+12-07-18 15:41:21 : header Connection : Keep-Alive
+12-07-18 15:41:21 : header Accept : */*
+12-07-18 15:41:21 : header Accept-Encoding : gzip, deflate
+12-07-18 15:41:21 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:41:21 : header Host : localhost:53713
+12-07-18 15:41:21 : header Referer : http://localhost:56158/game
+12-07-18 15:41:21 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:41:21 : header Origin : http://localhost:56158
+12-07-18 15:41:21 : header MS-ASPNETCORE-TOKEN : 49ae9e9c-fabe-4e28-9d8c-e29398731323
+12-07-18 15:41:21 : header X-Original-Proto : http
+12-07-18 15:41:21 : header X-Original-For : 127.0.0.1:58840
+12-07-18 15:41:21 : Response incoming
+12-07-18 15:41:21 : header Vary : Origin
+12-07-18 15:41:21 : header Access-Control-Allow-Credentials : true
+12-07-18 15:41:21 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:41:32 : Request incoming
+12-07-18 15:41:32 : header Connection : Keep-Alive
+12-07-18 15:41:32 : header Accept : */*
+12-07-18 15:41:32 : header Accept-Encoding : gzip, deflate
+12-07-18 15:41:32 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:41:32 : header Host : localhost:53713
+12-07-18 15:41:32 : header Referer : http://localhost:56158/game
+12-07-18 15:41:32 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:41:32 : header Origin : http://localhost:56158
+12-07-18 15:41:32 : header MS-ASPNETCORE-TOKEN : 49ae9e9c-fabe-4e28-9d8c-e29398731323
+12-07-18 15:41:32 : header X-Original-Proto : http
+12-07-18 15:41:32 : header X-Original-For : 127.0.0.1:58840
+12-07-18 15:41:32 : Response incoming
+12-07-18 15:41:32 : header Vary : Origin
+12-07-18 15:41:32 : header Access-Control-Allow-Credentials : true
+12-07-18 15:41:32 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:42:55 : Request incoming
+12-07-18 15:42:55 : header Connection : Keep-Alive
+12-07-18 15:42:55 : header Accept : */*
+12-07-18 15:42:55 : header Accept-Encoding : gzip, deflate
+12-07-18 15:42:55 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:42:55 : header Host : localhost:53713
+12-07-18 15:42:55 : header Referer : http://localhost:56158/game
+12-07-18 15:42:55 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:42:55 : header Origin : http://localhost:56158
+12-07-18 15:42:55 : header MS-ASPNETCORE-TOKEN : 49ae9e9c-fabe-4e28-9d8c-e29398731323
+12-07-18 15:42:55 : header X-Original-Proto : http
+12-07-18 15:42:55 : header X-Original-For : 127.0.0.1:58849
+12-07-18 15:42:55 : Response incoming
+12-07-18 15:42:55 : header Vary : Origin
+12-07-18 15:42:55 : header Access-Control-Allow-Credentials : true
+12-07-18 15:42:55 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:43:11 : Request incoming
+12-07-18 15:43:11 : header Connection : Keep-Alive
+12-07-18 15:43:11 : header Accept : */*
+12-07-18 15:43:11 : header Accept-Encoding : gzip, deflate
+12-07-18 15:43:11 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:43:11 : header Host : localhost:53713
+12-07-18 15:43:11 : header Referer : http://localhost:56158/game
+12-07-18 15:43:11 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:43:11 : header Origin : http://localhost:56158
+12-07-18 15:43:11 : header MS-ASPNETCORE-TOKEN : 49ae9e9c-fabe-4e28-9d8c-e29398731323
+12-07-18 15:43:11 : header X-Original-Proto : http
+12-07-18 15:43:11 : header X-Original-For : 127.0.0.1:58849
+12-07-18 15:43:11 : Response incoming
+12-07-18 15:43:11 : header Vary : Origin
+12-07-18 15:43:11 : header Access-Control-Allow-Credentials : true
+12-07-18 15:43:11 : header Access-Control-Allow-Origin : http://localhost:56158
+12-07-18 15:43:24 : Request incoming
+12-07-18 15:43:24 : header Connection : Keep-Alive
+12-07-18 15:43:24 : header Accept : */*
+12-07-18 15:43:24 : header Accept-Encoding : gzip, deflate
+12-07-18 15:43:24 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+12-07-18 15:43:24 : header Host : localhost:53713
+12-07-18 15:43:24 : header Referer : http://localhost:56158/game
+12-07-18 15:43:24 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+12-07-18 15:43:24 : header Origin : http://localhost:56158
+12-07-18 15:43:24 : header MS-ASPNETCORE-TOKEN : 49ae9e9c-fabe-4e28-9d8c-e29398731323
+12-07-18 15:43:24 : header X-Original-Proto : http
+12-07-18 15:43:24 : header X-Original-For : 127.0.0.1:58849
+12-07-18 15:43:24 : Response incoming
+12-07-18 15:43:24 : header Vary : Origin
+12-07-18 15:43:24 : header Access-Control-Allow-Credentials : true
+12-07-18 15:43:24 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:49:34 : Request incoming
+13-07-18 09:49:34 : header Connection : Keep-Alive
+13-07-18 09:49:34 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 09:49:34 : header Accept-Encoding : gzip, deflate
+13-07-18 09:49:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:49:34 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 09:49:34 : header Host : localhost:53713
+13-07-18 09:49:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:49:34 : header Upgrade-Insecure-Requests : 1
+13-07-18 09:49:34 : header MS-ASPNETCORE-TOKEN : 38a4416c-e10d-478c-914f-1a81169f562c
+13-07-18 09:49:34 : header X-Original-Proto : http
+13-07-18 09:49:34 : header X-Original-For : 127.0.0.1:59263
+13-07-18 09:49:34 : Response incoming
+13-07-18 09:49:34 : In Fallout Controller GetAll
+13-07-18 09:55:13 : Request incoming
+13-07-18 09:55:13 : header Connection : Keep-Alive
+13-07-18 09:55:13 : header Accept : */*
+13-07-18 09:55:13 : header Accept-Encoding : gzip, deflate
+13-07-18 09:55:13 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:55:13 : header Host : localhost:53713
+13-07-18 09:55:13 : header Referer : http://localhost:56158/game
+13-07-18 09:55:13 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:55:13 : header Origin : http://localhost:56158
+13-07-18 09:55:13 : header MS-ASPNETCORE-TOKEN : 38a4416c-e10d-478c-914f-1a81169f562c
+13-07-18 09:55:13 : header X-Original-Proto : http
+13-07-18 09:55:13 : header X-Original-For : 127.0.0.1:59350
+13-07-18 09:55:13 : Response incoming
+13-07-18 09:55:13 : header Vary : Origin
+13-07-18 09:55:13 : header Access-Control-Allow-Credentials : true
+13-07-18 09:55:13 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:56:04 : Request incoming
+13-07-18 09:56:04 : header Connection : Keep-Alive
+13-07-18 09:56:04 : header Accept : */*
+13-07-18 09:56:04 : header Accept-Encoding : gzip, deflate
+13-07-18 09:56:04 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:56:04 : header Host : localhost:53713
+13-07-18 09:56:04 : header Referer : http://localhost:56158/game
+13-07-18 09:56:04 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:56:05 : header Origin : http://localhost:56158
+13-07-18 09:56:05 : header MS-ASPNETCORE-TOKEN : 38a4416c-e10d-478c-914f-1a81169f562c
+13-07-18 09:56:05 : header X-Original-Proto : http
+13-07-18 09:56:05 : header X-Original-For : 127.0.0.1:59350
+13-07-18 09:56:05 : Response incoming
+13-07-18 09:56:05 : header Vary : Origin
+13-07-18 09:56:05 : header Access-Control-Allow-Credentials : true
+13-07-18 09:56:05 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:56:20 : Request incoming
+13-07-18 09:56:20 : header Connection : Keep-Alive
+13-07-18 09:56:20 : header Accept : */*
+13-07-18 09:56:20 : header Accept-Encoding : gzip, deflate
+13-07-18 09:56:20 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:56:20 : header Host : localhost:53713
+13-07-18 09:56:20 : header Referer : http://localhost:56158/game
+13-07-18 09:56:20 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:56:20 : header Origin : http://localhost:56158
+13-07-18 09:56:20 : header MS-ASPNETCORE-TOKEN : 38a4416c-e10d-478c-914f-1a81169f562c
+13-07-18 09:56:20 : header X-Original-Proto : http
+13-07-18 09:56:20 : header X-Original-For : 127.0.0.1:59350
+13-07-18 09:56:20 : Response incoming
+13-07-18 09:56:20 : header Vary : Origin
+13-07-18 09:56:20 : header Access-Control-Allow-Credentials : true
+13-07-18 09:56:20 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:57:36 : Request incoming
+13-07-18 09:57:36 : header Connection : Keep-Alive
+13-07-18 09:57:36 : header Accept : */*
+13-07-18 09:57:36 : header Accept-Encoding : gzip, deflate
+13-07-18 09:57:36 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:57:36 : header Host : localhost:53713
+13-07-18 09:57:36 : header Referer : http://localhost:56158/characterCreation
+13-07-18 09:57:36 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:57:36 : header Origin : http://localhost:56158
+13-07-18 09:57:36 : header Content-Length : 0
+13-07-18 09:57:36 : header MS-ASPNETCORE-TOKEN : 38a4416c-e10d-478c-914f-1a81169f562c
+13-07-18 09:57:36 : header X-Original-Proto : http
+13-07-18 09:57:36 : header X-Original-For : 127.0.0.1:59364
+13-07-18 09:57:36 : Response incoming
+13-07-18 09:57:36 : header Vary : Origin
+13-07-18 09:57:36 : header Access-Control-Allow-Credentials : true
+13-07-18 09:57:36 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:57:36 : Request incoming
+13-07-18 09:57:36 : header Connection : Keep-Alive
+13-07-18 09:57:36 : header Accept : */*
+13-07-18 09:57:36 : header Accept-Encoding : gzip, deflate
+13-07-18 09:57:36 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:57:36 : header Host : localhost:53713
+13-07-18 09:57:36 : header Referer : http://localhost:56158/character/Lone%20Survivor
+13-07-18 09:57:36 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:57:36 : header Origin : http://localhost:56158
+13-07-18 09:57:36 : header MS-ASPNETCORE-TOKEN : 38a4416c-e10d-478c-914f-1a81169f562c
+13-07-18 09:57:36 : header X-Original-Proto : http
+13-07-18 09:57:36 : header X-Original-For : 127.0.0.1:59364
+13-07-18 09:57:36 : Response incoming
+13-07-18 09:57:36 : header Vary : Origin
+13-07-18 09:57:36 : header Access-Control-Allow-Credentials : true
+13-07-18 09:57:36 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:57:36 : In get with parameter Lone Survivor
+13-07-18 09:58:00 : Request incoming
+13-07-18 09:58:00 : header Connection : Keep-Alive
+13-07-18 09:58:00 : header Accept : */*
+13-07-18 09:58:00 : header Accept-Encoding : gzip, deflate
+13-07-18 09:58:00 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:58:00 : header Host : localhost:53713
+13-07-18 09:58:00 : header Referer : http://localhost:56158/character/Lone%20Survivor
+13-07-18 09:58:00 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:58:00 : header Origin : http://localhost:56158
+13-07-18 09:58:00 : header MS-ASPNETCORE-TOKEN : 38a4416c-e10d-478c-914f-1a81169f562c
+13-07-18 09:58:00 : header X-Original-Proto : http
+13-07-18 09:58:00 : header X-Original-For : 127.0.0.1:59369
+13-07-18 09:58:00 : Response incoming
+13-07-18 09:58:00 : header Vary : Origin
+13-07-18 09:58:00 : header Access-Control-Allow-Credentials : true
+13-07-18 09:58:00 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:58:00 : In get with parameter Lone Survivor
+13-07-18 09:59:40 : Request incoming
+13-07-18 09:59:40 : header Connection : Keep-Alive
+13-07-18 09:59:40 : header Accept : */*
+13-07-18 09:59:40 : header Accept-Encoding : gzip, deflate
+13-07-18 09:59:40 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:59:40 : header Host : localhost:53713
+13-07-18 09:59:40 : header Referer : http://localhost:56158/game
+13-07-18 09:59:40 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:59:40 : header Origin : http://localhost:56158
+13-07-18 09:59:40 : header MS-ASPNETCORE-TOKEN : ccb971c0-ba5d-4ef4-922e-fbdd1120ebd4
+13-07-18 09:59:40 : header X-Original-Proto : http
+13-07-18 09:59:40 : header X-Original-For : 127.0.0.1:59393
+13-07-18 09:59:40 : Response incoming
+13-07-18 09:59:40 : header Vary : Origin
+13-07-18 09:59:40 : header Access-Control-Allow-Credentials : true
+13-07-18 09:59:40 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:59:48 : Request incoming
+13-07-18 09:59:48 : header Connection : Keep-Alive
+13-07-18 09:59:48 : header Accept : */*
+13-07-18 09:59:48 : header Accept-Encoding : gzip, deflate
+13-07-18 09:59:48 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:59:48 : header Host : localhost:53713
+13-07-18 09:59:48 : header Referer : http://localhost:56158/characterCreation
+13-07-18 09:59:48 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:59:48 : header Origin : http://localhost:56158
+13-07-18 09:59:48 : header Content-Length : 0
+13-07-18 09:59:48 : header MS-ASPNETCORE-TOKEN : ccb971c0-ba5d-4ef4-922e-fbdd1120ebd4
+13-07-18 09:59:48 : header X-Original-Proto : http
+13-07-18 09:59:48 : header X-Original-For : 127.0.0.1:59393
+13-07-18 09:59:48 : Response incoming
+13-07-18 09:59:48 : header Vary : Origin
+13-07-18 09:59:48 : header Access-Control-Allow-Credentials : true
+13-07-18 09:59:48 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:59:48 : Request incoming
+13-07-18 09:59:48 : header Connection : Keep-Alive
+13-07-18 09:59:48 : header Accept : */*
+13-07-18 09:59:48 : header Accept-Encoding : gzip, deflate
+13-07-18 09:59:48 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 09:59:48 : header Host : localhost:53713
+13-07-18 09:59:48 : header Referer : http://localhost:56158/character/Lone
+13-07-18 09:59:48 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 09:59:48 : header Origin : http://localhost:56158
+13-07-18 09:59:48 : header MS-ASPNETCORE-TOKEN : ccb971c0-ba5d-4ef4-922e-fbdd1120ebd4
+13-07-18 09:59:48 : header X-Original-Proto : http
+13-07-18 09:59:48 : header X-Original-For : 127.0.0.1:59393
+13-07-18 09:59:48 : Response incoming
+13-07-18 09:59:48 : header Vary : Origin
+13-07-18 09:59:48 : header Access-Control-Allow-Credentials : true
+13-07-18 09:59:48 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 09:59:48 : In get with parameter Lone
+13-07-18 10:07:43 : Request incoming
+13-07-18 10:07:43 : header Connection : Keep-Alive
+13-07-18 10:07:43 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 10:07:43 : header Accept-Encoding : gzip, deflate
+13-07-18 10:07:43 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:07:43 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 10:07:43 : header Host : localhost:53713
+13-07-18 10:07:43 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:07:43 : header Upgrade-Insecure-Requests : 1
+13-07-18 10:07:43 : header MS-ASPNETCORE-TOKEN : ccb971c0-ba5d-4ef4-922e-fbdd1120ebd4
+13-07-18 10:07:43 : header X-Original-Proto : http
+13-07-18 10:07:43 : header X-Original-For : 127.0.0.1:59459
+13-07-18 10:07:43 : Response incoming
+13-07-18 10:07:43 : In Fallout Controller GetAll
+13-07-18 10:08:07 : Request incoming
+13-07-18 10:08:07 : header Connection : Keep-Alive
+13-07-18 10:08:08 : header Accept : */*
+13-07-18 10:08:08 : header Accept-Encoding : gzip, deflate
+13-07-18 10:08:08 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:08:08 : header Host : localhost:53713
+13-07-18 10:08:08 : header Referer : http://localhost:56158/character/Lone
+13-07-18 10:08:08 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:08:08 : header Origin : http://localhost:56158
+13-07-18 10:08:08 : header MS-ASPNETCORE-TOKEN : ccb971c0-ba5d-4ef4-922e-fbdd1120ebd4
+13-07-18 10:08:08 : header X-Original-Proto : http
+13-07-18 10:08:08 : header X-Original-For : 127.0.0.1:59459
+13-07-18 10:08:08 : Response incoming
+13-07-18 10:08:08 : header Vary : Origin
+13-07-18 10:08:08 : header Access-Control-Allow-Credentials : true
+13-07-18 10:08:08 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:08:08 : In get with parameter Lone
+13-07-18 10:12:39 : Request incoming
+13-07-18 10:12:39 : header Connection : Keep-Alive
+13-07-18 10:12:39 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 10:12:39 : header Accept-Encoding : gzip, deflate
+13-07-18 10:12:39 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:12:39 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 10:12:39 : header Host : localhost:53713
+13-07-18 10:12:39 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:12:39 : header Upgrade-Insecure-Requests : 1
+13-07-18 10:12:39 : header MS-ASPNETCORE-TOKEN : b78b1a67-88be-40f2-8a12-4980d13b8072
+13-07-18 10:12:39 : header X-Original-Proto : http
+13-07-18 10:12:39 : header X-Original-For : 127.0.0.1:59521
+13-07-18 10:12:39 : Response incoming
+13-07-18 10:12:39 : In Fallout Controller GetAll
+13-07-18 10:18:25 : Request incoming
+13-07-18 10:18:25 : header Connection : Keep-Alive
+13-07-18 10:18:25 : header Accept : */*
+13-07-18 10:18:25 : header Accept-Encoding : gzip, deflate
+13-07-18 10:18:25 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:18:25 : header Host : localhost:53713
+13-07-18 10:18:25 : header Referer : http://localhost:56158/game
+13-07-18 10:18:25 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:18:25 : header Origin : http://localhost:56158
+13-07-18 10:18:25 : header MS-ASPNETCORE-TOKEN : b78b1a67-88be-40f2-8a12-4980d13b8072
+13-07-18 10:18:25 : header X-Original-Proto : http
+13-07-18 10:18:25 : header X-Original-For : 127.0.0.1:59591
+13-07-18 10:18:25 : Response incoming
+13-07-18 10:18:25 : header Vary : Origin
+13-07-18 10:18:25 : header Access-Control-Allow-Credentials : true
+13-07-18 10:18:25 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:18:34 : Request incoming
+13-07-18 10:18:34 : header Connection : Keep-Alive
+13-07-18 10:18:34 : header Content-Type : text/plain;charset=UTF-8
+13-07-18 10:18:34 : header Accept : */*
+13-07-18 10:18:34 : header Accept-Encoding : gzip, deflate
+13-07-18 10:18:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:18:34 : header Host : localhost:53713
+13-07-18 10:18:34 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:18:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:18:34 : header Origin : http://localhost:56158
+13-07-18 10:18:34 : header Content-Length : 61
+13-07-18 10:18:34 : header MS-ASPNETCORE-TOKEN : b78b1a67-88be-40f2-8a12-4980d13b8072
+13-07-18 10:18:34 : header X-Original-Proto : http
+13-07-18 10:18:34 : header X-Original-For : 127.0.0.1:59591
+13-07-18 10:18:34 : Response incoming
+13-07-18 10:18:34 : header Vary : Origin
+13-07-18 10:18:34 : header Access-Control-Allow-Credentials : true
+13-07-18 10:18:34 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:18:34 : Request incoming
+13-07-18 10:18:34 : header Connection : Keep-Alive
+13-07-18 10:18:34 : header Accept : */*
+13-07-18 10:18:34 : header Accept-Encoding : gzip, deflate
+13-07-18 10:18:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:18:34 : header Host : localhost:53713
+13-07-18 10:18:34 : header Referer : http://localhost:56158/character/Lone%20
+13-07-18 10:18:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:18:34 : header Origin : http://localhost:56158
+13-07-18 10:18:34 : header MS-ASPNETCORE-TOKEN : b78b1a67-88be-40f2-8a12-4980d13b8072
+13-07-18 10:18:34 : header X-Original-Proto : http
+13-07-18 10:18:34 : header X-Original-For : 127.0.0.1:59591
+13-07-18 10:18:34 : Response incoming
+13-07-18 10:18:34 : header Vary : Origin
+13-07-18 10:18:34 : header Access-Control-Allow-Credentials : true
+13-07-18 10:18:34 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:18:34 : In get with parameter Lone
+13-07-18 10:26:28 : Request incoming
+13-07-18 10:26:28 : header Connection : Keep-Alive
+13-07-18 10:26:28 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 10:26:28 : header Accept-Encoding : gzip, deflate
+13-07-18 10:26:28 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:26:28 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 10:26:28 : header Host : localhost:53713
+13-07-18 10:26:28 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:26:28 : header Upgrade-Insecure-Requests : 1
+13-07-18 10:26:28 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:26:28 : header X-Original-Proto : http
+13-07-18 10:26:28 : header X-Original-For : 127.0.0.1:59681
+13-07-18 10:26:28 : Response incoming
+13-07-18 10:26:28 : In Fallout Controller GetAll
+13-07-18 10:27:58 : Request incoming
+13-07-18 10:27:58 : header Connection : Keep-Alive
+13-07-18 10:27:58 : header Accept : */*
+13-07-18 10:27:58 : header Accept-Encoding : gzip, deflate
+13-07-18 10:27:58 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:27:58 : header Host : localhost:53713
+13-07-18 10:27:58 : header Referer : http://localhost:56158/game
+13-07-18 10:27:58 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:27:58 : header Origin : http://localhost:56158
+13-07-18 10:27:58 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:27:58 : header X-Original-Proto : http
+13-07-18 10:27:58 : header X-Original-For : 127.0.0.1:59706
+13-07-18 10:27:58 : Response incoming
+13-07-18 10:27:58 : header Vary : Origin
+13-07-18 10:27:58 : header Access-Control-Allow-Credentials : true
+13-07-18 10:27:58 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:28:06 : Request incoming
+13-07-18 10:28:06 : header Connection : Keep-Alive
+13-07-18 10:28:06 : header Content-Type : text/plain;charset=UTF-8
+13-07-18 10:28:06 : header Accept : */*
+13-07-18 10:28:06 : header Accept-Encoding : gzip, deflate
+13-07-18 10:28:06 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:28:06 : header Host : localhost:53713
+13-07-18 10:28:06 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:28:06 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:28:06 : header Origin : http://localhost:56158
+13-07-18 10:28:06 : header Content-Length : 60
+13-07-18 10:28:06 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:28:06 : header X-Original-Proto : http
+13-07-18 10:28:06 : header X-Original-For : 127.0.0.1:59706
+13-07-18 10:28:06 : Response incoming
+13-07-18 10:28:06 : header Vary : Origin
+13-07-18 10:28:06 : header Access-Control-Allow-Credentials : true
+13-07-18 10:28:06 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:28:06 : Request incoming
+13-07-18 10:28:06 : header Connection : Keep-Alive
+13-07-18 10:28:06 : header Accept : */*
+13-07-18 10:28:06 : header Accept-Encoding : gzip, deflate
+13-07-18 10:28:06 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:28:06 : header Host : localhost:53713
+13-07-18 10:28:06 : header Referer : http://localhost:56158/character/Lone
+13-07-18 10:28:06 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:28:06 : header Origin : http://localhost:56158
+13-07-18 10:28:06 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:28:06 : header X-Original-Proto : http
+13-07-18 10:28:06 : header X-Original-For : 127.0.0.1:59706
+13-07-18 10:28:06 : Response incoming
+13-07-18 10:28:06 : header Vary : Origin
+13-07-18 10:28:06 : header Access-Control-Allow-Credentials : true
+13-07-18 10:28:06 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:28:06 : In get with parameter Lone
+13-07-18 10:29:11 : Request incoming
+13-07-18 10:29:11 : header Connection : Keep-Alive
+13-07-18 10:29:11 : header Accept : */*
+13-07-18 10:29:11 : header Accept-Encoding : gzip, deflate
+13-07-18 10:29:11 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:29:11 : header Host : localhost:53713
+13-07-18 10:29:11 : header Referer : http://localhost:56158/game
+13-07-18 10:29:11 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:29:11 : header Origin : http://localhost:56158
+13-07-18 10:29:11 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:29:11 : header X-Original-Proto : http
+13-07-18 10:29:11 : header X-Original-For : 127.0.0.1:59744
+13-07-18 10:29:11 : Response incoming
+13-07-18 10:29:11 : header Vary : Origin
+13-07-18 10:29:11 : header Access-Control-Allow-Credentials : true
+13-07-18 10:29:11 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:29:24 : Request incoming
+13-07-18 10:29:24 : header Connection : Keep-Alive
+13-07-18 10:29:24 : header Content-Type : text/plain;charset=UTF-8
+13-07-18 10:29:24 : header Accept : */*
+13-07-18 10:29:24 : header Accept-Encoding : gzip, deflate
+13-07-18 10:29:24 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:29:24 : header Host : localhost:53713
+13-07-18 10:29:24 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:29:24 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:29:24 : header Origin : http://localhost:56158
+13-07-18 10:29:24 : header Content-Length : 60
+13-07-18 10:29:24 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:29:24 : header X-Original-Proto : http
+13-07-18 10:29:24 : header X-Original-For : 127.0.0.1:59744
+13-07-18 10:29:24 : Response incoming
+13-07-18 10:29:24 : header Vary : Origin
+13-07-18 10:29:24 : header Access-Control-Allow-Credentials : true
+13-07-18 10:29:24 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:29:24 : Request incoming
+13-07-18 10:29:24 : header Connection : Keep-Alive
+13-07-18 10:29:24 : header Accept : */*
+13-07-18 10:29:24 : header Accept-Encoding : gzip, deflate
+13-07-18 10:29:24 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:29:24 : header Host : localhost:53713
+13-07-18 10:29:24 : header Referer : http://localhost:56158/character/Lone
+13-07-18 10:29:24 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:29:24 : header Origin : http://localhost:56158
+13-07-18 10:29:24 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:29:24 : header X-Original-Proto : http
+13-07-18 10:29:24 : header X-Original-For : 127.0.0.1:59744
+13-07-18 10:29:24 : Response incoming
+13-07-18 10:29:24 : header Vary : Origin
+13-07-18 10:29:24 : header Access-Control-Allow-Credentials : true
+13-07-18 10:29:24 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:29:24 : In get with parameter Lone
+13-07-18 10:30:59 : Request incoming
+13-07-18 10:30:59 : header Connection : Keep-Alive
+13-07-18 10:30:59 : header Accept : */*
+13-07-18 10:30:59 : header Accept-Encoding : gzip, deflate
+13-07-18 10:30:59 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:30:59 : header Host : localhost:53713
+13-07-18 10:30:59 : header Referer : http://localhost:56158/characterlist
+13-07-18 10:30:59 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:30:59 : header Origin : http://localhost:56158
+13-07-18 10:30:59 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:30:59 : header X-Original-Proto : http
+13-07-18 10:30:59 : header X-Original-For : 127.0.0.1:59755
+13-07-18 10:30:59 : Response incoming
+13-07-18 10:30:59 : header Vary : Origin
+13-07-18 10:30:59 : header Access-Control-Allow-Credentials : true
+13-07-18 10:30:59 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:30:59 : In Fallout Controller GetAll
+13-07-18 10:31:03 : Request incoming
+13-07-18 10:31:03 : header Connection : Keep-Alive
+13-07-18 10:31:03 : header Accept : */*
+13-07-18 10:31:03 : header Accept-Encoding : gzip, deflate
+13-07-18 10:31:03 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:31:03 : header Host : localhost:53713
+13-07-18 10:31:03 : header Referer : http://localhost:56158/character/Lou%20Tenant
+13-07-18 10:31:03 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:31:03 : header Origin : http://localhost:56158
+13-07-18 10:31:03 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:31:03 : header X-Original-Proto : http
+13-07-18 10:31:03 : header X-Original-For : 127.0.0.1:59755
+13-07-18 10:31:03 : Response incoming
+13-07-18 10:31:03 : header Vary : Origin
+13-07-18 10:31:03 : header Access-Control-Allow-Credentials : true
+13-07-18 10:31:03 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:31:03 : In get with parameter Lou Tenant
+13-07-18 10:31:22 : Request incoming
+13-07-18 10:31:22 : header Connection : Keep-Alive
+13-07-18 10:31:22 : header Content-Type : application/json
+13-07-18 10:31:22 : header Accept : application/json
+13-07-18 10:31:22 : header Accept-Encoding : gzip, deflate
+13-07-18 10:31:22 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:31:22 : header Host : localhost:53713
+13-07-18 10:31:22 : header Referer : http://localhost:56158/character/Lou%20Tenant
+13-07-18 10:31:22 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:31:22 : header Origin : http://localhost:56158
+13-07-18 10:31:22 : header Content-Length : 1531
+13-07-18 10:31:22 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:31:22 : header X-Original-Proto : http
+13-07-18 10:31:22 : header X-Original-For : 127.0.0.1:59755
+13-07-18 10:31:22 : Response incoming
+13-07-18 10:31:22 : header Vary : Origin
+13-07-18 10:31:22 : header Access-Control-Allow-Credentials : true
+13-07-18 10:31:22 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:31:22 : In Edit with parameter Library.ViewModels.CharacterViewModel
+13-07-18 10:32:19 : Request incoming
+13-07-18 10:32:19 : header Connection : Keep-Alive
+13-07-18 10:32:19 : header Content-Type : text/plain;charset=UTF-8
+13-07-18 10:32:19 : header Accept : */*
+13-07-18 10:32:19 : header Accept-Encoding : gzip, deflate
+13-07-18 10:32:19 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:32:19 : header Host : localhost:53713
+13-07-18 10:32:19 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:32:19 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:32:19 : header Origin : http://localhost:56158
+13-07-18 10:32:19 : header Content-Length : 60
+13-07-18 10:32:19 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:32:19 : header X-Original-Proto : http
+13-07-18 10:32:19 : header X-Original-For : 127.0.0.1:59755
+13-07-18 10:32:19 : Response incoming
+13-07-18 10:32:19 : header Vary : Origin
+13-07-18 10:32:19 : header Access-Control-Allow-Credentials : true
+13-07-18 10:32:19 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:32:19 : Request incoming
+13-07-18 10:32:19 : header Connection : Keep-Alive
+13-07-18 10:32:19 : header Accept : */*
+13-07-18 10:32:19 : header Accept-Encoding : gzip, deflate
+13-07-18 10:32:19 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:32:19 : header Host : localhost:53713
+13-07-18 10:32:19 : header Referer : http://localhost:56158/character/Lone
+13-07-18 10:32:19 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:32:19 : header Origin : http://localhost:56158
+13-07-18 10:32:19 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:32:19 : header X-Original-Proto : http
+13-07-18 10:32:19 : header X-Original-For : 127.0.0.1:59755
+13-07-18 10:32:19 : Response incoming
+13-07-18 10:32:19 : header Vary : Origin
+13-07-18 10:32:19 : header Access-Control-Allow-Credentials : true
+13-07-18 10:32:19 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:32:19 : In get with parameter Lone
+13-07-18 10:35:27 : Request incoming
+13-07-18 10:35:27 : header Cache-Control : no-cache
+13-07-18 10:35:27 : header Connection : Keep-Alive
+13-07-18 10:35:27 : header Content-Type : application/json
+13-07-18 10:35:27 : header Accept : */*
+13-07-18 10:35:27 : header Accept-Encoding : gzip, deflate
+13-07-18 10:35:27 : header Host : localhost:53713
+13-07-18 10:35:27 : header User-Agent : PostmanRuntime/7.1.5
+13-07-18 10:35:27 : header Content-Length : 60
+13-07-18 10:35:27 : header Postman-Token : 40868379-3998-489c-9c16-6ff2a444802f
+13-07-18 10:35:27 : header MS-ASPNETCORE-TOKEN : a1b73a99-cc2f-4510-9afc-38f933e33e13
+13-07-18 10:35:27 : header X-Original-Proto : http
+13-07-18 10:35:27 : header X-Original-For : 127.0.0.1:59900
+13-07-18 10:35:27 : Response incoming
+13-07-18 10:35:46 : In create with parameter Lone
+13-07-18 10:37:34 : Request incoming
+13-07-18 10:37:34 : header Connection : Keep-Alive
+13-07-18 10:37:34 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 10:37:34 : header Accept-Encoding : gzip, deflate
+13-07-18 10:37:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:37:34 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 10:37:34 : header Host : localhost:53713
+13-07-18 10:37:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:37:34 : header Upgrade-Insecure-Requests : 1
+13-07-18 10:37:34 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:37:34 : header X-Original-Proto : http
+13-07-18 10:37:34 : header X-Original-For : 127.0.0.1:59920
+13-07-18 10:37:34 : Response incoming
+13-07-18 10:37:34 : In Fallout Controller GetAll
+13-07-18 10:38:24 : Request incoming
+13-07-18 10:38:24 : header Connection : Keep-Alive
+13-07-18 10:38:24 : header Accept : */*
+13-07-18 10:38:24 : header Accept-Encoding : gzip, deflate
+13-07-18 10:38:24 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:38:24 : header Host : localhost:53713
+13-07-18 10:38:24 : header Referer : http://localhost:56158/game
+13-07-18 10:38:24 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:38:24 : header Origin : http://localhost:56158
+13-07-18 10:38:24 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:38:24 : header X-Original-Proto : http
+13-07-18 10:38:24 : header X-Original-For : 127.0.0.1:59920
+13-07-18 10:38:24 : Response incoming
+13-07-18 10:38:24 : header Vary : Origin
+13-07-18 10:38:24 : header Access-Control-Allow-Credentials : true
+13-07-18 10:38:24 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:38:33 : Request incoming
+13-07-18 10:38:33 : header Connection : Keep-Alive
+13-07-18 10:38:33 : header Content-Type : text/plain;charset=UTF-8
+13-07-18 10:38:33 : header Accept : */*
+13-07-18 10:38:33 : header Accept-Encoding : gzip, deflate
+13-07-18 10:38:33 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:38:33 : header Host : localhost:53713
+13-07-18 10:38:33 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:38:33 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:38:33 : header Origin : http://localhost:56158
+13-07-18 10:38:33 : header Content-Length : 60
+13-07-18 10:38:33 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:38:33 : header X-Original-Proto : http
+13-07-18 10:38:33 : header X-Original-For : 127.0.0.1:59920
+13-07-18 10:38:33 : Response incoming
+13-07-18 10:38:33 : header Vary : Origin
+13-07-18 10:38:33 : header Access-Control-Allow-Credentials : true
+13-07-18 10:38:33 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:38:33 : Request incoming
+13-07-18 10:38:33 : header Connection : Keep-Alive
+13-07-18 10:38:33 : header Accept : */*
+13-07-18 10:38:33 : header Accept-Encoding : gzip, deflate
+13-07-18 10:38:33 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:38:33 : header Host : localhost:53713
+13-07-18 10:38:33 : header Referer : http://localhost:56158/character/Lone
+13-07-18 10:38:33 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:38:33 : header Origin : http://localhost:56158
+13-07-18 10:38:33 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:38:33 : header X-Original-Proto : http
+13-07-18 10:38:33 : header X-Original-For : 127.0.0.1:59920
+13-07-18 10:38:33 : Response incoming
+13-07-18 10:38:33 : header Vary : Origin
+13-07-18 10:38:33 : header Access-Control-Allow-Credentials : true
+13-07-18 10:38:33 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:38:33 : In get with parameter Lone
+13-07-18 10:39:47 : Request incoming
+13-07-18 10:39:47 : header Connection : Keep-Alive
+13-07-18 10:39:47 : header Content-Type : application/json
+13-07-18 10:39:47 : header Accept : application/json
+13-07-18 10:39:47 : header Accept-Encoding : gzip, deflate
+13-07-18 10:39:47 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:39:47 : header Host : localhost:53713
+13-07-18 10:39:47 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:39:47 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:39:47 : header Origin : http://localhost:56158
+13-07-18 10:39:47 : header Content-Length : 60
+13-07-18 10:39:47 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:39:47 : header X-Original-Proto : http
+13-07-18 10:39:47 : header X-Original-For : 127.0.0.1:60016
+13-07-18 10:39:47 : Response incoming
+13-07-18 10:39:47 : header Vary : Origin
+13-07-18 10:39:47 : header Access-Control-Allow-Credentials : true
+13-07-18 10:39:47 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:39:50 : In create with parameter Lone
+13-07-18 10:39:50 : Request incoming
+13-07-18 10:39:50 : header Connection : Keep-Alive
+13-07-18 10:39:50 : header Accept : */*
+13-07-18 10:39:50 : header Accept-Encoding : gzip, deflate
+13-07-18 10:39:50 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:39:50 : header Host : localhost:53713
+13-07-18 10:39:50 : header Referer : http://localhost:56158/character/Lone
+13-07-18 10:39:50 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:39:50 : header Origin : http://localhost:56158
+13-07-18 10:39:50 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:39:50 : header X-Original-Proto : http
+13-07-18 10:39:50 : header X-Original-For : 127.0.0.1:60016
+13-07-18 10:39:50 : Response incoming
+13-07-18 10:39:50 : header Vary : Origin
+13-07-18 10:39:50 : header Access-Control-Allow-Credentials : true
+13-07-18 10:39:50 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:39:50 : In get with parameter Lone
+13-07-18 10:40:08 : Request incoming
+13-07-18 10:40:08 : header Connection : Keep-Alive
+13-07-18 10:40:08 : header Accept : */*
+13-07-18 10:40:08 : header Accept-Encoding : gzip, deflate
+13-07-18 10:40:08 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:40:08 : header Host : localhost:53713
+13-07-18 10:40:08 : header Referer : http://localhost:56158/game
+13-07-18 10:40:08 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:40:08 : header Origin : http://localhost:56158
+13-07-18 10:40:08 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:40:08 : header X-Original-Proto : http
+13-07-18 10:40:08 : header X-Original-For : 127.0.0.1:60016
+13-07-18 10:40:08 : Response incoming
+13-07-18 10:40:08 : header Vary : Origin
+13-07-18 10:40:08 : header Access-Control-Allow-Credentials : true
+13-07-18 10:40:08 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:40:12 : Request incoming
+13-07-18 10:40:12 : header Cache-Control : no-cache
+13-07-18 10:40:12 : header Connection : Keep-Alive
+13-07-18 10:40:13 : header Pragma : no-cache
+13-07-18 10:40:13 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 10:40:13 : header Accept-Encoding : gzip, deflate
+13-07-18 10:40:13 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:40:13 : header Host : localhost:53713
+13-07-18 10:40:13 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:40:13 : header DNT : 1
+13-07-18 10:40:13 : header Upgrade-Insecure-Requests : 1
+13-07-18 10:40:13 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:40:13 : header X-Original-Proto : http
+13-07-18 10:40:13 : header X-Original-For : 127.0.0.1:60016
+13-07-18 10:40:13 : Response incoming
+13-07-18 10:40:35 : Request incoming
+13-07-18 10:40:35 : header Connection : Keep-Alive
+13-07-18 10:40:35 : header Content-Type : application/json
+13-07-18 10:40:35 : header Accept : application/json
+13-07-18 10:40:35 : header Accept-Encoding : gzip, deflate
+13-07-18 10:40:35 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:40:35 : header Host : localhost:53713
+13-07-18 10:40:35 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:40:35 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:40:35 : header Origin : http://localhost:56158
+13-07-18 10:40:35 : header Content-Length : 68
+13-07-18 10:40:35 : header MS-ASPNETCORE-TOKEN : bc405418-6f6e-4036-935f-0ad434dbe170
+13-07-18 10:40:35 : header X-Original-Proto : http
+13-07-18 10:40:35 : header X-Original-For : 127.0.0.1:60016
+13-07-18 10:40:35 : Response incoming
+13-07-18 10:40:35 : header Vary : Origin
+13-07-18 10:40:35 : header Access-Control-Allow-Credentials : true
+13-07-18 10:40:35 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:40:56 : Request incoming
+13-07-18 10:40:56 : header Connection : Keep-Alive
+13-07-18 10:40:56 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 10:40:56 : header Accept-Encoding : gzip, deflate
+13-07-18 10:40:56 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:40:56 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 10:40:56 : header Host : localhost:53713
+13-07-18 10:40:56 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:40:56 : header Upgrade-Insecure-Requests : 1
+13-07-18 10:40:56 : header MS-ASPNETCORE-TOKEN : 32be5021-32b1-4ef6-b600-88187230bcec
+13-07-18 10:40:56 : header X-Original-Proto : http
+13-07-18 10:40:56 : header X-Original-For : 127.0.0.1:60033
+13-07-18 10:40:56 : Response incoming
+13-07-18 10:40:56 : In Fallout Controller GetAll
+13-07-18 10:41:43 : Request incoming
+13-07-18 10:41:43 : header Connection : Keep-Alive
+13-07-18 10:41:43 : header Accept : */*
+13-07-18 10:41:43 : header Accept-Encoding : gzip, deflate
+13-07-18 10:41:43 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:41:43 : header Host : localhost:53713
+13-07-18 10:41:43 : header Referer : http://localhost:56158/game
+13-07-18 10:41:43 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:41:43 : header Origin : http://localhost:56158
+13-07-18 10:41:43 : header MS-ASPNETCORE-TOKEN : 32be5021-32b1-4ef6-b600-88187230bcec
+13-07-18 10:41:43 : header X-Original-Proto : http
+13-07-18 10:41:43 : header X-Original-For : 127.0.0.1:60033
+13-07-18 10:41:43 : Response incoming
+13-07-18 10:41:43 : header Vary : Origin
+13-07-18 10:41:43 : header Access-Control-Allow-Credentials : true
+13-07-18 10:41:43 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:41:56 : Request incoming
+13-07-18 10:41:56 : header Connection : Keep-Alive
+13-07-18 10:41:56 : header Content-Type : application/json
+13-07-18 10:41:56 : header Accept : application/json
+13-07-18 10:41:56 : header Accept-Encoding : gzip, deflate
+13-07-18 10:41:56 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:41:56 : header Host : localhost:53713
+13-07-18 10:41:56 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:41:56 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:41:56 : header Origin : http://localhost:56158
+13-07-18 10:41:56 : header Content-Length : 68
+13-07-18 10:41:56 : header MS-ASPNETCORE-TOKEN : 32be5021-32b1-4ef6-b600-88187230bcec
+13-07-18 10:41:56 : header X-Original-Proto : http
+13-07-18 10:41:56 : header X-Original-For : 127.0.0.1:60033
+13-07-18 10:41:56 : Response incoming
+13-07-18 10:41:56 : header Vary : Origin
+13-07-18 10:41:57 : header Access-Control-Allow-Credentials : true
+13-07-18 10:41:57 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:42:00 : In create with parameter Al'Azred
+13-07-18 10:42:00 : Request incoming
+13-07-18 10:42:00 : header Connection : Keep-Alive
+13-07-18 10:42:00 : header Accept : */*
+13-07-18 10:42:00 : header Accept-Encoding : gzip, deflate
+13-07-18 10:42:00 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:42:00 : header Host : localhost:53713
+13-07-18 10:42:00 : header Referer : http://localhost:56158/character/Al'Azred
+13-07-18 10:42:00 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:42:00 : header Origin : http://localhost:56158
+13-07-18 10:42:00 : header MS-ASPNETCORE-TOKEN : 32be5021-32b1-4ef6-b600-88187230bcec
+13-07-18 10:42:00 : header X-Original-Proto : http
+13-07-18 10:42:00 : header X-Original-For : 127.0.0.1:60033
+13-07-18 10:42:00 : Response incoming
+13-07-18 10:42:00 : header Vary : Origin
+13-07-18 10:42:00 : header Access-Control-Allow-Credentials : true
+13-07-18 10:42:00 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:42:00 : In get with parameter Al'Azred
+13-07-18 10:44:37 : Request incoming
+13-07-18 10:44:37 : header Connection : Keep-Alive
+13-07-18 10:44:37 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 10:44:37 : header Accept-Encoding : gzip, deflate
+13-07-18 10:44:37 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:44:37 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 10:44:37 : header Host : localhost:53713
+13-07-18 10:44:37 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:44:37 : header Upgrade-Insecure-Requests : 1
+13-07-18 10:44:37 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:44:37 : header X-Original-Proto : http
+13-07-18 10:44:37 : header X-Original-For : 127.0.0.1:60106
+13-07-18 10:44:37 : Response incoming
+13-07-18 10:44:37 : In Fallout Controller GetAll
+13-07-18 10:48:44 : Request incoming
+13-07-18 10:48:44 : header Connection : Keep-Alive
+13-07-18 10:48:44 : header Accept : */*
+13-07-18 10:48:44 : header Accept-Encoding : gzip, deflate
+13-07-18 10:48:44 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:48:44 : header Host : localhost:53713
+13-07-18 10:48:44 : header Referer : http://localhost:56158/characterlist
+13-07-18 10:48:44 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:48:44 : header Origin : http://localhost:56158
+13-07-18 10:48:44 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:48:44 : header X-Original-Proto : http
+13-07-18 10:48:44 : header X-Original-For : 127.0.0.1:60156
+13-07-18 10:48:44 : Response incoming
+13-07-18 10:48:44 : header Vary : Origin
+13-07-18 10:48:44 : header Access-Control-Allow-Credentials : true
+13-07-18 10:48:44 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:48:44 : In Fallout Controller GetAll
+13-07-18 10:48:45 : Request incoming
+13-07-18 10:48:45 : header Connection : Keep-Alive
+13-07-18 10:48:45 : header Accept : */*
+13-07-18 10:48:45 : header Accept-Encoding : gzip, deflate
+13-07-18 10:48:45 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:48:45 : header Host : localhost:53713
+13-07-18 10:48:45 : header Referer : http://localhost:56158/character/Al'Azred
+13-07-18 10:48:45 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:48:45 : header Origin : http://localhost:56158
+13-07-18 10:48:45 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:48:45 : header X-Original-Proto : http
+13-07-18 10:48:45 : header X-Original-For : 127.0.0.1:60156
+13-07-18 10:48:45 : Response incoming
+13-07-18 10:48:45 : header Vary : Origin
+13-07-18 10:48:45 : header Access-Control-Allow-Credentials : true
+13-07-18 10:48:45 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:48:45 : In get with parameter Al'Azred
+13-07-18 10:48:57 : Request incoming
+13-07-18 10:48:57 : header Connection : Keep-Alive
+13-07-18 10:48:57 : header Accept : */*
+13-07-18 10:48:57 : header Accept-Encoding : gzip, deflate
+13-07-18 10:48:57 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:48:57 : header Host : localhost:53713
+13-07-18 10:48:57 : header Referer : http://localhost:56158/characterlist
+13-07-18 10:48:57 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:48:57 : header Origin : http://localhost:56158
+13-07-18 10:48:57 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:48:57 : header X-Original-Proto : http
+13-07-18 10:48:57 : header X-Original-For : 127.0.0.1:60156
+13-07-18 10:48:57 : Response incoming
+13-07-18 10:48:57 : header Vary : Origin
+13-07-18 10:48:57 : header Access-Control-Allow-Credentials : true
+13-07-18 10:48:57 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:48:57 : In Fallout Controller GetAll
+13-07-18 10:48:58 : Request incoming
+13-07-18 10:48:58 : header Connection : Keep-Alive
+13-07-18 10:48:58 : header Accept : */*
+13-07-18 10:48:58 : header Accept-Encoding : gzip, deflate
+13-07-18 10:48:58 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:48:58 : header Host : localhost:53713
+13-07-18 10:48:58 : header Referer : http://localhost:56158/characterlist
+13-07-18 10:48:58 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:48:58 : header Origin : http://localhost:56158
+13-07-18 10:48:58 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:48:58 : header X-Original-Proto : http
+13-07-18 10:48:58 : header X-Original-For : 127.0.0.1:60156
+13-07-18 10:48:58 : Response incoming
+13-07-18 10:48:58 : header Vary : Origin
+13-07-18 10:48:58 : header Access-Control-Allow-Credentials : true
+13-07-18 10:48:58 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:48:58 : In Delete with parameter Al'Azred
+13-07-18 10:49:07 : Request incoming
+13-07-18 10:49:07 : header Connection : Keep-Alive
+13-07-18 10:49:07 : header Accept : */*
+13-07-18 10:49:07 : header Accept-Encoding : gzip, deflate
+13-07-18 10:49:07 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:49:07 : header Host : localhost:53713
+13-07-18 10:49:07 : header Referer : http://localhost:56158/game
+13-07-18 10:49:07 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:49:07 : header Origin : http://localhost:56158
+13-07-18 10:49:07 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:49:07 : header X-Original-Proto : http
+13-07-18 10:49:07 : header X-Original-For : 127.0.0.1:60156
+13-07-18 10:49:07 : Response incoming
+13-07-18 10:49:07 : header Vary : Origin
+13-07-18 10:49:07 : header Access-Control-Allow-Credentials : true
+13-07-18 10:49:07 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:49:45 : Request incoming
+13-07-18 10:49:45 : header Connection : Keep-Alive
+13-07-18 10:49:45 : header Content-Type : application/json
+13-07-18 10:49:45 : header Accept : application/json
+13-07-18 10:49:45 : header Accept-Encoding : gzip, deflate
+13-07-18 10:49:45 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:49:45 : header Host : localhost:53713
+13-07-18 10:49:45 : header Referer : http://localhost:56158/characterCreation
+13-07-18 10:49:45 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:49:45 : header Origin : http://localhost:56158
+13-07-18 10:49:45 : header Content-Length : 68
+13-07-18 10:49:45 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:49:45 : header X-Original-Proto : http
+13-07-18 10:49:45 : header X-Original-For : 127.0.0.1:60156
+13-07-18 10:49:45 : Response incoming
+13-07-18 10:49:45 : header Vary : Origin
+13-07-18 10:49:45 : header Access-Control-Allow-Credentials : true
+13-07-18 10:49:45 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:49:49 : In create with parameter al'Azred
+13-07-18 10:49:50 : Request incoming
+13-07-18 10:49:50 : header Connection : Keep-Alive
+13-07-18 10:49:50 : header Accept : */*
+13-07-18 10:49:50 : header Accept-Encoding : gzip, deflate
+13-07-18 10:49:50 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:49:50 : header Host : localhost:53713
+13-07-18 10:49:50 : header Referer : http://localhost:56158/character/al'Azred
+13-07-18 10:49:50 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:49:50 : header Origin : http://localhost:56158
+13-07-18 10:49:50 : header MS-ASPNETCORE-TOKEN : c06f5b22-95ba-4b7b-a6b6-5ab8f41962a8
+13-07-18 10:49:50 : header X-Original-Proto : http
+13-07-18 10:49:50 : header X-Original-For : 127.0.0.1:60156
+13-07-18 10:49:50 : Response incoming
+13-07-18 10:49:50 : header Vary : Origin
+13-07-18 10:49:50 : header Access-Control-Allow-Credentials : true
+13-07-18 10:49:50 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:49:50 : In get with parameter al'Azred
+13-07-18 10:54:26 : Request incoming
+13-07-18 10:54:26 : header Connection : Keep-Alive
+13-07-18 10:54:26 : header Accept : */*
+13-07-18 10:54:26 : header Accept-Encoding : gzip, deflate
+13-07-18 10:54:26 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 10:54:26 : header Host : localhost:53713
+13-07-18 10:54:26 : header Referer : http://localhost:56158/characterlist
+13-07-18 10:54:26 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 10:54:26 : header Origin : http://localhost:56158
+13-07-18 10:54:26 : header MS-ASPNETCORE-TOKEN : c603eb96-18dc-42f1-b67f-4929bf3d66e9
+13-07-18 10:54:26 : header X-Original-Proto : http
+13-07-18 10:54:26 : header X-Original-For : 127.0.0.1:60269
+13-07-18 10:54:26 : Response incoming
+13-07-18 10:54:26 : header Vary : Origin
+13-07-18 10:54:26 : header Access-Control-Allow-Credentials : true
+13-07-18 10:54:26 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 10:54:26 : In Fallout Controller GetAll
+13-07-18 11:03:45 : Request incoming
+13-07-18 11:03:45 : header Connection : Keep-Alive
+13-07-18 11:03:45 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 11:03:45 : header Accept-Encoding : gzip, deflate
+13-07-18 11:03:46 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:03:46 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 11:03:46 : header Host : localhost:53713
+13-07-18 11:03:46 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:03:46 : header Upgrade-Insecure-Requests : 1
+13-07-18 11:03:46 : header MS-ASPNETCORE-TOKEN : e4f6920e-65ef-4df1-a5be-800114b8eb87
+13-07-18 11:03:46 : header X-Original-Proto : http
+13-07-18 11:03:46 : header X-Original-For : 127.0.0.1:60616
+13-07-18 11:03:46 : Response incoming
+13-07-18 11:03:46 : In Fallout Controller GetAll
+13-07-18 11:05:31 : Request incoming
+13-07-18 11:05:31 : header Connection : Keep-Alive
+13-07-18 11:05:31 : header Accept : */*
+13-07-18 11:05:31 : header Accept-Encoding : gzip, deflate
+13-07-18 11:05:31 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:05:31 : header Host : localhost:53713
+13-07-18 11:05:31 : header Referer : http://localhost:56158/game
+13-07-18 11:05:31 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:05:31 : header Origin : http://localhost:56158
+13-07-18 11:05:31 : header MS-ASPNETCORE-TOKEN : e4f6920e-65ef-4df1-a5be-800114b8eb87
+13-07-18 11:05:31 : header X-Original-Proto : http
+13-07-18 11:05:31 : header X-Original-For : 127.0.0.1:60669
+13-07-18 11:05:31 : Response incoming
+13-07-18 11:05:31 : header Vary : Origin
+13-07-18 11:05:31 : header Access-Control-Allow-Credentials : true
+13-07-18 11:05:31 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 11:05:35 : Request incoming
+13-07-18 11:05:35 : header Connection : Keep-Alive
+13-07-18 11:05:35 : header Accept : */*
+13-07-18 11:05:35 : header Accept-Encoding : gzip, deflate
+13-07-18 11:05:35 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:05:35 : header Host : localhost:53713
+13-07-18 11:05:35 : header Referer : http://localhost:56158/characterlist
+13-07-18 11:05:35 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:05:35 : header Origin : http://localhost:56158
+13-07-18 11:05:35 : header MS-ASPNETCORE-TOKEN : e4f6920e-65ef-4df1-a5be-800114b8eb87
+13-07-18 11:05:35 : header X-Original-Proto : http
+13-07-18 11:05:35 : header X-Original-For : 127.0.0.1:60669
+13-07-18 11:05:35 : Response incoming
+13-07-18 11:05:35 : header Vary : Origin
+13-07-18 11:05:35 : header Access-Control-Allow-Credentials : true
+13-07-18 11:05:35 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 11:05:35 : In Fallout Controller GetAll
+13-07-18 11:08:29 : Request incoming
+13-07-18 11:08:29 : header Connection : Keep-Alive
+13-07-18 11:08:29 : header Accept : */*
+13-07-18 11:08:29 : header Accept-Encoding : gzip, deflate
+13-07-18 11:08:29 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:08:29 : header Host : localhost:53713
+13-07-18 11:08:29 : header Referer : http://localhost:56158/characterlist
+13-07-18 11:08:29 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:08:29 : header Origin : http://localhost:56158
+13-07-18 11:08:29 : header MS-ASPNETCORE-TOKEN : e4f6920e-65ef-4df1-a5be-800114b8eb87
+13-07-18 11:08:29 : header X-Original-Proto : http
+13-07-18 11:08:29 : header X-Original-For : 127.0.0.1:60729
+13-07-18 11:08:29 : Response incoming
+13-07-18 11:08:29 : header Vary : Origin
+13-07-18 11:08:29 : header Access-Control-Allow-Credentials : true
+13-07-18 11:08:29 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 11:08:29 : In Fallout Controller GetAll
+13-07-18 11:08:50 : Request incoming
+13-07-18 11:08:50 : header Connection : Keep-Alive
+13-07-18 11:08:50 : header Accept : text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+13-07-18 11:08:50 : header Accept-Encoding : gzip, deflate
+13-07-18 11:08:50 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:08:50 : header Cookie : hblid=rUyYQuNMunvC0oBd3m39N0N9F0R0RAy6; olfsk=olfsk09337493329946345
+13-07-18 11:08:50 : header Host : localhost:53713
+13-07-18 11:08:50 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:08:50 : header Upgrade-Insecure-Requests : 1
+13-07-18 11:08:50 : header MS-ASPNETCORE-TOKEN : 4069845f-2356-493d-9b18-e3d435bde13a
+13-07-18 11:08:50 : header X-Original-Proto : http
+13-07-18 11:08:50 : header X-Original-For : 127.0.0.1:60742
+13-07-18 11:08:50 : Response incoming
+13-07-18 11:08:50 : In Fallout Controller GetAll
+13-07-18 11:09:34 : Request incoming
+13-07-18 11:09:34 : header Connection : Keep-Alive
+13-07-18 11:09:34 : header Accept : */*
+13-07-18 11:09:34 : header Accept-Encoding : gzip, deflate
+13-07-18 11:09:34 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:09:34 : header Host : localhost:53713
+13-07-18 11:09:34 : header Referer : http://localhost:56158/characterlist
+13-07-18 11:09:34 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:09:34 : header Origin : http://localhost:56158
+13-07-18 11:09:34 : header MS-ASPNETCORE-TOKEN : 4069845f-2356-493d-9b18-e3d435bde13a
+13-07-18 11:09:34 : header X-Original-Proto : http
+13-07-18 11:09:34 : header X-Original-For : 127.0.0.1:60742
+13-07-18 11:09:34 : Response incoming
+13-07-18 11:09:34 : header Vary : Origin
+13-07-18 11:09:34 : header Access-Control-Allow-Credentials : true
+13-07-18 11:09:34 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 11:09:34 : In Fallout Controller GetAll
+13-07-18 11:09:37 : Request incoming
+13-07-18 11:09:37 : header Connection : Keep-Alive
+13-07-18 11:09:37 : header Accept : */*
+13-07-18 11:09:37 : header Accept-Encoding : gzip, deflate
+13-07-18 11:09:37 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:09:37 : header Host : localhost:53713
+13-07-18 11:09:37 : header Referer : http://localhost:56158/characterlist
+13-07-18 11:09:37 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:09:37 : header Origin : http://localhost:56158
+13-07-18 11:09:37 : header MS-ASPNETCORE-TOKEN : 4069845f-2356-493d-9b18-e3d435bde13a
+13-07-18 11:09:37 : header X-Original-Proto : http
+13-07-18 11:09:37 : header X-Original-For : 127.0.0.1:60742
+13-07-18 11:09:37 : Response incoming
+13-07-18 11:09:37 : header Vary : Origin
+13-07-18 11:09:37 : header Access-Control-Allow-Credentials : true
+13-07-18 11:09:37 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 11:09:37 : In Delete with parameter al'Azred
+13-07-18 11:09:41 : Request incoming
+13-07-18 11:09:41 : header Connection : Keep-Alive
+13-07-18 11:09:41 : header Accept : */*
+13-07-18 11:09:41 : header Accept-Encoding : gzip, deflate
+13-07-18 11:09:41 : header Accept-Language : en,en-US;q=0.7,nl;q=0.3
+13-07-18 11:09:41 : header Host : localhost:53713
+13-07-18 11:09:41 : header Referer : http://localhost:56158/characterlist
+13-07-18 11:09:41 : header User-Agent : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0
+13-07-18 11:09:41 : header Origin : http://localhost:56158
+13-07-18 11:09:42 : header MS-ASPNETCORE-TOKEN : 4069845f-2356-493d-9b18-e3d435bde13a
+13-07-18 11:09:42 : header X-Original-Proto : http
+13-07-18 11:09:42 : header X-Original-For : 127.0.0.1:60742
+13-07-18 11:09:42 : Response incoming
+13-07-18 11:09:42 : header Vary : Origin
+13-07-18 11:09:42 : header Access-Control-Allow-Credentials : true
+13-07-18 11:09:42 : header Access-Control-Allow-Origin : http://localhost:56158
+13-07-18 11:09:42 : In Fallout Controller GetAll

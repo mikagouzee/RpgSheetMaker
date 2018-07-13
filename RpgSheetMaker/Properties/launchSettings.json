@@ -11,7 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/FalloutCharacter",
+      "launchUrl": "api/Character/Fallout",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -19,7 +19,7 @@
     "RpgSheetMaker": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/FalloutCharacter",
+      "launchUrl": "api/Character",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

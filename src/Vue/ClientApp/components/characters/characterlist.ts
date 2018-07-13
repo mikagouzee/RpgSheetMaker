@@ -8,7 +8,7 @@ export default class CharacterListComponent extends Vue {
 
 
     mounted() {
-        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}`)
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game.name}`)
             .then(response => response.json() as Promise<Character[]>)
             .then(data => {
                 this.characters = data;
@@ -25,7 +25,9 @@ export default class CharacterListComponent extends Vue {
     deleteCharacter(characterName: string): void {
         console.log("delete " + characterName + " called");
 
-        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}/` + characterName, { method: 'delete' });
+        this.characters = this.characters.filter(_ => _.name !== characterName);
+
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game.name}/` + characterName, { method: 'delete' });
     }
 
 }

@@ -37,6 +37,13 @@ namespace RpgSheetMaker.Services
             return _repo.Create(characName);
         }
 
+        public Character Create(string contextName, CharacterCreationObject charac)
+        {
+            var _repo = _repositories.SingleOrDefault(x => x.HasName(contextName));
+
+            return _repo.Create(charac);
+        }
+
 
         public Character Edit(string contextName, CharacterViewModel newVersion, Character oldVersion)
         {
@@ -57,10 +64,11 @@ namespace RpgSheetMaker.Services
 
         public List<Career> GetCareers(string contextName)
         {
-            var repo = _repositories.SingleOrDefault(x => x.HasName(contextName));
+            var _repo = _repositories.SingleOrDefault(x => x.HasName(contextName));
 
-            return repo.GetCareers();
+            return _repo.GetCareers();
         }
+
 
     }
 }

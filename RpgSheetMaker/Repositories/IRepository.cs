@@ -17,6 +17,8 @@ namespace RpgSheetMaker.Repositories
 
         Character Create(string name);
 
+        Character Create(CharacterCreationObject premade);
+
         Character Edit(CharacterViewModel newVersion, Character oldVersion);
 
         void Save(Character character);

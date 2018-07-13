@@ -28,10 +28,13 @@ namespace Library.ViewModels
             Skills = MapCaracs(baseCharac.Skills);
             spendablePoints = MapCaracs(baseCharac.SpendablePoints);
             Stats = MapCaracs(baseCharac.Stats);
+
             Profession = new CareerViewModel
             {
-                Name = baseCharac.Profession.Name,
-                JobSkills = MapCaracs(baseCharac.Profession.JobSkills)
+                Name = baseCharac.Profession?.Name,
+                JobSkills = baseCharac.Profession != null ?
+                    MapCaracs(baseCharac.Profession.JobSkills)
+                    : new List<CaracteristicViewModel>()
             };
         }
 
@@ -49,4 +52,22 @@ namespace Library.ViewModels
         }
 
     }
+
+
+    public class CharacterCreationObject
+    {
+        public string Name { get; set; }
+
+        public string CareerName { get; set; }
+
+        public string GameName { get; set; }
+
+        public CharacterCreationObject()
+        {
+            Name = "Premade default";
+            CareerName = "default occupation";
+            GameName = "default game";
+        }
+    }
+
 }

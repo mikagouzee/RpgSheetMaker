@@ -3,6 +3,13 @@
         <h1>Create a character</h1>
         <p>Enter the name of your new character</p>
         <input v-model="characterName" />
+
+        <p>Select his job</p>
+
+        <select v-model="selectedJob">
+            <option v-for="job in jobs" v-bind:value="job">{{job}}</option>
+        </select>   
+
         <button @click="onClick">Create Character</button>
     </div>
 </template>

@@ -22,7 +22,7 @@ export default class CharacterDetailComponent extends Vue {
     mounted() {
         console.log('Current character : '+this.characterName);
         console.log('Current game : ' + this.$store.state.game);
-        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}/` + this.characterName)
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game.name}/` + this.characterName)
             .then(response => response.json() as Promise<Character>)
             .then(data => {
                 this.selectedCharacter = data;
@@ -33,7 +33,7 @@ export default class CharacterDetailComponent extends Vue {
     GoToUpdate() {
         console.log('update');
 
-        fetch(`http://localhost:53713/api/Character/${this.$store.state.game}/edit/` +this.selectedCharacter.name, {
+        fetch(`http://localhost:53713/api/Character/${this.$store.state.game.name}/edit/` +this.selectedCharacter.name, {
             method: 'post',
             headers: {
                 "Accept": "application/json",

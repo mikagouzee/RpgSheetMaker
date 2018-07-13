@@ -23,6 +23,10 @@ namespace Library.Implementations.Fallout
             Professions.Add(merchant);
             Career mendiant = new Career("mendiant");
             Professions.Add(mendiant);
+
+            Career scientist = new Career("scientist");
+            Professions.Add(scientist);
+
         }
 
         public override bool HasName(string name)
@@ -201,7 +205,11 @@ namespace Library.Implementations.Fallout
             mendiant.JobSkills.Add(sneak);
             mendiant.JobSkills.Add(barter);
             mendiant.JobSkills.Add(steal);
-            this.Professions.Add(mendiant);
+
+            Career scientist = Professions.SingleOrDefault(x => x.Name == "scientist");
+            scientist.JobSkills.Add(science);
+            scientist.JobSkills.Add(energyWeapons);
+            scientist.JobSkills.Add(repair);
 
             #endregion game careers
 
@@ -357,8 +365,29 @@ namespace Library.Implementations.Fallout
             if (string.IsNullOrEmpty(name))
                 name = "Toby Determined";
 
-            var charac = new Character(name);
-            charac.GameName = "Fallout";
+            CharacterCreationObject temp = new CharacterCreationObject
+            {
+                Name = name,
+                CareerName = "mendiant",
+                GameName = FactoryName
+            };
+
+            var charac = new Character(temp);
+
+            SetBaseAttr(charac);
+            SetSpendablePoints(charac);
+            SetSkills(charac);
+            SetStats(charac);
+            SetCareerSkills(charac);
+
+            return charac;
+        }
+
+        public override Character CreateCharacter(CharacterCreationObject premade)
+        {
+            var charac = new Character(premade);
+
+            charac.Profession = Professions.SingleOrDefault(x => x.Name == premade.CareerName);
 
             SetBaseAttr(charac);
             SetSpendablePoints(charac);

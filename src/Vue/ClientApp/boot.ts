@@ -12,16 +12,21 @@ Vue.use(VueRouter);
 const store = new Vuex.Store({
     state: {
         count: 0,
-        game:'Fallout'
+        game: {
+            name: 'Fallout',
+            jobs:['mendiant', 'fighter', 'wanderer', 'merchant']
+        }
     },
     mutations: {
         increment(state) {
             state.count++
         },
 
-        selectGame(state, gameName) {
-            state.game = gameName;
-            console.log("from Store: "+state.game);
+        selectGame(state, game) {
+            state.game = game;
+            console.log("from Store: " + state.game.name);
+            console.log("With jobs : ");
+            state.game.jobs.forEach(x => console.log(x));
         }
     }
 })

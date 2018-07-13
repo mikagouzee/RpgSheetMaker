@@ -17,6 +17,8 @@ namespace Library.CommonObjects
 
         public abstract Character CreateCharacter(string name);
 
+        public abstract Character CreateCharacter(CharacterCreationObject premade);
+
         public abstract Character Edit(CharacterViewModel newVersion, Character oldversion);
 
         public abstract void SetBaseAttr(Character charac);

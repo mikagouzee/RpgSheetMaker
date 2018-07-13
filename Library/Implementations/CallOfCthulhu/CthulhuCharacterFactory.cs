@@ -83,8 +83,30 @@ namespace Library.Implementations.CallOfCthulhu
             if (string.IsNullOrEmpty(name))
                 name = "Will Notbenamed";
 
-            var charac = new Character(name);
-            charac.GameName = "CallOfCthulhu";
+            CharacterCreationObject temp = new CharacterCreationObject
+            {
+                Name = name,
+                CareerName = "mendiant",
+                GameName = FactoryName
+            };
+
+            var charac = new Character(temp);
+
+            SetBaseAttr(charac);
+            SetSpendablePoints(charac);
+            SetSkills(charac);
+            SetStats(charac);
+            SetCareerSkills(charac);
+
+            return charac;
+        }
+
+
+        public override Character CreateCharacter(CharacterCreationObject premade)
+        {
+            var charac = new Character(premade);
+
+            charac.Profession = Professions.SingleOrDefault(x => x.Name == premade.CareerName);
 
             SetBaseAttr(charac);
             SetSpendablePoints(charac);
@@ -379,6 +401,13 @@ namespace Library.Implementations.CallOfCthulhu
 
             #endregion
 
+
+            foreach (var item in charac.Skills)
+            {
+                item.BaseValue = item.Minimum;
+                item.CurrentValue = item.BaseValue;
+            }
+
         }
 
         public override void SetSpendablePoints(Character charac)
@@ -437,11 +466,21 @@ namespace Library.Implementations.CallOfCthulhu
             charac.Stats.FirstOrDefault(s => s.Name == "idea").BaseValue = charac.BaseAttributes.FirstOrDefault(b => b.Name == "intelligence").BaseValue * 5;
             charac.Stats.FirstOrDefault(s => s.Name == "will power").BaseValue = charac.BaseAttributes.FirstOrDefault(b => b.Name == "power").BaseValue * 5;
             charac.Stats.FirstOrDefault(s => s.Name == "sanity").BaseValue = charac.BaseAttributes.FirstOrDefault(b => b.Name == "power").BaseValue * 5;
+
+            foreach (var item in charac.Stats)
+            {
+                item.CurrentValue = item.BaseValue;
+            }
         }
 
         public override Character Edit(CharacterViewModel newVersion, Character oldversion)
         {
-            throw new NotImplementedException();
+            oldversion.Update(newVersion.BaseAttributes);
+            oldversion.Update(newVersion.Stats);
+            oldversion.Update(newVersion.Skills);
+            oldversion.Update(newVersion.spendablePoints);
+
+            return oldversion;
         }
     }
 }
