@@ -31,12 +31,12 @@ namespace RpgSheetMaker.Repositories
             return _name == name;
         }
 
-        public Character Create(string name)
-        {
-            var hero =  _factory.CreateCharacter(name);
-            _archivist.SaveCharacterAsJson(hero);
-            return hero;
-        }
+        //public Character Create(string name)
+        //{
+        //    var hero =  _factory.CreateCharacter(name);
+        //    _archivist.SaveCharacterAsJson(hero);
+        //    return hero;
+        //}
 
 
         public Character Create(CharacterCreationObject premade)

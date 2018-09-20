@@ -78,28 +78,28 @@ namespace Library.Implementations.CallOfCthulhu
             return name == FactoryName;
         }
 
-        public override Character CreateCharacter(string name)
-        {
-            if (string.IsNullOrEmpty(name))
-                name = "Will Notbenamed";
+        //public override Character CreateCharacter(string name)
+        //{
+        //    if (string.IsNullOrEmpty(name))
+        //        name = "Will Notbenamed";
 
-            CharacterCreationObject temp = new CharacterCreationObject
-            {
-                Name = name,
-                CareerName = "mendiant",
-                GameName = FactoryName
-            };
+        //    CharacterCreationObject temp = new CharacterCreationObject
+        //    {
+        //        Name = name,
+        //        CareerName = "mendiant",
+        //        GameName = FactoryName
+        //    };
 
-            var charac = new Character(temp);
+        //    var charac = new Character(temp);
 
-            SetBaseAttr(charac);
-            SetSpendablePoints(charac);
-            SetSkills(charac);
-            SetStats(charac);
-            SetCareerSkills(charac);
+        //    SetBaseAttr(charac);
+        //    SetSpendablePoints(charac);
+        //    SetSkills(charac);
+        //    SetStats(charac);
+        //    SetCareerSkills(charac);
 
-            return charac;
-        }
+        //    return charac;
+        //}
 
 
         public override Character CreateCharacter(CharacterCreationObject premade)

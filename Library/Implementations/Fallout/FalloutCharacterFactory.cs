@@ -23,7 +23,6 @@ namespace Library.Implementations.Fallout
             Professions.Add(merchant);
             Career mendiant = new Career("mendiant");
             Professions.Add(mendiant);
-
             Career scientist = new Career("scientist");
             Professions.Add(scientist);
 
@@ -187,26 +186,31 @@ namespace Library.Implementations.Fallout
             #region game careers
 
             Career fighter = Professions.SingleOrDefault(x => x.Name == "fighter");
+            fighter.JobSkills.Clear();
             fighter.JobSkills.Add(smallGuns);
             fighter.JobSkills.Add(bigGuns);
             fighter.JobSkills.Add(firstAid);
 
             Career wanderer = Professions.SingleOrDefault(x => x.Name == "wanderer");
+            wanderer.JobSkills.Clear();
             wanderer.JobSkills.Add(outdoorsman);
             wanderer.JobSkills.Add(firstAid);
             wanderer.JobSkills.Add(repair);
 
             Career merchant = Professions.SingleOrDefault(x => x.Name == "merchant");
+            merchant.JobSkills.Clear();
             merchant.JobSkills.Add(barter);
             merchant.JobSkills.Add(gambling);
             merchant.JobSkills.Add(speech);
             
             Career mendiant = Professions.SingleOrDefault(x => x.Name == "mendiant");
+            mendiant.JobSkills.Clear();
             mendiant.JobSkills.Add(sneak);
             mendiant.JobSkills.Add(barter);
             mendiant.JobSkills.Add(steal);
 
             Career scientist = Professions.SingleOrDefault(x => x.Name == "scientist");
+            scientist.JobSkills.Clear();
             scientist.JobSkills.Add(science);
             scientist.JobSkills.Add(energyWeapons);
             scientist.JobSkills.Add(repair);
@@ -360,28 +364,28 @@ namespace Library.Implementations.Fallout
             }
         }
 
-        public override Character CreateCharacter(string name)
-        {
-            if (string.IsNullOrEmpty(name))
-                name = "Toby Determined";
+        //public override Character CreateCharacter(string name)
+        //{
+        //    if (string.IsNullOrEmpty(name))
+        //        name = "Toby Determined";
 
-            CharacterCreationObject temp = new CharacterCreationObject
-            {
-                Name = name,
-                CareerName = "mendiant",
-                GameName = FactoryName
-            };
+        //    CharacterCreationObject temp = new CharacterCreationObject
+        //    {
+        //        Name = name,
+        //        CareerName = "mendiant",
+        //        GameName = FactoryName
+        //    };
 
-            var charac = new Character(temp);
+        //    var charac = new Character(temp);
 
-            SetBaseAttr(charac);
-            SetSpendablePoints(charac);
-            SetSkills(charac);
-            SetStats(charac);
-            SetCareerSkills(charac);
+        //    SetBaseAttr(charac);
+        //    SetSpendablePoints(charac);
+        //    SetSkills(charac);
+        //    SetStats(charac);
+        //    SetCareerSkills(charac);
 
-            return charac;
-        }
+        //    return charac;
+        //}
 
         public override Character CreateCharacter(CharacterCreationObject premade)
         {
@@ -398,6 +402,7 @@ namespace Library.Implementations.Fallout
             return charac;
         }
 
+        //Todo rework
         public override Character Edit(CharacterViewModel newVersion, Character oldVersion)
         {
             
@@ -405,6 +410,8 @@ namespace Library.Implementations.Fallout
             oldVersion.Update(newVersion.Stats);
             oldVersion.Update(newVersion.Skills);
             oldVersion.Update(newVersion.spendablePoints);
+
+            oldVersion.AdaptSkills(oldVersion);
 
             //oldVersion.Name = newVersion.Name;
 

@@ -15,7 +15,7 @@ namespace RpgSheetMaker.Repositories
 
         Character GetByName(string name);
 
-        Character Create(string name);
+        //Character Create(string name);
 
         Character Create(CharacterCreationObject premade);
 

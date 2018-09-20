@@ -15,7 +15,7 @@ namespace Library.CommonObjects
 
         public List<Career> Professions { get; set; }
 
-        public abstract Character CreateCharacter(string name);
+        //public abstract Character CreateCharacter(string name);
 
         public abstract Character CreateCharacter(CharacterCreationObject premade);
 

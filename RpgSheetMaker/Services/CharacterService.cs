@@ -30,12 +30,12 @@ namespace RpgSheetMaker.Services
             return _repo.GetAll();
         }
 
-        public Character Create(string contextName, string characName)
-        {
-            var _repo = _repositories.SingleOrDefault(x => x.HasName(contextName));
+        //public Character Create(string contextName, string characName)
+        //{
+        //    var _repo = _repositories.SingleOrDefault(x => x.HasName(contextName));
 
-            return _repo.Create(characName);
-        }
+        //    return _repo.Create(characName);
+        //}
 
         public Character Create(string contextName, CharacterCreationObject charac)
         {
