@@ -12,6 +12,8 @@ namespace Library.ViewModels
 
         public string Name { get; set; }
         public string GameName { get; set; }
+        public string careername { get => Profession.Name;}
+        public string SpeciesName { get; set; }
         public List<CaracteristicViewModel> BaseAttributes { get; set; }
         public List<CaracteristicViewModel> Skills { get; set; }
         public List<CaracteristicViewModel> Stats { get; set; }
@@ -24,6 +26,7 @@ namespace Library.ViewModels
         {
             Name = baseCharac.Name;
             GameName = baseCharac.GameName;
+            SpeciesName = baseCharac.Species.Name;
             BaseAttributes = MapCaracs(baseCharac.BaseAttributes);
             Skills = MapCaracs(baseCharac.Skills);
             spendablePoints = MapCaracs(baseCharac.SpendablePoints);
@@ -51,8 +54,26 @@ namespace Library.ViewModels
             return returnValue;
         }
 
+
     }
 
+    public class RandomCharacterCreationObject
+    {
+        public string Name { get; set; }
+
+        public string CareerName { get; set; }
+
+        public string GameName { get; set; }
+
+        public string SpeciesName { get; set; }
+
+        public RandomCharacterCreationObject()
+        {
+            Name = "Premade default";
+            CareerName = "default occupation";
+            GameName = "default game";
+        }
+    }
 
     public class CharacterCreationObject
     {
@@ -62,12 +83,25 @@ namespace Library.ViewModels
 
         public string GameName { get; set; }
 
+        public string SpeciesName { get; set; }
+
+        public List<CaracteristicViewModel> BaseAttributes { get; set; }
+        public List<CaracteristicViewModel> Skills { get; set; }
+        //public List<CaracteristicViewModel> Stats { get; set; }
+        //public List<CaracteristicViewModel> spendablePoints { get; set; }
+
         public CharacterCreationObject()
         {
-            Name = "Premade default";
-            CareerName = "default occupation";
-            GameName = "default game";
+            Name = "Default Name";
+            CareerName = "Default Career";
+            GameName = "Default game";
+            SpeciesName = "human";
+            BaseAttributes = new List<CaracteristicViewModel>();
+            Skills = new List<CaracteristicViewModel>();
+            //Stats = new List<CaracteristicViewModel>();
+            //spendablePoints = new List<CaracteristicViewModel>();
         }
+
     }
 
 }

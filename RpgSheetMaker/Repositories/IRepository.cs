@@ -9,23 +9,27 @@ namespace RpgSheetMaker.Repositories
 {
     public interface IRepository
     {
-        bool HasName(string name);
+        //bool HasName(string name);
 
-        List<Character> GetAll();
+        List<Character> GetAll(string context);
 
         Character GetByName(string name);
 
         //Character Create(string name);
 
-        Character Create(CharacterCreationObject premade);
+        Character CreateRandomly(RandomCharacterCreationObject premade, string context);
 
-        Character Edit(CharacterViewModel newVersion, Character oldVersion);
+        Character Create(CharacterCreationObject premade, string context, bool includeSkills);
+
+        Character CreateEmpty(string context);
+
+        Character Edit(CharacterViewModel newVersion, Character oldVersion, string context);
 
         void Save(Character character);
 
         void Delete(string characterName);
 
-        List<Career> GetCareers();
+        List<Career> GetCareers(string context);
 
     }
 }

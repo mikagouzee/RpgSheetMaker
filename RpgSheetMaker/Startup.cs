@@ -1,8 +1,10 @@
 ﻿using Library.CommonObjects;
+using Library.Implementations;
 using Library.Implementations.CallOfCthulhu;
 using Library.Implementations.Fallout;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
@@ -16,7 +18,7 @@ namespace RpgSheetMaker
     {
         private IHostingEnvironment _hostingEnvironment;
         public IConfigurationRoot Configuration { get; }
-        private ILogMachine _logMachine;
+        
 
         public Startup(IHostingEnvironment env)
         {
@@ -26,7 +28,6 @@ namespace RpgSheetMaker
             Configuration = builder.Build();
 
             _hostingEnvironment = env;
-            _logMachine = new LogMachine(env.ContentRootFileProvider);
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -34,6 +35,7 @@ namespace RpgSheetMaker
         {
             var physicalProvider = _hostingEnvironment.ContentRootFileProvider;
 
+            //todo : change this to allow only Vue 
             services.AddCors(o => o.AddPolicy("AllowAll", builder =>
             {
                 builder.AllowAnyHeader()
@@ -45,16 +47,18 @@ namespace RpgSheetMaker
             services.AddMvc();
 
             services.AddTransient<ILogMachine, LogMachine>();
-            services.AddSingleton<IFileProvider>(physicalProvider);
-            services.AddSingleton<IRepository, FalloutRepository>();
-            services.AddSingleton<IRepository, CallOfCthulhuRepository>();
-
-            services.AddSingleton<CharacterFactory, FalloutCharacterFactory>();
-            services.AddSingleton<CharacterFactory, CthulhuCharacterFactory>();
-
+            services.AddSingleton(physicalProvider);
             services.AddSingleton<IArchivist, Archivist>();
-            services.AddSingleton<ICharacterService, CharacterService>();
             services.AddSingleton<IGameService, GameService>();
+            services.AddSingleton<ICharacterService, CharacterService>();
+
+            services.AddTransient<IRepository, Repository>();
+            services.AddTransient<ICharacterFactory, CharacterFactory>();
+
+            services.AddSingleton<IGame, FalloutGame>();
+            services.AddSingleton<IGame, CallOfCthulhuGame>();
+
+            
 
         }
 
@@ -66,25 +70,36 @@ namespace RpgSheetMaker
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.All
+            });
+
             app.UseCors("AllowAll");
 
             app.Use(async (context, next) =>
             {
-                _logMachine.Log("Request incoming");
-                foreach (var item in context.Request.Headers)
-                {
-                    _logMachine.Log("header " + item.Key + " : " + item.Value);
-                }
-
-                _logMachine.Log("Response incoming");
-                foreach (var item in context.Response.Headers)
-                {
-                    _logMachine.Log("header " + item.Key + " : " + item.Value);
-                }
-
-
+                context.Response.Headers.Add("X-Clacks-Overhead", "GNU Terry Pratchett");
                 await next.Invoke();
             });
+
+            //app.Use(async (context, next) =>
+            //{
+            //    _logMachine.Log("Request incoming");
+            //    foreach (var item in context.Request.Headers)
+            //    {
+            //        _logMachine.Log("Request header " + item.Key + " : " + item.Value);
+            //    }
+
+            //    _logMachine.Log("Response incoming");
+            //    foreach (var item in context.Response.Headers)
+            //    {
+            //        _logMachine.Log("Response header " + item.Key + " : " + item.Value);
+            //    }
+
+
+            //    await next.Invoke();
+            //});
 
             app.UseMvc();
             

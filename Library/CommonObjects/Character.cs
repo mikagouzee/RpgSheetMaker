@@ -11,6 +11,7 @@ namespace Library.CommonObjects
     {
         public string Name { get; set; }
         public string GameName { get; set; }
+        public Species Species { get; set; }
 
         public List<Caracteristic> BaseAttributes { get; set; }
         public List<Caracteristic> Skills { get; set; }
@@ -25,6 +26,11 @@ namespace Library.CommonObjects
             Skills = new List<Caracteristic>();
             Stats = new List<Caracteristic>();
             SpendablePoints = new List<Caracteristic>();
+            Species = new Species
+            {
+                Name = "human",
+                Modificators = new List<KeyValuePair<Caracteristic, int>>()
+            };
         }
 
         public Character(string name)
@@ -33,7 +39,7 @@ namespace Library.CommonObjects
             Name = name;
         }
 
-        public Character(CharacterCreationObject premade)
+        public Character(RandomCharacterCreationObject premade)
             :this()
         {
             Name = premade.Name;

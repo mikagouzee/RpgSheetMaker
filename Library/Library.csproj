@@ -42,12 +42,12 @@
   <ItemGroup>
     <Compile Include="CommonObjects\Career.cs" />
     <Compile Include="CommonObjects\Character.cs" />
-    <Compile Include="CommonObjects\CharacterFactory.cs" />
+    <Compile Include="CommonObjects\ICharacterFactory.cs" />
     <Compile Include="CommonObjects\Caracteristic.cs" />
-    <Compile Include="CommonObjects\Game.cs" />
+    <Compile Include="CommonObjects\IGame.cs" />
+    <Compile Include="CommonObjects\Species.cs" />
     <Compile Include="Implementations\CallOfCthulhu\CallOfCthulhuGame.cs" />
-    <Compile Include="Implementations\CallOfCthulhu\CthulhuCharacterFactory.cs" />
-    <Compile Include="Implementations\Fallout\FalloutCharacterFactory.cs" />
+    <Compile Include="Implementations\CharacterFactory.cs" />
     <Compile Include="Implementations\Fallout\FalloutGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\CaracteristicViewModel.cs" />

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Library.CommonObjects;
 using Microsoft.Extensions.FileProviders;
@@ -12,22 +13,37 @@ namespace RpgSheetMaker.Tools
     public class Archivist : IArchivist
     {
         private readonly IFileProvider _fileProvider;
+        private ILogMachine _logger;
         private static string sheetPath;
         private static string archivePath;
 
-        public Archivist(IFileProvider fileProvider)
+        public Archivist(IFileProvider fileProvider, ILogMachine logMachine)
         {
             _fileProvider = fileProvider;
+            _logger = logMachine;
 
-            var sheetFolder = _fileProvider.GetDirectoryContents("").FirstOrDefault(x => x.Name == "CharacterSheets");
-            
-            if(sheetFolder.Exists && sheetFolder.IsDirectory)
-                sheetPath = sheetFolder.PhysicalPath;
+            //this will get the folder from which the code is executed.
+            //our code should use that path and search inside if the needed folders exists.
 
+            var current = AssemblyLocator.GetAssemblyLocation();
 
-            var archiveFolder = _fileProvider.GetDirectoryContents("").FirstOrDefault(x => x.Name == "Archives");
-            if (archiveFolder.Exists && archiveFolder.IsDirectory)
-                archivePath = archiveFolder.PhysicalPath;
+            _logger.Log($"Archivist looking inside {current} for required folders...");
+
+            var directories = Directory.GetDirectories(current);
+
+            Directory.CreateDirectory(Path.Combine(current, "CharacterSheets"));
+            _logger.Log($"Archivist created Character Sheet folder");
+
+            sheetPath = Path.GetFullPath(Path.Combine(current, "CharacterSheets"));
+
+            var archiveFolder = directories.FirstOrDefault(x => x == "Archives");
+
+            Directory.CreateDirectory(Path.Combine(current, "Archives"));
+            _logger.Log($"Archivist created Archives folder");
+            archivePath = Path.GetFullPath(Path.Combine(current, "Archives"));
+
+            _logger.Log($"Characters will be saved in {sheetPath} and archived in {archivePath} .");
+
 
         }
 
@@ -35,8 +51,10 @@ namespace RpgSheetMaker.Tools
         {
             var list = new List<Character>();
 
-            var files = from file in Directory.EnumerateFiles(sheetPath, "*.txt", SearchOption.TopDirectoryOnly)
-                        where file.Contains("json")
+            _logger.Log($"Searching inside {sheetPath}");
+
+            var files = from file in Directory.EnumerateFiles(sheetPath, "*.json", SearchOption.TopDirectoryOnly)
+                        //where file.Contains("json")
                         select file;
 
             foreach (var item in files)
@@ -56,7 +74,7 @@ namespace RpgSheetMaker.Tools
 
         public Character ReadCharacterFromJson(string name)
         {
-            var sheetName = sheetPath + "\\" + name + "-json.txt";
+            var sheetName = sheetPath + "\\" + name + ".json";
             Character charac = new Character { };
 
             if (File.Exists(sheetName))
@@ -73,7 +91,7 @@ namespace RpgSheetMaker.Tools
 
         public void SaveCharacterAsJson(Character charac)
         {
-            var sheetName = sheetPath + "\\" + charac.Name + "-json.txt";
+            var sheetName = sheetPath + "\\" + charac.Name + ".json";
 
             using (StreamWriter writer = new StreamWriter(sheetName))
             {

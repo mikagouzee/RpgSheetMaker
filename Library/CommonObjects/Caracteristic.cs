@@ -29,6 +29,8 @@ namespace Library.CommonObjects
             : this(name)
         {
             Minimum = min;
+            if (Maximum < Minimum)
+                Maximum = Minimum + 1;
         }
 
         public Caracteristic(string name, int min, int max)
@@ -47,6 +49,15 @@ namespace Library.CommonObjects
                 baseValue :
                 min;
             CurrentValue = BaseValue;
+        }
+
+        public Caracteristic(Caracteristic other)
+        {
+            Name = other.Name;
+            Minimum = other.Minimum;
+            Maximum = other.Maximum;
+            CurrentValue = other.CurrentValue;
+            BaseValue = other.BaseValue;
         }
 
         #region notused
@@ -73,5 +84,25 @@ namespace Library.CommonObjects
             if (Validate(newValue))
                 CurrentValue = newValue;
         }
+
+        public override bool Equals(object obj)
+        {
+            return this.Equals(obj as Caracteristic);
+        }
+
+        public bool Equals(Caracteristic carac)
+        {
+            if (object.ReferenceEquals(carac, null))
+                return false;
+
+            if (object.ReferenceEquals(this, carac))
+                return true;
+
+            if (this.GetType() != carac.GetType())
+                return false;
+
+            return this.Name.ToLower() == carac.Name.ToLower();
+        }
+
     }
 }

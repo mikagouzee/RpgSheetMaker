@@ -28,7 +28,7 @@ namespace RpgSheetMaker.Controllers
 
             foreach (var item in allGames)
             {
-                allMappedGames.Add(new GameViewModel(item));
+                allMappedGames.Add(item.ToViewModel());
             }
 
             return Ok(allMappedGames);

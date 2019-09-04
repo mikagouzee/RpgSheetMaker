@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace RpgSheetMaker.Tools
@@ -17,13 +18,20 @@ namespace RpgSheetMaker.Tools
             _fileProvider = fileProvider;
             string logFolderPath = "";
 
-            var logFolder = _fileProvider.GetDirectoryContents("").FirstOrDefault(x => x.Name == "logFolder");
-            if (logFolder.Exists && logFolder.IsDirectory)
+            var assemblyPath = AssemblyLocator.GetAssemblyLocation();
+
+            var logFolder = Directory.GetDirectories(assemblyPath).FirstOrDefault(x => x == "logfolder");
+
+            //var logFolder = _fileProvider.GetDirectoryContents("").FirstOrDefault(x => x.Name == "logFolder");
+
+            if(logFolder == null)
             {
-                logFolderPath = logFolder.PhysicalPath;
+                Directory.CreateDirectory(Path.Combine(assemblyPath, "logFolder"));
             }
 
-            logFile = Path.Combine(logFolderPath + "\\log.txt");
+            logFolderPath = Path.GetFullPath(Path.Combine(assemblyPath, "logFolder"));
+
+            logFile = Path.Combine(logFolderPath, "log.txt");
 
             if (!File.Exists(logFile))
             {
@@ -36,7 +44,7 @@ namespace RpgSheetMaker.Tools
             using (StreamWriter file = new StreamWriter(logFile, true))
             {
                 file.WriteLine(DateTime.Now + " : " + content);
-             
+                //file.WriteLine(Environment.NewLine);             
             }
 
         }

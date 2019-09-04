@@ -1,0 +1,21 @@
+﻿<template>
+    <div>
+        <h2>Game Selection</h2>
+
+        select a game plz<br />
+
+
+        <select v-if="allGames && allGames.length" v-model="selectedGame">
+            <option v-for="game in allGames" v-bind:value="game">{{game.name}}</option>
+        </select>
+        <br />
+        <div v-if="selectedGame">{{selectedGame.name}}</div>
+        
+        <button @click="SetGame">Confirm</button>
+
+    </div>
+
+    
+</template>
+
+<script src="./gameSelection.ts"></script>

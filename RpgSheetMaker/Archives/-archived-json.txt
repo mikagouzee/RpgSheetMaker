@@ -1,0 +1,1 @@
+{"Name":null,"GameName":null,"BaseAttributes":[],"Skills":[],"Stats":[],"SpendablePoints":[],"Profession":null}

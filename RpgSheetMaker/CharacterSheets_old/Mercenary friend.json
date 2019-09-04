@@ -1,0 +1,274 @@
+{
+    "Name": "Curtis Robertson",
+    "GameName": "Fallout",
+    "Species": {
+        "Name": "human",
+        "Modificators": []
+    },
+    "BaseAttributes": [{
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 3,
+        "BaseValue": 3,
+        "Name": "strength"
+    }, {
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 5,
+        "BaseValue": 5,
+        "Name": "perception"
+    }, {
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 4,
+        "BaseValue": 4,
+        "Name": "endurance"
+    }, {
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 4,
+        "BaseValue": 4,
+        "Name": "charism"
+    }, {
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 4,
+        "BaseValue": 4,
+        "Name": "intelligence"
+    }, {
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 5,
+        "BaseValue": 5,
+        "Name": "agility"
+    }, {
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 10,
+        "BaseValue": 10,
+        "Name": "luck"
+    }],
+    "Skills": [{
+        "Minimum": 9,
+        "Maximum": 150,
+        "CurrentValue": 45,
+        "BaseValue": 45,
+        "Name": "small guns"
+    }, {
+        "Minimum": 2,
+        "Maximum": 150,
+        "CurrentValue": 30,
+        "BaseValue": 30,
+        "Name": "big guns"
+    }, {
+        "Minimum": 2,
+        "Maximum": 150,
+        "CurrentValue": 10,
+        "BaseValue": 10,
+        "Name": "energy weapons"
+    }, {
+        "Minimum": 34,
+        "Maximum": 150,
+        "CurrentValue": 46,
+        "BaseValue": 46,
+        "Name": "unarmed"
+    }, {
+        "Minimum": 24,
+        "Maximum": 150,
+        "CurrentValue": 36,
+        "BaseValue": 36,
+        "Name": "melee weapons"
+    }, {
+        "Minimum": 4,
+        "Maximum": 150,
+        "CurrentValue": 20,
+        "BaseValue": 20,
+        "Name": "throwing"
+    }, {
+        "Minimum": 4,
+        "Maximum": 150,
+        "CurrentValue": 38,
+        "BaseValue": 38,
+        "Name": "first aid"
+    }, {
+        "Minimum": 7,
+        "Maximum": 150,
+        "CurrentValue": 14,
+        "BaseValue": 14,
+        "Name": "doctor"
+    }, {
+        "Minimum": 8,
+        "Maximum": 150,
+        "CurrentValue": 20,
+        "BaseValue": 20,
+        "Name": "sneak"
+    }, {
+        "Minimum": 12,
+        "Maximum": 150,
+        "CurrentValue": 20,
+        "BaseValue": 20,
+        "Name": "lockpick"
+    }, {
+        "Minimum": 3,
+        "Maximum": 150,
+        "CurrentValue": 15,
+        "BaseValue": 15,
+        "Name": "steal"
+    }, {
+        "Minimum": 12,
+        "Maximum": 150,
+        "CurrentValue": 20,
+        "BaseValue": 20,
+        "Name": "traps"
+    }, {
+        "Minimum": 4,
+        "Maximum": 150,
+        "CurrentValue": 16,
+        "BaseValue": 16,
+        "Name": "science"
+    }, {
+        "Minimum": 3,
+        "Maximum": 150,
+        "CurrentValue": 12,
+        "BaseValue": 12,
+        "Name": "repair"
+    }, {
+        "Minimum": 4,
+        "Maximum": 150,
+        "CurrentValue": 20,
+        "BaseValue": 20,
+        "Name": "pilot"
+    }, {
+        "Minimum": 5,
+        "Maximum": 150,
+        "CurrentValue": 20,
+        "BaseValue": 20,
+        "Name": "speech"
+    }, {
+        "Minimum": 4,
+        "Maximum": 150,
+        "CurrentValue": 16,
+        "BaseValue": 16,
+        "Name": "barter"
+    }, {
+        "Minimum": 5,
+        "Maximum": 150,
+        "CurrentValue": 50,
+        "BaseValue": 50,
+        "Name": "gambling"
+    }, {
+        "Minimum": 4,
+        "Maximum": 150,
+        "CurrentValue": 16,
+        "BaseValue": 16,
+        "Name": "outdoorsman"
+    }, {
+        "Minimum": 0,
+        "Maximum": 150,
+        "CurrentValue": 0,
+        "BaseValue": 0,
+        "Name": "radiation resistance"
+    }, {
+        "Minimum": 0,
+        "Maximum": 150,
+        "CurrentValue": 0,
+        "BaseValue": 0,
+        "Name": "poison resistance"
+    }, {
+        "Minimum": 0,
+        "Maximum": 150,
+        "CurrentValue": 0,
+        "BaseValue": 0,
+        "Name": "damage resistance"
+    }, {
+        "Minimum": 0,
+        "Maximum": 150,
+        "CurrentValue": 0,
+        "BaseValue": 0,
+        "Name": "electric resistance"
+    }],
+    "Stats": [{
+        "Minimum": 0,
+        "Maximum": 10,
+        "CurrentValue": 7,
+        "BaseValue": 7,
+        "Name": "Action points"
+    }, {
+        "Minimum": -100,
+        "Maximum": 100,
+        "CurrentValue": 0,
+        "BaseValue": 0,
+        "Name": "Karma"
+    }, {
+        "Minimum": 1,
+        "Maximum": 10,
+        "CurrentValue": 5,
+        "BaseValue": 5,
+        "Name": "Armor Class"
+    }, {
+        "Minimum": 0,
+        "Maximum": 500,
+        "CurrentValue": 100,
+        "BaseValue": 100,
+        "Name": "Carry Weight"
+    }, {
+        "Minimum": 0,
+        "Maximum": 6,
+        "CurrentValue": 1,
+        "BaseValue": 1,
+        "Name": "Melee Damage"
+    }, {
+        "Minimum": 2,
+        "Maximum": 20,
+        "CurrentValue": 10,
+        "BaseValue": 10,
+        "Name": "Sequence"
+    }, {
+        "Minimum": 1,
+        "Maximum": 4,
+        "CurrentValue": 1,
+        "BaseValue": 1,
+        "Name": "Healing Rate"
+    }],
+    "SpendablePoints": [{
+        "Minimum": 18,
+        "Maximum": 50,
+        "CurrentValue": 26,
+        "BaseValue": 26,
+        "Name": "health points"
+    }, {
+        "Minimum": 0,
+        "Maximum": 20,
+        "CurrentValue": 0,
+        "BaseValue": 0,
+        "Name": "wound limit"
+    }, {
+        "Minimum": 0,
+        "Maximum": 30,
+        "CurrentValue": 13,
+        "BaseValue": 13,
+        "Name": "skill points"
+    }],
+    "Profession": {
+        "Name": "fighter",
+        "JobSkills": [{
+            "Minimum": 9,
+            "Maximum": 150,
+            "CurrentValue": 0,
+            "BaseValue": 0,
+            "Name": "small guns"
+        }, {
+            "Minimum": 2,
+            "Maximum": 150,
+            "CurrentValue": 0,
+            "BaseValue": 0,
+            "Name": "big guns"
+        }, {
+            "Minimum": 4,
+            "Maximum": 150,
+            "CurrentValue": 0,
+            "BaseValue": 0,
+            "Name": "first aid"
+        }]
+    }
+}

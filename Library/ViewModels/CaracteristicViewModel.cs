@@ -20,7 +20,16 @@ namespace Library.ViewModels
         public CaracteristicViewModel(Caracteristic baseCarac)
         {
             Name = baseCarac.Name;
-            Score = baseCarac.CurrentValue;
+            Score = baseCarac.Validate(baseCarac.CurrentValue) ?
+                baseCarac.CurrentValue:
+                baseCarac.Minimum;
         }
+
+
+        public bool EqualsCaracteristic(Caracteristic carac)
+        {
+            return this.Name.ToLower() == carac.Name.ToLower();
+        }
+
     }
 }

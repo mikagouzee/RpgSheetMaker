@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Library.ViewModels;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
@@ -23,23 +24,54 @@ namespace RpgSheetMaker.Controllers
 
         //CREATE
         [HttpPost("{game}/creation")]
-        public IActionResult Create(string game, [FromBody]CharacterCreationObject charac)
+        public IActionResult CreateRandomly(string game, [FromBody]RandomCharacterCreationObject charac)
         {
-            _logger.Log("In create with parameter " + charac.Name);
+            if (charac == null)
+                charac = new RandomCharacterCreationObject();
+
+            _logger.Log("In create randomly with parameter " + charac.Name);
 
             //charac.GameName = game;
 
-            var myCharac = _service.Create(game, charac);
+            var myCharac = _service.CreateRandomly(game, charac);
             var response = new CharacterViewModel(myCharac);
             return Ok(response);
         }
 
+        [HttpPost("{game}/myCreation/{includeSkills}")]
+        public IActionResult Create(string game, [FromBody]CharacterCreationObject premade, bool includeSkills)
+        {
+            _logger.Log("In create with parameter " + premade.Name);
+            try
+            {
+                var myCharac = _service.Create(game, premade, includeSkills);
+                var response = new CharacterViewModel(myCharac);
+                return Ok(response);
+            }catch(Exception ex)
+            {
+                _logger.Log("Error in character creation process : " + ex.Message + Environment.NewLine + ex.InnerException);
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("{game}/Newbie")]
+        public IActionResult GetEmptyCharacter(string game)
+        {
+            _logger.Log($"Expecting empty character for {game}");
+
+            var empty = _service.CreateEmpty(game);
+
+            var emptyViewModel = new CharacterViewModel(empty);
+
+            return Ok(emptyViewModel);
+
+        }
 
         //READ ALL
         [HttpGet("{game}")]
         public IActionResult GetAll(string game)
         {
-            _logger.Log("In Fallout Controller GetAll");
+            _logger.Log("In Fallout Controller GetAll with arg " + game);
 
             var allCharac = _service.Get(game);
 
@@ -67,10 +99,10 @@ namespace RpgSheetMaker.Controllers
 
 
         //UPDATE
-        [HttpPost("{game}/edit/{characterName}")]
+        [HttpPut("{game}/edit/{characterName}")]
         public IActionResult Update(string game, [FromBody]CharacterViewModel newVersion)
         {
-            _logger.Log("In Edit with parameter " + newVersion);
+            _logger.Log("In Edit with parameter " + newVersion.Name);
 
             var oldVersion = _service.GetByName(game, newVersion.Name);
             if (oldVersion == null)

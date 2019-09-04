@@ -33,8 +33,8 @@ const store = new Vuex.Store({
 
 const routes = [
     { path: '/', component: require('./components/home/home.vue.html') },
-    { path: '/counter', component: require('./components/counter/counter.vue.html') },
-    { path: '/fetchdata', component: require('./components/fetchdata/fetchdata.vue.html') },
+    //{ path: '/counter', component: require('./components/counter/counter.vue.html') },
+    //{ path: '/fetchdata', component: require('./components/fetchdata/fetchdata.vue.html') },
     { path: '/characterlist', component: require('./components/characters/characterlist.vue.html') },
     { path: '/character/:characterName', name: 'details', component: require('./components/characters/characterDetail.vue.html'), props: true },
     { path: '/characterCreation', name: 'creation', component: require('./components/characters/characterCreation.vue.html') },

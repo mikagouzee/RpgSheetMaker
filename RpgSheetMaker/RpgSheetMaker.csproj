@@ -5,8 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="logFolder\**" />
+    <Content Remove="logFolder\**" />
+    <EmbeddedResource Remove="logFolder\**" />
+    <None Remove="logFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Archives\" />
-    <Folder Include="logFolder\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
